@@ -40,8 +40,6 @@ public class BrumeMovements : MonoBehaviour
 
         else
         {
-
-            Debug.Log("HEllo");
             charDirection = Vector2.zero;
         }
 
