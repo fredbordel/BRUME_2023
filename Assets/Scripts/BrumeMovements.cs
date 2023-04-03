@@ -4,16 +4,9 @@ using UnityEngine;
 
 public class BrumeMovements : MonoBehaviour
 {
-
-    // Variables
-
     public float charMovingSpeed = 5.0f;
     public Rigidbody2D rb;
     Vector2 charDirection;
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
 
     // Update is called once per frame
     void Update()
