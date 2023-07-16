@@ -6,12 +6,13 @@ public class FireDying : MonoBehaviour
 {
 
 private bool isCollinding = false;
+public GameData hello;
 
 void Update()
 {
 if (isCollinding) 
 {
-Haha();
+    killFire();
 }
 }
 
@@ -21,9 +22,9 @@ private void OnTriggerEnter2D(Collider2D collision)
   
 }
 
-private void Haha()
+private void killFire()
 {
-  float newScale = Mathf.Lerp(transform.localScale.x, 0, Time.deltaTime * 0.9f);
+    float newScale = Mathf.Lerp(transform.localScale.x, 0, Time.deltaTime * 0.9f);
     transform.localScale = new Vector3(newScale, newScale, newScale);
 }
 
