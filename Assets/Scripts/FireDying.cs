@@ -5,15 +5,15 @@ using UnityEngine;
 public class FireDying : MonoBehaviour
 {
 
+public FireGroupState fireGroup;
 private bool isCollinding = false;
-public GameData hello;
 
 void Update()
 {
-if (isCollinding) 
-{
-    killFire();
-}
+    if (isCollinding) 
+    {
+        killFire();
+    }
 }
 
 private void OnTriggerEnter2D(Collider2D collision)
