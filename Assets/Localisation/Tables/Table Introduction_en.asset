@@ -28,7 +28,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2685167198208
-    m_Localized: anglais icitte
+    m_Localized: Here are the rules of the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2689759961088
+    m_Localized: Welcome in the game
     m_Metadata:
       m_Items: []
   references:
