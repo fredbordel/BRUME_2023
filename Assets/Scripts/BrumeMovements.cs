@@ -31,9 +31,28 @@ public class BrumeMovements : MonoBehaviour
     void FixedUpdate()
     {
         moveInput = playerActions.Brume.Movement.ReadValue<Vector2>();
-        // CHANGE DIRECTION VALUE WITH MOVEINPUT VALUE
-        Debug.Log("HELLO " + moveInput);
         rbody.velocity = moveInput * speed;
+
+        playerActions.Brume.Movement.performed += Try;
+        
+    }
+
+    private void Try(InputAction.CallbackContext context)
+    {
+        Debug.Log("SUBSCRIBE " + context.ReadValue<Vector2>());
+    }
+
+    void Update()
+    {
+        if (moveInput.y > 0) 
+        {
+            Debug.Log("GOING UP");
+        }
+
+        if (moveInput.y < 0) 
+        {
+            Debug.Log("GOING DOWN");
+        }
     }
 
 
