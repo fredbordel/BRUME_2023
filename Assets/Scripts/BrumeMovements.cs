@@ -39,19 +39,19 @@ public class BrumeMovements : MonoBehaviour
 
     private void Try(InputAction.CallbackContext context)
     {
-        Debug.Log("SUBSCRIBE " + context.ReadValue<Vector2>());
+        // Debug.Log("SUBSCRIBE " + context.ReadValue<Vector2>());
     }
 
     void Update()
     {
         if (moveInput.y > 0) 
         {
-            Debug.Log("GOING UP");
+            // Debug.Log("GOING UP");
         }
 
         if (moveInput.y < 0) 
         {
-            Debug.Log("GOING DOWN");
+            // Debug.Log("GOING DOWN");
         }
     }
 

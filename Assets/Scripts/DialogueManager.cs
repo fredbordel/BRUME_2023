@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Localization.Components;
 using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 using TMPro;
 
 public class DialogueManager : MonoBehaviour
@@ -21,17 +22,22 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        nameTxt.text = dialogue.name;
+        // nameTxt.text = dialogue.name;
 
         sentences.Clear();
 
         foreach (LocalizedString sentence in dialogue.localizedSentences)
         {
-            // string sentence = strings.GetLocalizedString();
+            // string sentenceOne = strings.GetLocalizedString();
             sentences.Enqueue(sentence);
         }
 
         DisplayNextSentence();
+    }
+
+    public void Test()
+    {
+        Debug.Log("TEST 1212");
     }
 
     public void DisplayNextSentence()
@@ -41,8 +47,17 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             return;
         }
-
         LocalizedString sentence = sentences.Dequeue();
+
+        var tableEntry = LocalizationSettings.StringDatabase.GetTableEntry(sentence.TableReference, sentence.TableEntryReference);
+        var key = tableEntry.Entry.SharedEntry.Key;
+
+        if (key.Contains("Chien"))
+        {
+            nameTxt.text = "Chien";
+        } else {
+            nameTxt.text = "Brume";
+        }
         dialogueTxt.text = sentence.GetLocalizedString();
     }
 
