@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: personnes_agees_repondeur_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 8f0e303506323476d86b8986ae274961, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 24497872896
+    m_Localized: "Oh, il y a un message sur le r\xE9pondeur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117431066624
+    m_Localized: "\xAB\_ Allo\u2026 Si tu m\u2019entends, d\xE9croche. T\u2019as
+      vu aux nouvelles ce qu\u2019ils annoncent? Ceux qui ont de l\u2019argent y
+      vont se sauver dans les paradis.\_ Mais moi j\u2019veux rien savoir de partir.\_
+      Tant qu\u2019on va pouvoir rester icitte, on va rester icitte.\_\xBB"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267356463104
+    m_Localized: "Je les comprends, c\u2019est tellement douillet ici."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

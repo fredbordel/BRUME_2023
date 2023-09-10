@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: retour_personnes_agees_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 32197b67cfbd0473c9020c8e0ea06b68, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 21171789824
+    m_Localized: "anglais - Wow, j\u2019arrive bien \xE0 me faire un portrait des
+      gens qui vivaient ici et iels ne sont m\xEAme pas l\xE0!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88431648768
+    m_Localized: "anglais - Les humains \xAB\_ont\_\xBB plus qu\u2019iels ne \xAB\_sont\_\xBB
+      ;). C\u2019est mon observation."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190407761920
+    m_Localized: anglais - Pas fou. On continue?
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

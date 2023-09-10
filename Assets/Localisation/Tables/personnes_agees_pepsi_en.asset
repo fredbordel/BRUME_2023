@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: personnes_agees_pepsi_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: ea462c88d7c734814b51dd8d94850c8d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 15383650304
+    m_Localized: "anglais - Wow \xE7a fait beaucoup!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104734908416
+    m_Localized: "anglais - Oui, au cas o\xF9 il y aurait une catastrophe. Haha ;)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186054074368
+    m_Localized: anglais - Comique!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

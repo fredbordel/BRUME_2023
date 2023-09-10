@@ -25,6 +25,50 @@ MonoBehaviour:
     m_Address: Assets/Localisation/Tables/Menu Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: ca592b19794054b7db48db8a179d358a
+    m_Address: Assets/Localisation/Tables/personnes_agees Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 8f0e303506323476d86b8986ae274961
+    m_Address: Assets/Localisation/Tables/personnes_agees_repondeur Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 730b9b342feb7464e91a54a6215d4feb
+    m_Address: Assets/Localisation/Tables/personnes_agees_horloge Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: ea462c88d7c734814b51dd8d94850c8d
+    m_Address: Assets/Localisation/Tables/personnes_agees_pepsi Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 32197b67cfbd0473c9020c8e0ea06b68
+    m_Address: Assets/Localisation/Tables/retour_personnes_agees Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 2c40fc91fdeda4553a35d0447de9a314
+    m_Address: Assets/Localisation/Tables/coccinelle Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 28f9df77118444b97a534ae2f327b52a
+    m_Address: Assets/Localisation/Tables/chat1 Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: e4e62e914a97841b78c40702c8babb39
+    m_Address: Assets/Localisation/Tables/chambre_enfant Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 19deaafb209fa47afa3be322fda32401
+    m_Address: Assets/Localisation/Tables/chambre_enfant_entree Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: e0d3a14374e2c49a295cf998c452e918
+    m_Address: Assets/Localisation/Tables/chambre_enfant_toutou Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 5f3aff232e0574238937797560dfc792
+    m_Address: Assets/Localisation/Tables/chambre_enfant_fusil Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 85ef88e8fa0ac4aa390c817d0f10cb28, type: 2}
   m_SchemaSet:

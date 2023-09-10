@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour { 
 
-	// public int index;
+    public string sceneToGoTo;
     private bool colliding;
     FadeInOut fade;
 
@@ -18,7 +18,7 @@ public IEnumerator _ChangeScene()
 {
   fade.FadeIn();
   yield return new WaitForSeconds(1);
-  SceneManager.LoadScene("personnes_agees");
+  SceneManager.LoadScene(sceneToGoTo);
 }
 
 private void OnTriggerEnter2D(Collider2D collision)

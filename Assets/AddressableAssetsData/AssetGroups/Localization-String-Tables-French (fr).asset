@@ -29,6 +29,72 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-fr
     - Preload
+  - m_GUID: 5f2cfa8dc01dc4254ac5d4e64b59942d
+    m_Address: personnes_agees_journal_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 062fc53642cf2419a8456d6397194b1f
+    m_Address: personnes_agees_repondeur_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 787185104888e4f69a006198be6960c3
+    m_Address: personnes_agees_horloge_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: f200971d45537431aab0241c8d7ce02b
+    m_Address: personnes_agees_pepsi_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: b7afe98cd5edf41dd9cbfb60f04e7c0a
+    m_Address: retour_personnes_agees_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: a4a032ffb1e1a419995ef8d08167af01
+    m_Address: coccinelle_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 1328a43b6d20a4c5c9042be10a1ea6d0
+    m_Address: chat1_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 472c78cc6c0d34be7bf32ea5bb382f8b
+    m_Address: chambre_enfant_balayeuse_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 623c488709a3049ba8c0e88c3e487f8e
+    m_Address: chambre_enfant_entree_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 65265e1b293ed4dbab79287e000d43c7
+    m_Address: chambre_enfant_toutou_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: f156aa6748b4242fcb691da25d5a39fd
+    m_Address: chambre_enfant_fusil_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 85ef88e8fa0ac4aa390c817d0f10cb28, type: 2}
   m_SchemaSet:

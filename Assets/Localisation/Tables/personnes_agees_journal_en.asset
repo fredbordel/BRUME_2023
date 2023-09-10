@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: personnes_agees_journal_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: ca592b19794054b7db48db8a179d358a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 13097754624
+    m_Localized: "anglais - \xAB\_ Apocalypse!!! Cette \xE9dition sera-t-elle la
+      derni\xE8re?\_\xBB "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284985122816
+    m_Localized: anglais - Apocalypse :O
+    m_Metadata:
+      m_Items: []
+  - m_Id: 305998585856
+    m_Localized: "anglais - Oui, ce n\u2019est pas la premi\xE8re fin du monde annonc\xE9e
+      dans les nouvelles. J\u2019ai arr\xEAt\xE9 de lire \xE7a moi, je fais juste
+      les mots crois\xE9s."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 325925724160
+    m_Localized: anglais - Savant!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

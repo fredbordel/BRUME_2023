@@ -55,9 +55,14 @@ public class DialogueManager : MonoBehaviour
         if (key.Contains("Chien"))
         {
             nameTxt.text = "Chien";
-        } else {
+        } 
+        else if (key.Contains("Brume")) {
             nameTxt.text = "Brume";
         }
+        else {
+            nameTxt.text = "";
+        }
+        
         dialogueTxt.text = sentence.GetLocalizedString();
     }
 
