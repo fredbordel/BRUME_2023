@@ -9,20 +9,25 @@ public class ChangeScene : MonoBehaviour {
     FadeInOut fade;
 
 
-void Start()
+  void Start()
+  {
+    fade = FindObjectOfType<FadeInOut>();
+  }
+
+public void Test () 
 {
-  fade = FindObjectOfType<FadeInOut>();
+  SceneManager.LoadScene("nouvelle_map");
 }
 
-public IEnumerator _ChangeScene()
-{
-  fade.FadeIn();
-  yield return new WaitForSeconds(1);
-  SceneManager.LoadScene(sceneToGoTo);
-}
+  public IEnumerator _ChangeScene()
+  {
+    fade.FadeIn();
+    yield return new WaitForSeconds(1);
+    SceneManager.LoadScene(sceneToGoTo);
+  }
 
-private void OnTriggerEnter2D(Collider2D collision)
-{
-  StartCoroutine(_ChangeScene());
-}
+  private void OnTriggerEnter2D(Collider2D collision)
+  {
+    StartCoroutine(_ChangeScene());
+  }
 }

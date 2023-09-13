@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueTxt;
     public Dialogue dialogue;
     public GameObject TextBox;
+    private GameObject disableThisDialogue;
 
     
     private Queue<LocalizedString> sentences;
@@ -20,24 +21,18 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<LocalizedString>();
     }
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(Dialogue dialogue, GameObject dialogueToDisable)
     {
-        // nameTxt.text = dialogue.name;
+        disableThisDialogue = dialogueToDisable;
 
         sentences.Clear();
 
         foreach (LocalizedString sentence in dialogue.localizedSentences)
         {
-            // string sentenceOne = strings.GetLocalizedString();
             sentences.Enqueue(sentence);
         }
 
         DisplayNextSentence();
-    }
-
-    public void Test()
-    {
-        Debug.Log("TEST 1212");
     }
 
     public void DisplayNextSentence()
@@ -69,5 +64,8 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         TextBox.SetActive(false);
+        disableThisDialogue.SetActive(false);
+        // Destroy(disableThisDialogue);
+        MainManager.Instance.isDialogueDestroyed = true;
     }
 }
