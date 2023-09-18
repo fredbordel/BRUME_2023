@@ -10,6 +10,19 @@ public class ChienMovements : MonoBehaviour
     public Collider2D chienCollider;
     private Transform brume;
     //public Rigidbody2D rb;
+    public static ChienMovements Instance;
+
+ void Awake()
+    {
+         if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
 
     private void Start()
     {

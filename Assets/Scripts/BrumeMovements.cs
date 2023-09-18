@@ -12,10 +12,20 @@ public class BrumeMovements : MonoBehaviour
     private Rigidbody2D rbody;
     private PlayerInputActions playerActions;
     private Vector2 moveInput;
+    public static BrumeMovements Instance;
 
     void Awake()
     {
         playerActions = new PlayerInputActions();
+
+         if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     private void OnEnable()

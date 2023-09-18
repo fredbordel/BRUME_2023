@@ -8,9 +8,15 @@ public class DialogueTrigger : MonoBehaviour
     public Dialogue dialogue;
     public GameObject dialogueBoxObject;
     public GameObject nextButton;
-    public GameObject dialogueToDisable;
     private EventSystem eventSystem;
 
+
+void Start()
+    {
+        if (!MainManager.Instance.DialogueRencontreCollider) {
+            gameObject.SetActive(false);
+        }
+    }
 
   void OnEnable()
     {
@@ -21,7 +27,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         dialogueBoxObject.SetActive(true);
         eventSystem.SetSelectedGameObject(nextButton, null);
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue, dialogueToDisable);
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue, gameObject);
     }
 
     private void OnTriggerExit2D()

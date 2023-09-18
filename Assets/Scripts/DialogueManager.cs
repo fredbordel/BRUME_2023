@@ -16,6 +16,7 @@ public class DialogueManager : MonoBehaviour
 
     
     private Queue<LocalizedString> sentences;
+
     void Start()
     {
         sentences = new Queue<LocalizedString>();
@@ -64,8 +65,11 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         TextBox.SetActive(false);
+        if (disableThisDialogue.name == "DialolgueRencontreCollider")
+        {
+            Debug.Log("hello");
+            MainManager.Instance.DialogueRencontreCollider = false;
+        }
         disableThisDialogue.SetActive(false);
-        // Destroy(disableThisDialogue);
-        MainManager.Instance.isDialogueDestroyed = true;
     }
 }
