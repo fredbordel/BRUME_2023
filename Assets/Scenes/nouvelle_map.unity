@@ -1704,7 +1704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fade04556bce451d8b676f1ba62bde0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DialogueRencontreCollider: 1
+  DisabledDialogueList: []
 --- !u!4 &127035734
 Transform:
   m_ObjectHideFlags: 0
@@ -10933,7 +10933,7 @@ GameObject:
   - component: {fileID: 1724028914}
   - component: {fileID: 1724028913}
   m_Layer: 0
-  m_Name: DialolgueCoccinelleCollider
+  m_Name: DialogueCoccinelleCollider
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0

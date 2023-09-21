@@ -13,8 +13,12 @@ public class DialogueTrigger : MonoBehaviour
 
 void Start()
     {
-        if (!MainManager.Instance.DialogueRencontreCollider) {
-            gameObject.SetActive(false);
+        foreach(string gameObjectName in MainManager.Instance.DisabledDialogueList)
+        {
+            if (gameObjectName == gameObject.name)
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 

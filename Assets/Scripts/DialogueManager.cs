@@ -65,11 +65,17 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         TextBox.SetActive(false);
+
         if (disableThisDialogue.name == "DialolgueRencontreCollider")
         {
-            Debug.Log("hello");
-            MainManager.Instance.DialogueRencontreCollider = false;
+            MainManager.Instance.DisabledDialogueList.Add("DialolgueRencontreCollider");
         }
+
+        if (disableThisDialogue.name == "DialogueCoccinelleCollider")
+        {
+            MainManager.Instance.DisabledDialogueList.Add("DialogueCoccinelleCollider");
+        }
+
         disableThisDialogue.SetActive(false);
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class MainManager : MonoBehaviour
 {
     public static MainManager Instance;
-    public bool DialogueRencontreCollider;
+    public List<string> DisabledDialogueList = new List<string>();
     private void Awake()
     {
         if (Instance != null)
