@@ -24,6 +24,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue, GameObject dialogueToDisable)
     {
+        MainManager.Instance.IsDialogueOpened = true;
+
         disableThisDialogue = dialogueToDisable;
 
         sentences.Clear();
@@ -66,16 +68,9 @@ public class DialogueManager : MonoBehaviour
     {
         TextBox.SetActive(false);
 
-        if (disableThisDialogue.name == "DialolgueRencontreCollider")
-        {
-            MainManager.Instance.DisabledDialogueList.Add("DialolgueRencontreCollider");
-        }
-
-        if (disableThisDialogue.name == "DialogueCoccinelleCollider")
-        {
-            MainManager.Instance.DisabledDialogueList.Add("DialogueCoccinelleCollider");
-        }
-
+        MainManager.Instance.IsDialogueOpened = false;
+        MainManager.Instance.DisabledDialogueList.Add(disableThisDialogue.name);
+        
         disableThisDialogue.SetActive(false);
     }
 }

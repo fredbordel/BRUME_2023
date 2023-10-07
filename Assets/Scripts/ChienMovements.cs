@@ -5,31 +5,34 @@ using UnityEngine;
 public class ChienMovements : MonoBehaviour
 {
 
-    public float speed;
+    public float speed = 5;
     public Collider2D brumeCollider;
     public Collider2D chienCollider;
     private Transform brume;
-    //public Rigidbody2D rb;
+    private Rigidbody2D rb;
+
+    private float distance;
 
 
     private void Start()
     {
-        //rb = GetComponent<Rigidbody2D>();
-        brume = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        rb = GetComponent<Rigidbody2D>();
+        brume = GameObject.FindGameObjectWithTag("brume").GetComponent<Transform>();
+
+        if (MainManager.Instance.ChienPosition != null)
+        {
+            gameObject.transform.position = MainManager.Instance.ChienPosition;
+        }
     }
 
 
-     private void Update()
+    private void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, brume.position, speed * Time.deltaTime);
-        //triggerChienFollow();
         Physics2D.IgnoreCollision(brumeCollider, chienCollider, true);
-    }
 
-    private void triggerChienFollow()
-    {
-        //var directionToPlayer = (brume.transform.position - transform.position).normalized;
-        //rb.MovePosition(brume.transform.position);
-        //rb.velocity = new Vector2(directionToPlayer.x, directionToPlayer.y) * speed;
+        if (Vector2.Distance(transform.position, brume.position) > 1.2)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, brume.position, speed * Time.deltaTime);
+        }
     }
 }

@@ -12,6 +12,14 @@ public class ChangeScene : MonoBehaviour {
   void Start()
   {
     fade = FindObjectOfType<FadeInOut>();
+
+     foreach(string gameObjectName in MainManager.Instance.DisabledEnterSceneList)
+        {
+            if (gameObjectName == gameObject.name)
+            {
+                gameObject.SetActive(false);
+            }
+        }
   }
 
 public void Test () 
@@ -28,6 +36,9 @@ public void Test ()
 
   private void OnTriggerEnter2D(Collider2D collision)
   {
+    MainManager.Instance.BrumePosition = GameObject.FindWithTag("brume").transform.position;
+    MainManager.Instance.ChienPosition = GameObject.FindWithTag("chien").transform.position;
+    MainManager.Instance.DisabledEnterSceneList.Add(gameObject.name);
     StartCoroutine(_ChangeScene());
   }
 }
