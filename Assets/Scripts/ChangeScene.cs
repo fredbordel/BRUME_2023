@@ -2,30 +2,31 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChangeScene : MonoBehaviour { 
+public class ChangeScene : MonoBehaviour
+{
 
-    public string sceneToGoTo;
-    private bool colliding;
-    FadeInOut fade;
+  public string sceneToGoTo;
+  private bool colliding;
+  FadeInOut fade;
 
 
   void Start()
   {
     fade = FindObjectOfType<FadeInOut>();
 
-     foreach(string gameObjectName in MainManager.Instance.DisabledEnterSceneList)
-        {
-            if (gameObjectName == gameObject.name)
-            {
-                gameObject.SetActive(false);
-            }
-        }
+    foreach (string gameObjectName in MainManager.Instance.DisabledEnterSceneList)
+    {
+      if (gameObjectName == gameObject.name)
+      {
+        gameObject.SetActive(false);
+      }
+    }
   }
 
-public void Test () 
-{
-  SceneManager.LoadScene("nouvelle_map");
-}
+  public void Test()
+  {
+    SceneManager.LoadScene("nouvelle_map");
+  }
 
   public IEnumerator _ChangeScene()
   {
