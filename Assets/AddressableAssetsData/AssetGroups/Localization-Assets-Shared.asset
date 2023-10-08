@@ -69,6 +69,10 @@ MonoBehaviour:
     m_Address: Assets/Localisation/Tables/chambre_enfant_fusil Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: f5c75d9a1845c4a138a1d68cfe8c81cd
+    m_Address: Assets/Localisation/Tables/GameMenu Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 85ef88e8fa0ac4aa390c817d0f10cb28, type: 2}
   m_SchemaSet:
