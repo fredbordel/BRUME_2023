@@ -12,9 +12,10 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueTxt;
     public Dialogue dialogue;
     public GameObject TextBox;
+    public AudioSource audioSource;
     private GameObject disableThisDialogue;
 
-    
+
     private Queue<LocalizedString> sentences;
 
     void Start()
@@ -24,6 +25,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue, GameObject dialogueToDisable)
     {
+        StartCoroutine(FadeVolume(0.2f, 1.5f));
+
         MainManager.Instance.IsDialogueOpened = true;
 
         disableThisDialogue = dialogueToDisable;
@@ -53,24 +56,43 @@ public class DialogueManager : MonoBehaviour
         if (key.Contains("Chien"))
         {
             nameTxt.text = "Chien";
-        } 
-        else if (key.Contains("Brume")) {
+        }
+        else if (key.Contains("Brume"))
+        {
             nameTxt.text = "Brume";
         }
-        else {
+        else
+        {
             nameTxt.text = "";
         }
-        
+
         dialogueTxt.text = sentence.GetLocalizedString();
     }
 
     void EndDialogue()
     {
+        StartCoroutine(FadeVolume(1, 1.5f));
+
         TextBox.SetActive(false);
 
         MainManager.Instance.IsDialogueOpened = false;
         MainManager.Instance.DisabledDialogueList.Add(disableThisDialogue.name);
-        
+
         disableThisDialogue.SetActive(false);
+    }
+
+    private IEnumerator FadeVolume(float targetVolume, float duration)
+    {
+        float startVolume = audioSource.volume;
+        float currentTime = 0.0f;
+
+        while (currentTime < duration)
+        {
+            currentTime += Time.deltaTime;
+            audioSource.volume = Mathf.Lerp(startVolume, targetVolume, currentTime / duration);
+            yield return null;
+        }
+
+        audioSource.volume = targetVolume;
     }
 }

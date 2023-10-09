@@ -26,6 +26,7 @@ public class ChangeScene : MonoBehaviour
   public void Test()
   {
     SceneManager.LoadScene("nouvelle_map");
+    MainManager.Instance.PathNumber += 1;
   }
 
   public IEnumerator _ChangeScene()
@@ -37,9 +38,12 @@ public class ChangeScene : MonoBehaviour
 
   private void OnTriggerEnter2D(Collider2D collision)
   {
+    Debug.Log("HELLO?");
     MainManager.Instance.BrumePosition = GameObject.FindWithTag("brume").transform.position;
     MainManager.Instance.ChienPosition = GameObject.FindWithTag("chien").transform.position;
     MainManager.Instance.DisabledEnterSceneList.Add(gameObject.name);
     StartCoroutine(_ChangeScene());
+
+    MainManager.Instance.PathNumber += 1;
   }
 }
