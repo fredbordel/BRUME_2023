@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: vr_retraite_calendrier_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 15094e8a16f8a4bf38e53ac261910308, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 8106532864
+    m_Localized: "1er d\xE9cembre, d\xE9part pour la Floride"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81087422464
+    m_Localized: Leur projet de retraite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120560017408
+    m_Localized: "C\u2019est quoi la retraite?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168526077952
+    m_Localized: La motivation pour endurer une vie de travail.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209198243840
+    m_Localized: "D\xE9primant comment tu le racontes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 261929033728
+    m_Localized: "C\u2019est ici que j\u2019ai grandi. Des calendriers remplis d\u2019obligations,
+      j\u2019en ai vu passer avant d\u2019arriver \xE0 cette date. Iels sont partis
+      avant finalement."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290290917376
+    m_Localized: "Je ne savais pas, je suis d\xE9sol\xE9e."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

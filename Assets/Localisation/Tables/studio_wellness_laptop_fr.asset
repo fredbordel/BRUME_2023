@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: studio_wellness_laptop_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: c014bfc56df614eeda55b7bb9323470e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 16155402240
+    m_Localized: mindfulgirl.blog.com
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97751392256
+    m_Localized: "Bonjour mes abonn\xE9.es,\nCette semaine je vis beaucoup d\u2019anxi\xE9t\xE9.
+      J\u2019ai commenc\xE9\_\n\xE0 faire un tri dans mes objets. L\u2019accumulation
+      me distrait de ce que je veux vraiment et ce qui me fait me sentir bien. C\u2019est
+      comme un cercle o\xF9 des objets absurdes me m\xE8nent au malheur et je finis
+      par en acheter plus, ce qui m\u2019apporte plus de stress et de frustration.
+      Je voulais tout jeter.\nSauf que je suis tomb\xE9e sur mon porte bonheur,\nJe
+      n\u2019ai pas pu. C\u2019est tout ce qui me reste de chez moi. C\u2019est un
+      morceau de moi. Qui me ram\xE8ne \xE0 moi. Une boussole. Je suis contradiction.\nUne
+      petite m\xE9ditation s\u2019impose.\nStay present, stay focus,\nxox mindfulgirl"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

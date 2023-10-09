@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: vr_retraite_sapin_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 8bdf3a4bae038442f977869339d97fcf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 39958077440
+    m_Localized: "C\u2019est le party ici!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91120197632
+    m_Localized: "Un No\xEBl l\u2019hiver, c\u2019est pas assez pour les campeurs.
+      Il y en aussi un au mois d\u2019ao\xFBt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130152390656
+    m_Localized: "C\u2019est quoi No\xEBl?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181301927936
+    m_Localized: "La famille et les cadeaux.\_"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209777057792
+    m_Localized: "Je commence \xE0 pu avoir le sens de la f\xEAte trop trop :("
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
