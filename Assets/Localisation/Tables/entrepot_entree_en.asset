@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: entrepot_entree_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 7ff55d71761104af9af48c3a25f8c61d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 17287864320
+    m_Localized: "en Ya tu stock ici\u2026 Les gens vivent o\xF9 dans cette pi\xE8ce?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89501196288
+    m_Localized: "en Les gens ne vivent pas dans cette pi\xE8ce. C\u2019est la maison
+      de leurs objets."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139111424000
+    m_Localized: 'en Ah je vois. '
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

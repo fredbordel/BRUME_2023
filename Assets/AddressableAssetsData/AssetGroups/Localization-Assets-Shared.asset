@@ -73,6 +73,158 @@ MonoBehaviour:
     m_Address: Assets/Localisation/Tables/GameMenu Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: c0c5c96c2b4704852851f532d7bdc79f
+    m_Address: Assets/Localisation/Tables/jeu_intro Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: e05171a01bab0410782b6ad4d24159c1
+    m_Address: Assets/Localisation/Tables/brume_arrive Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 1c266d70ffe3242abab0df461686639a
+    m_Address: Assets/Localisation/Tables/retour_chambre_enfant Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 21d5ecd7f7f3f4f5f99d02ae7384ae08
+    m_Address: Assets/Localisation/Tables/nuage Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: a10717f91d8014d19b05e9a882cb531b
+    m_Address: Assets/Localisation/Tables/panneau_stop Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 7ff55d71761104af9af48c3a25f8c61d
+    m_Address: Assets/Localisation/Tables/entrepot_entree Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 9bacb8635cba244fb98509071f4c6e8c
+    m_Address: Assets/Localisation/Tables/entrepot_vetements Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: f64b774b952af45779b457d8c79da0e9
+    m_Address: Assets/Localisation/Tables/entrepot_elliptique Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: a420babc9691b4cf3b5bffef2e5a7da5
+    m_Address: Assets/Localisation/Tables/retour_entrepot Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 7b7633c46d99b454a903c3f83bb9325a
+    m_Address: Assets/Localisation/Tables/boite_amazon Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: d20ab71c33c6441a59701f94a2510eb2
+    m_Address: Assets/Localisation/Tables/chambre_ado Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 70f55e96a18f44e6fbf3a5f5a7702c8a
+    m_Address: Assets/Localisation/Tables/chambre_ado_journal Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: b4cb655f737414084937d256a591b163
+    m_Address: Assets/Localisation/Tables/chambre_ado_ordi Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: f9b04a26b1c7c434ab9431ffc25d8982
+    m_Address: Assets/Localisation/Tables/retour_chambre_ado Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: eaaf916263e6d4755a9e9a8f9cbfd1e5
+    m_Address: Assets/Localisation/Tables/pancarte_electorale Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: a3459dd598ee14b8b83136dc1ebccbf9
+    m_Address: Assets/Localisation/Tables/sac_plastique_masque Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: b5f86b6f164534362a8bd981e9cba0ea
+    m_Address: Assets/Localisation/Tables/chambre_influenceur_googlehome Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 1a4540fca0d214034bd47af8ba044193
+    m_Address: Assets/Localisation/Tables/chambre_influenceur_telephone Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 748d20d7b6a334d66a4caf3210957ed1
+    m_Address: Assets/Localisation/Tables/chambre_influenceur_fer Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 9de5d07c4f1514ce4a1f8219c1172df0
+    m_Address: Assets/Localisation/Tables/chambre_influenceur_vr Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 09471e753c6d043b7ad2e91ec3a5edfe
+    m_Address: Assets/Localisation/Tables/retour_chambre_influenceur Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: c014bfc56df614eeda55b7bb9323470e
+    m_Address: Assets/Localisation/Tables/studio_wellness Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: ef41f072c0ffb4fbfb48ab723f36ebc1
+    m_Address: Assets/Localisation/Tables/studio_wellness_commode Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: d73c09bb415544505bfaa65f1c20a179
+    m_Address: Assets/Localisation/Tables/retour_studio_wellness Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 46c1287011e4e4cfcb920234b08b0dd0
+    m_Address: Assets/Localisation/Tables/auto_mur Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: dd99a3d262258420f9354bd02ca9c905
+    m_Address: Assets/Localisation/Tables/pancarte_activiste Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 8bdf3a4bae038442f977869339d97fcf
+    m_Address: Assets/Localisation/Tables/vr_retraite Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 5193b62f81951472e95882d502cf3f84
+    m_Address: Assets/Localisation/Tables/vr_retraite_keurig Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 15094e8a16f8a4bf38e53ac261910308
+    m_Address: Assets/Localisation/Tables/vr_retraite_calendrier Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 48c976e91d9e14db9be00c59ece4c763
+    m_Address: Assets/Localisation/Tables/vr_retraite_beignes Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: ae18b712c8c194316ae5da925bc683a0
+    m_Address: Assets/Localisation/Tables/abeille Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: ed6f5277d29a54e9485dd67fa012fa0c
+    m_Address: Assets/Localisation/Tables/fontaine Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 551f112d6380e402a8b54e12fa17e604
+    m_Address: Assets/Localisation/Tables/charge_mentale_poubelle Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 2ec1fb8b307ff47f282ad82eeddd763c
+    m_Address: Assets/Localisation/Tables/charge_mentale_liste_frigo Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: c8466913562d0480895cfbe5cf5482f2
+    m_Address: Assets/Localisation/Tables/charge_mentale_chaise Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: fe2d3dc7625864e618a5fd8e30b3dc6d
+    m_Address: Assets/Localisation/Tables/charge_mentale_cuisinette Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 02c07461c7bf7405a8e44d53153d6a47
+    m_Address: Assets/Localisation/Tables/fin Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 4bd68e42796924532b9e19f24c7ca053
+    m_Address: Assets/Localisation/Tables/generique_fin Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 85ef88e8fa0ac4aa390c817d0f10cb28, type: 2}
   m_SchemaSet:

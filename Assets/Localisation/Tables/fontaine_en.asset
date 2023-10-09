@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: fontaine_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: ed6f5277d29a54e9485dd67fa012fa0c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6869213184
+    m_Localized: "en Ouuh, \xE7a brille. On dirait des \xE9toiles."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105062064128
+    m_Localized: "en \xC7a, ce sont des pi\xE8ces de monnaie qui se baignent.\_"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145994276864
+    m_Localized: en La ville est riche. Pourquoi les gens sont partis sans leur argent?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185215213568
+    m_Localized: "en Cet argent-l\xE0 a une valeur diff\xE9rente.\_"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 223085584384
+    m_Localized: en ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260104511488
+    m_Localized: en Fais un voeux!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

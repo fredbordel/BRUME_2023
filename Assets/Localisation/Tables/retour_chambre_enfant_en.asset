@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: retour_chambre_enfant_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1c266d70ffe3242abab0df461686639a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6168764416
+    m_Localized: "en Pendant ce temps ici, \xE7a ne s\u2019est pas trop am\xE9lior\xE9\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356711915520
+    m_Localized: "en Si j\u2019\xE9tais toi, je ne me mettrais pas trop de pression,
+      8 milliards de cerveaux ne sont pas venus \xE0 bout de trouver une solution."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 405223235584
+    m_Localized: "en J\u2019ai encore de l\u2019\xE9nergie, c\u2019est possible!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

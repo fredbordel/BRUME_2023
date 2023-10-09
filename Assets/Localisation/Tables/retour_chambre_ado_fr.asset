@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: retour_chambre_ado_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: f9b04a26b1c7c434ab9431ffc25d8982, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 37416329216
+    m_Localized: "Un noeud plus dur \xE0 d\xE9m\xEAler que je croyais\u2026 On dirait
+      que chaque personne vit sur sa plan\xE8te."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111978471424
+    m_Localized: "Si les humains \xE9taient ici, iels auraient un conseil pour toi:
+      \xAB\_l\xE2che pas, \xE7a va bien aller.\_\xBB"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158283587584
+    m_Localized: "Ok\u2026 Iels ont raison, il y a encore beaucoup de feux viens!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

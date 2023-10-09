@@ -26,7 +26,7 @@ public class FadeInOut : MonoBehaviour
             }
         }
 
-         if (fadeout)
+        if (fadeout)
         {
             if (canvasgroup.alpha >= 0)
             {

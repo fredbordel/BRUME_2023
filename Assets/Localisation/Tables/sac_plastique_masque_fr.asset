@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: sac_plastique_masque_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: a3459dd598ee14b8b83136dc1ebccbf9, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6193930240
+    m_Localized: "\xC7a pousse au sol \xE7a?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64767385600
+    m_Localized: "Non\u2026 des d\xE9chets."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128122347520
+    m_Localized: "Les gens prennent soin de l\u2019espace qui s\u2019arr\xEAte aux
+      limites de leur gazon.\nIels ne voient pas la nature comme leur maison, mais
+      comme ext\xE9rieur \xE0 leur maison."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

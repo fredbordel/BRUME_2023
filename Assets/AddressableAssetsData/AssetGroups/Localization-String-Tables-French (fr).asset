@@ -101,6 +101,234 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-fr
     - Preload
+  - m_GUID: 2d98c5b5219684a2c92a636e8e35c972
+    m_Address: jeu_intro_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: d09b03a4fe2324ae1b3d3b82aa711d37
+    m_Address: brume_arrive_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: e14bc9bfbe7334f318c63d33a8dcd26d
+    m_Address: retour_chambre_enfant_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 04d253791808147779adb2fac54aa5ff
+    m_Address: nuage_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: af896baba34b64f1cb4c958d954e9112
+    m_Address: panneau_stop_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 94a6d71bdc97f4e8bbafb8a8a4e7aab8
+    m_Address: entrepot_entree_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: f12f44d622a914746980e16795c94e79
+    m_Address: entrepot_vetements_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: ff0e983d0ffed49f58e9bc762a54562b
+    m_Address: entrepot_elliptique_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 269551e81fbee478095d73ea583e8909
+    m_Address: retour_entrepot_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 3b7bf4c44e49b495b9155397dee9a1d9
+    m_Address: boite_amazon_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 88fceb282797b40ddad2feb67671f381
+    m_Address: chambre_ado_livre_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 9f17f8b2c059149d89c1532baa4e487e
+    m_Address: chambre_ado_journal_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 9a13ae016ea244eaea7a76820f5289f0
+    m_Address: chambre_ado_ordi_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: d92134c1a4dda45cc86c98912ac6fb7c
+    m_Address: retour_chambre_ado_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 554fd20995600432fbdf1bba1ff9c0f2
+    m_Address: pancarte_electorale_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 1d24eaa4e892f4d1680c419c4e2d6105
+    m_Address: sac_plastique_masque_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: e0b9cc1cf1aa14d719814bafe9e740c2
+    m_Address: chambre_influenceur_googlehome_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 1aa5a72fd96bd4e59b1a939cd74d5162
+    m_Address: chambre_influenceur_telephone_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 0df21ed4eb3bc45ff87db2743e43fdf9
+    m_Address: chambre_influenceur_fer_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: b019722ca3e4741eeb0be22b0b30c182
+    m_Address: chambre_influenceur_vr_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 9c1ac3d39f29f480ba22d3a287357f0b
+    m_Address: cabine_telephonique_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 1bf3f0df18d774680b9788a709714298
+    m_Address: studio_wellness_laptop_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 1cf29332ab3914411bd553ffb3a4e945
+    m_Address: studio_wellness_commode_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 9d3cff719ad8948b39e337488f3ee345
+    m_Address: retour_studio_wellness_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: ac9d2cdb869794e67b733c8c36c493fe
+    m_Address: auto_mur_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 0918aa8b46aeb49a9a71a0fd98e3d2fc
+    m_Address: pancarte_activiste_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: b3e57283bbb914dd0bbc7731c9fb2c46
+    m_Address: vr_retraite_sapin_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: c3c0f8446201945888c542eed0c41063
+    m_Address: vr_retraite_keurig_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: f9e09ce44ae0f486e82dcbcea61f3b03
+    m_Address: vr_retraite_calendrier_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 605169038c11a4cd89ef5177594aea1e
+    m_Address: vr_retraite_beignes_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: e7bfa08f256324d85953e87e5f49539f
+    m_Address: abeille_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 0ff4124d0955f48ed803003d2a100411
+    m_Address: fontaine_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 9e07eba781164449ea04189853fb5c1e
+    m_Address: charge_mentale_poubelle_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: e2d6ba4558a5c48bfb290a4473d2fccf
+    m_Address: charge_mentale_liste_frigo_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 1d7592afc3d4e4ff2ad8f6e1e64f7633
+    m_Address: charge_mentale_chaise_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 76142195119014e13876d0acbf08b778
+    m_Address: charge_mentale_cuisinette_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: 2cc98d34e7dff454397abe6bcda0ea62
+    m_Address: fin_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
+  - m_GUID: ceb719e5f9d324ccc9912ef7b0265e85
+    m_Address: generique_fin_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 85ef88e8fa0ac4aa390c817d0f10cb28, type: 2}
   m_SchemaSet:

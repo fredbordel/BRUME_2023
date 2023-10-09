@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: auto_mur
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 46c1287011e4e4cfcb920234b08b0dd0, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 4d6fe7c90be8c478a91e3e809f2f8e27, type: 2}
+  - {fileID: 11400000, guid: ac9d2cdb869794e67b733c8c36c493fe, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

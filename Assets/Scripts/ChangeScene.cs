@@ -37,12 +37,12 @@ public class ChangeScene : MonoBehaviour
 
   private void OnTriggerEnter2D(Collider2D collision)
   {
-    // MainManager.Instance.BrumePosition = GameObject.FindWithTag("brume").transform.position;
-    // MainManager.Instance.ChienPosition = GameObject.FindWithTag("chien").transform.position;
+    MainManager.Instance.BrumePosition = GameObject.FindWithTag("brume").transform.position;
+    MainManager.Instance.ChienPosition = GameObject.FindWithTag("chien").transform.position;
     MainManager.Instance.DisabledEnterSceneList.Add(gameObject.name);
     MainManager.Instance.PathNumber += 1;
 
-    // StartCoroutine(_ChangeScene());
+    StartCoroutine(_ChangeScene());
 
   }
 }

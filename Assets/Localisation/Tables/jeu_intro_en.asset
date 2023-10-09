@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: jeu_intro_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: c0c5c96c2b4704852851f532d7bdc79f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 8647598080
+    m_Localized: "[EN] - Sur une plan\xE8te particuli\xE8re, dans une ville bien
+      ordinaire, des feux ravageurs menacent d\u2019effacer toutes traces de vie.\nSes
+      occupant.es se sont sauv\xE9.es, laissant derri\xE8re eux et elles, tous leurs
+      biens. Le dernier espoir pour sauver leurs histoires, Brume, un petit nuage
+      compos\xE9 d\u2019eau. Iel est abondant.e et a re\xE7u pour mission de ma\xEEtriser
+      les flammes. Ne connaissant rien des occupant.es, chaque objet crois\xE9 sur
+      son passage peut \xEAtre un indice r\xE9v\xE9lateur des causes de cette catastrophe.\nJuste
+      avant de se d\xE9poser sur terre, iel se demande: \n\xAB\_Si l\u2019eau peut
+      aussi \xEAtre \xE9l\xE9ment de d\xE9sastre naturel, le feu est-il r\xE9ellement
+      au coeur du probl\xE8me ici?\_\xBB"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

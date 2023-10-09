@@ -11,19 +11,17 @@ public class MusicManager : MonoBehaviour
     public AudioClip source2;
     public AudioClip source3;
 
-    private void OnEnable()
-    {
-        MainManager.Instance.PathNumberChanged += HandlePathNumberChanged;
-    }
-
-    private void OnDisable()
-    {
-        MainManager.Instance.PathNumberChanged -= HandlePathNumberChanged;
-    }
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+
+        MainManager.Instance.PathNumberChanged += HandlePathNumberChanged;
         ToggleMusic(MainManager.Instance.PathNumber);
+    }
+
+    private void OnDestroy()
+    {
+        MainManager.Instance.PathNumberChanged -= HandlePathNumberChanged;
     }
 
     private void HandlePathNumberChanged(int newPathNumber)

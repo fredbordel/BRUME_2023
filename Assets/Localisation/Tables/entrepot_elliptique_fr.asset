@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: entrepot_elliptique_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: f64b774b952af45779b457d8c79da0e9, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6776938496
+    m_Localized: "C\u2019est quoi cette machine?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143020515328
+    m_Localized: "Une sorte de sport\u2026\nLes humains ont une dr\xF4le d\u2019habitude
+      de faire du surplace.\_\nEt ensuite iels vont partout en br\xFBlant du gaz\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240835878912
+    m_Localized: Mmmm, je prends des notes.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

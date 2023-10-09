@@ -5,19 +5,14 @@ using UnityEngine;
 
 public class FeuManager : MonoBehaviour
 {
-
-    private void OnEnable()
-    {
-        MainManager.Instance.PathNumberChanged += HandlePathNumberChanged;
-    }
-
-    private void OnDisable()
-    {
-        MainManager.Instance.PathNumberChanged -= HandlePathNumberChanged;
-    }
     void Start()
     {
+        MainManager.Instance.PathNumberChanged += HandlePathNumberChanged;
         ToggleObjects(MainManager.Instance.PathNumber);
+    }
+    private void OnDestroy()
+    {
+        MainManager.Instance.PathNumberChanged -= HandlePathNumberChanged;
     }
 
     private void HandlePathNumberChanged(int newPathNumber)
@@ -100,7 +95,7 @@ public class FeuManager : MonoBehaviour
                 }
                 break;
             case 8:
-                if (gameObject.name == "feu_group_5")
+                if (gameObject.name == "feu_group_5" || gameObject.name == "feu_group_9")
                 {
                     gameObject.SetActive(true);
                 }
