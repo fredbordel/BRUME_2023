@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 
 public class MainManager : MonoBehaviour
@@ -15,12 +17,28 @@ public class MainManager : MonoBehaviour
     public Vector2 BrumePosition;
     public Vector2 ChienPosition;
 
-    // Music
 
-    // Water
-    public float WaterBarFillAmount = 1;
+    // Fire & Music & Water
+    [SerializeField]
+    private int pathNumber;
+    public event Action<int> PathNumberChanged;
+    public int PathNumber
+    {
+        get { return pathNumber; }
+        set
+        {
+            if (pathNumber != value)
+            {
+                pathNumber = value;
+                OnPathNumberChanged();
+            }
+        }
+    }
+    protected virtual void OnPathNumberChanged()
+    {
+        PathNumberChanged?.Invoke(pathNumber);
+    }
 
-    // Fire
     private void Awake()
     {
         if (Instance != null)
