@@ -17,13 +17,8 @@ public class MainManager : MonoBehaviour
     public Vector2 BrumePosition;
     public Vector2 ChienPosition;
 
-    // Music
 
-    // Water
-    public float WaterBarFillAmount = 1;
-
-    // Fire
-    // public int pathNumber = 1;
+    // Fire & Music & Water
     [SerializeField]
     private int pathNumber;
     public event Action<int> PathNumberChanged;
