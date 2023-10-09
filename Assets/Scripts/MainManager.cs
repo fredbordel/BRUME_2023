@@ -17,7 +17,8 @@ public class MainManager : MonoBehaviour
     public Vector2 BrumePosition;
     public Vector2 ChienPosition;
 
-
+    // Water
+    public float WaterFillAmount = 1;
     // Fire & Music & Water
     [SerializeField]
     private int pathNumber;
