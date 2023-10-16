@@ -12,6 +12,7 @@ public class MainManager : MonoBehaviour
     public List<string> DisabledDialogueList = new List<string>();
     public List<string> DisabledEnterSceneList = new List<string>();
     public bool IsDialogueOpened;
+    public string CurrentScene = "nouvelle_map";
 
     // Characters
     public Vector2 BrumePosition;

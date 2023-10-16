@@ -11,7 +11,7 @@ public class VideoTrigger : MonoBehaviour
     {
 
         ObjectVideo.SetActive(true);
-            
+
     }
 
 }

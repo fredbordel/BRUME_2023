@@ -20,9 +20,10 @@ public class BrumeMovements : MonoBehaviour
 
     void Start()
     {
-        if (MainManager.Instance.BrumePosition != null)
+        var MainManagerInstance = MainManager.Instance;
+        if (MainManagerInstance && MainManagerInstance.BrumePosition != null && MainManagerInstance.CurrentScene == "nouvelle_map")
         {
-            gameObject.transform.position = MainManager.Instance.BrumePosition;
+            gameObject.transform.position = MainManagerInstance.BrumePosition;
         }
     }
 
@@ -39,20 +40,20 @@ public class BrumeMovements : MonoBehaviour
     void FixedUpdate()
     {
 
-        if(!MainManager.Instance.IsDialogueOpened)
+        if (!MainManager.Instance || (MainManager.Instance && !MainManager.Instance.IsDialogueOpened))
         {
-            
+
             moveInput = playerActions.Brume.Movement.ReadValue<Vector2>();
             playerActions.Brume.Movement.performed += Try;
             rbody.velocity = moveInput * speed;
-        } 
-        
+        }
+
         else
         {
             rbody.velocity = Vector2.zero;
         }
 
-        
+
     }
 
     private void Try(InputAction.CallbackContext context)

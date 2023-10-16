@@ -39,6 +39,7 @@ public class ChangeScene : MonoBehaviour
   {
     MainManager.Instance.BrumePosition = GameObject.FindWithTag("brume").transform.position;
     MainManager.Instance.ChienPosition = GameObject.FindWithTag("chien").transform.position;
+    MainManager.Instance.CurrentScene = sceneToGoTo;
     MainManager.Instance.DisabledEnterSceneList.Add(gameObject.name);
     MainManager.Instance.PathNumber += 1;
 
