@@ -15,25 +15,47 @@ public class TriggerSaveObject : MonoBehaviour
 
     void Update()
     {
-        if (!(videoPlayer.isPlaying))
-        {
-            rawImageObject.SetActive(false);
+        // if (!(videoPlayer.isPlaying))
+        // {
+        //     rawImageObject.SetActive(false);
 
-            if (IsObjectSaved)
-            {
-                gameObject.SetActive(false);
-            }
-        }
-        else
-        {
-            rawImageObject.SetActive(true);
-        }
+        //     if (IsObjectSaved)
+        //     {
+        //         Debug.Log("IS SAVED");
+        //         gameObject.SetActive(false);
+        //     }
+        // }
+        // else
+        // {
+        //     Debug.Log("SET ACTIVE TRUE");
+        //     rawImageObject.SetActive(true);
+        // }
+    }
+    void Start()
+    {
+        videoPlayer.loopPointReached += DoSomethingWhenVideoEnds;
     }
 
     void OnTriggerEnter2D()
     {
+        PlayVideo();
+    }
+
+    void PlayVideo()
+    {
         IsObjectSaved = true;
+        rawImageObject.SetActive(true);
         videoPlayer.clip = videoClip;
         videoPlayer.Play();
+    }
+
+    void DoSomethingWhenVideoEnds(VideoPlayer vp)
+    {
+        rawImageObject.SetActive(false);
+
+        if (IsObjectSaved)
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

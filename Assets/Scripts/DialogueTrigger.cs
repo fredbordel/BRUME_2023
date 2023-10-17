@@ -11,23 +11,26 @@ public class DialogueTrigger : MonoBehaviour
     private EventSystem eventSystem;
 
 
-void Start()
+    void Start()
     {
-        foreach(string gameObjectName in MainManager.Instance.DisabledDialogueList)
+        if (MainManager.Instance)
         {
-            if (gameObjectName == gameObject.name)
+            foreach (string gameObjectName in MainManager.Instance.DisabledDialogueList)
             {
-                gameObject.SetActive(false);
+                if (gameObjectName == gameObject.name)
+                {
+                    gameObject.SetActive(false);
+                }
             }
         }
     }
 
-  void OnEnable()
+    void OnEnable()
     {
         eventSystem = EventSystem.current;
     }
 
-   private void OnTriggerEnter2D()
+    private void OnTriggerEnter2D()
     {
         dialogueBoxObject.SetActive(true);
         eventSystem.SetSelectedGameObject(nextButton, null);
