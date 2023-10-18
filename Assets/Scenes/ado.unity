@@ -742,57 +742,25 @@ MonoBehaviour:
     name: 
     localizedSentences:
     - m_TableReference:
-        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
+        m_TableCollectionName: GUID:70f55e96a18f44e6fbf3a5f5a7702c8a
       m_TableEntryReference:
-        m_KeyId: 7062151168
+        m_KeyId: 35050741760
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
     - m_TableReference:
-        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
+        m_TableCollectionName: GUID:70f55e96a18f44e6fbf3a5f5a7702c8a
       m_TableEntryReference:
-        m_KeyId: 68739391488
+        m_KeyId: 121877028864
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
     - m_TableReference:
-        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
+        m_TableCollectionName: GUID:70f55e96a18f44e6fbf3a5f5a7702c8a
       m_TableEntryReference:
-        m_KeyId: 122342596608
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
-      m_TableEntryReference:
-        m_KeyId: 210418786304
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
-      m_TableEntryReference:
-        m_KeyId: 290077007872
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
-      m_TableEntryReference:
-        m_KeyId: 340614176768
-        m_Key: 
-      m_FallbackState: 0
-      m_WaitForCompletion: 0
-      m_LocalVariables: []
-    - m_TableReference:
-        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
-      m_TableEntryReference:
-        m_KeyId: 434277179392
+        m_KeyId: 176704970752
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
@@ -2604,6 +2572,7 @@ GameObject:
   - component: {fileID: 919780608}
   - component: {fileID: 919780607}
   - component: {fileID: 919780613}
+  - component: {fileID: 919780614}
   m_Layer: 0
   m_Name: feuinterieur1 (2)
   m_TagString: feu
@@ -2791,6 +2760,58 @@ MonoBehaviour:
   videoPlayer: {fileID: 667878092}
   rawImageObject: {fileID: 1473854309}
   videoClip: {fileID: 32900000, guid: a24fd9244ef264327a0033a468935a63, type: 3}
+--- !u!114 &919780614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919780606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a826ae1186f24ef5ab1feeb108519c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    localizedSentences:
+    - m_TableReference:
+        m_TableCollectionName: GUID:b4cb655f737414084937d256a591b163
+      m_TableEntryReference:
+        m_KeyId: 12539912192
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:b4cb655f737414084937d256a591b163
+      m_TableEntryReference:
+        m_KeyId: 74884046848
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:b4cb655f737414084937d256a591b163
+      m_TableEntryReference:
+        m_KeyId: 127241543680
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:b4cb655f737414084937d256a591b163
+      m_TableEntryReference:
+        m_KeyId: 155863474176
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  dialogueBoxObject: {fileID: 1200193029}
+  nextButton: {fileID: 1026934339}
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1009287354
 GameObject:
   m_ObjectHideFlags: 0
@@ -3627,6 +3648,7 @@ GameObject:
   - component: {fileID: 1133194572}
   - component: {fileID: 1133194571}
   - component: {fileID: 1133194577}
+  - component: {fileID: 1133194578}
   m_Layer: 0
   m_Name: feuinterieur1 (1)
   m_TagString: feu
@@ -3814,6 +3836,82 @@ MonoBehaviour:
   videoPlayer: {fileID: 667878092}
   rawImageObject: {fileID: 1473854309}
   videoClip: {fileID: 32900000, guid: 0429bf791300240c3884eac1f7ae47c1, type: 3}
+--- !u!114 &1133194578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133194570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a826ae1186f24ef5ab1feeb108519c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    localizedSentences:
+    - m_TableReference:
+        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
+      m_TableEntryReference:
+        m_KeyId: 7062151168
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
+      m_TableEntryReference:
+        m_KeyId: 68739391488
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
+      m_TableEntryReference:
+        m_KeyId: 122342596608
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
+      m_TableEntryReference:
+        m_KeyId: 210418786304
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
+      m_TableEntryReference:
+        m_KeyId: 290077007872
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
+      m_TableEntryReference:
+        m_KeyId: 340614176768
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
+      m_TableEntryReference:
+        m_KeyId: 434277179392
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+  dialogueBoxObject: {fileID: 1200193029}
+  nextButton: {fileID: 1026934339}
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1174975812
 GameObject:
   m_ObjectHideFlags: 0
@@ -4003,7 +4101,7 @@ GameObject:
   - component: {fileID: 1200193031}
   m_Layer: 5
   m_Name: DialogueBox
-  m_TagString: Untagged
+  m_TagString: dialogBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4437,7 +4535,7 @@ RectTransform:
   m_GameObject: {fileID: 1473854309}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.6514, y: 3.6514, z: 3.6514}
+  m_LocalScale: {x: 4.878827, y: 4.878827, z: 4.878827}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1067091590}
@@ -4446,7 +4544,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 152.8989, y: 146.7738}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1473854311
 MonoBehaviour:
@@ -4602,8 +4700,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1134.5, y: -738.9011}
-  m_SizeDelta: {x: -2501.7666, y: -1560.4854}
+  m_AnchoredPosition: {x: -1134.5, y: -726.9369}
+  m_SizeDelta: {x: -2501.767, y: -1500.095}
   m_Pivot: {x: 0.5, y: 0.68747747}
 --- !u!114 &1588995559
 MonoBehaviour:
@@ -4625,7 +4723,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: brume
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e327b1b1238f64912ae4026d93b4d2b5, type: 2}
   m_sharedMaterial: {fileID: -8502990189669813094, guid: e327b1b1238f64912ae4026d93b4d2b5, type: 2}
@@ -5227,7 +5325,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "Cher journal,\nOn nous dit de continuer et d\u2019avoir espoir,\n mais
+    je vois difficilement comment \xE7a s'enligne l\u2019avenir. Pauvre plan\xE8te,
+    on est les pires invit\xE9.es."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e327b1b1238f64912ae4026d93b4d2b5, type: 2}
   m_sharedMaterial: {fileID: -8502990189669813094, guid: e327b1b1238f64912ae4026d93b4d2b5, type: 2}

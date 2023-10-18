@@ -55,7 +55,7 @@ public class MainManager : MonoBehaviour
 
     private void Start()
     {
-        // BrumePosition = new Vector2(13, 0);
-        // ChienPosition = new Vector2(15, -1);
+        BrumePosition = new Vector2(13, 0);
+        ChienPosition = new Vector2(15, -1);
     }
 }

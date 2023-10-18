@@ -13,24 +13,6 @@ public class TriggerSaveObject : MonoBehaviour
     private VideoClip videoClip;
     private bool IsObjectSaved = false;
 
-    void Update()
-    {
-        // if (!(videoPlayer.isPlaying))
-        // {
-        //     rawImageObject.SetActive(false);
-
-        //     if (IsObjectSaved)
-        //     {
-        //         Debug.Log("IS SAVED");
-        //         gameObject.SetActive(false);
-        //     }
-        // }
-        // else
-        // {
-        //     Debug.Log("SET ACTIVE TRUE");
-        //     rawImageObject.SetActive(true);
-        // }
-    }
     void Start()
     {
         videoPlayer.loopPointReached += DoSomethingWhenVideoEnds;

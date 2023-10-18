@@ -37,8 +37,8 @@ public class DialogueTrigger : MonoBehaviour
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue, gameObject);
     }
 
-    private void OnTriggerExit2D()
-    {
-        dialogueBoxObject.SetActive(false);
-    }
+    // private void OnTriggerExit2D()
+    // {
+    //     dialogueBoxObject.SetActive(false);
+    // }
 }

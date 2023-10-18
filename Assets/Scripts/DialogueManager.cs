@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 using UnityEngine.Localization.Components;
 using UnityEngine.Localization;
@@ -14,6 +15,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject TextBox;
     public AudioSource audioSource;
     private GameObject disableThisDialogue;
+    private GameObject dialogueBox;
 
 
     private Queue<LocalizedString> sentences;
@@ -27,6 +29,7 @@ public class DialogueManager : MonoBehaviour
     {
         StartCoroutine(FadeVolume(0.2f, 1.5f));
 
+        TextBox.SetActive(true);
         MainManager.Instance.IsDialogueOpened = true;
 
         disableThisDialogue = dialogueToDisable;
@@ -63,22 +66,27 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
-            nameTxt.text = "";
+            nameTxt.text = key;
         }
 
-        dialogueTxt.text = sentence.GetLocalizedString();
+        StartCoroutine(DisplayTextSlowly(sentence.GetLocalizedString()));
     }
 
     void EndDialogue()
     {
+        dialogueBox = GameObject.FindWithTag("dialogBox");
+
         StartCoroutine(FadeVolume(1, 1.5f));
 
         TextBox.SetActive(false);
+        disableThisDialogue.SetActive(false);
+        if (dialogueBox)
+        {
+            dialogueBox.SetActive(false);
+        }
 
         MainManager.Instance.IsDialogueOpened = false;
         MainManager.Instance.DisabledDialogueList.Add(disableThisDialogue.name);
-
-        disableThisDialogue.SetActive(false);
     }
 
     private IEnumerator FadeVolume(float targetVolume, float duration)
@@ -94,5 +102,41 @@ public class DialogueManager : MonoBehaviour
         }
 
         audioSource.volume = targetVolume;
+    }
+
+    private IEnumerator DisplayTextSlowly(string sentence)
+    {
+        dialogueTxt.text = "";
+
+        StringBuilder displayedText = new StringBuilder();
+
+        for (int i = 0; i < sentence.Length; i++)
+        {
+            // Append the current character to the displayed text
+            displayedText.Append(sentence[i]);
+
+            // Check if the length of the displayed text is greater than 75
+            if (displayedText.Length > 55)
+            {
+                // Remove the first character with a delay
+                StartCoroutine(RemoveCharacterWithDelay(displayedText));
+            }
+
+            dialogueTxt.text = displayedText.ToString();
+
+            yield return new WaitForSecondsRealtime(0.07f);
+        }
+    }
+
+    private IEnumerator RemoveCharacterWithDelay(StringBuilder text)
+    {
+        // Delay before removing the first character
+        yield return new WaitForSecondsRealtime(0.5f);
+
+        // Remove the first character
+        text.Remove(0, 1);
+
+        // Update the UI text
+        dialogueTxt.text = text.ToString();
     }
 }

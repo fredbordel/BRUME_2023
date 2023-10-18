@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class TriggerExitRoom : MonoBehaviour
@@ -21,11 +22,7 @@ public class TriggerExitRoom : MonoBehaviour
         GameObject[] objs = GameObject.FindGameObjectsWithTag("feu");
         if (objs.Length == 0)
         {
-            Debug.Log("GET OUT OF HERE");
-        }
-        else
-        {
-            Debug.Log("NOT YET");
+            SceneManager.LoadScene("nouvelle_map");
         }
     }
 }

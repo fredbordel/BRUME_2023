@@ -8,6 +8,7 @@ TagManager:
   - chien
   - music
   - feu
+  - dialogBox
   layers:
   - Default
   - TransparentFX
