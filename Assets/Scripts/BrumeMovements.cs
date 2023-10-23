@@ -18,6 +18,11 @@ public class BrumeMovements : MonoBehaviour
         playerActions = new PlayerInputActions();
     }
 
+    private void OnEnable()
+    {
+        playerActions.Brume.Enable();
+    }
+
     void Start()
     {
         var MainManagerInstance = MainManager.Instance;
@@ -25,11 +30,6 @@ public class BrumeMovements : MonoBehaviour
         {
             gameObject.transform.position = MainManagerInstance.BrumePosition;
         }
-    }
-
-    private void OnEnable()
-    {
-        playerActions.Brume.Enable();
     }
 
     private void OnDisable()

@@ -22,6 +22,11 @@ public class TriggerExitRoom : MonoBehaviour
         GameObject[] objs = GameObject.FindGameObjectsWithTag("feu");
         if (objs.Length == 0)
         {
+            if (MainManager.Instance)
+            {
+                MainManager.Instance.CurrentScene = "nouvelle_map";
+            }
+
             SceneManager.LoadScene("nouvelle_map");
         }
     }

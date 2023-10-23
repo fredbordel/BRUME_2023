@@ -8,7 +8,7 @@ public class ChienMovements : MonoBehaviour
     public float speed = 5;
     public Collider2D brumeCollider;
     public Collider2D chienCollider;
-    public int chienDistanceFromBrume;
+    public float chienDistanceFromBrume;
     private Transform brume;
     private Rigidbody2D rb;
 
@@ -30,7 +30,7 @@ public class ChienMovements : MonoBehaviour
 
     private void Update()
     {
-        Physics2D.IgnoreCollision(brumeCollider, chienCollider, true);
+        // Physics2D.IgnoreCollision(brumeCollider, chienCollider, true);
 
         if (Vector2.Distance(transform.position, brume.position) > chienDistanceFromBrume)
         {
