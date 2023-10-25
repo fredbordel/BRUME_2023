@@ -12,15 +12,32 @@ public class TriggerSaveObject : MonoBehaviour
     [SerializeField]
     private VideoClip videoClip;
     private bool IsObjectSaved = false;
+    private bool IsObjectWithVideo = false;
 
     void Start()
     {
-        videoPlayer.loopPointReached += DoSomethingWhenVideoEnds;
+        if (videoClip && rawImageObject && videoPlayer)
+        {
+            IsObjectWithVideo = true;
+        }
+
+        if (IsObjectWithVideo)
+        {
+            videoPlayer.loopPointReached += DoSomethingWhenVideoEnds;
+        }
     }
 
     void OnTriggerEnter2D()
     {
-        PlayVideo();
+        if (IsObjectWithVideo)
+        {
+            PlayVideo();
+        }
+        else
+        {
+            IsObjectSaved = true;
+            gameObject.SetActive(false);
+        }
     }
 
     void PlayVideo()
