@@ -23,7 +23,7 @@ public class TriggerSaveObject : MonoBehaviour
 
         if (IsObjectWithVideo)
         {
-            videoPlayer.loopPointReached += DoSomethingWhenVideoEnds;
+            videoPlayer.loopPointReached += HideFireWhenVideoEnds;
         }
     }
 
@@ -48,7 +48,7 @@ public class TriggerSaveObject : MonoBehaviour
         videoPlayer.Play();
     }
 
-    void DoSomethingWhenVideoEnds(VideoPlayer vp)
+    void HideFireWhenVideoEnds(VideoPlayer vp)
     {
         rawImageObject.SetActive(false);
 

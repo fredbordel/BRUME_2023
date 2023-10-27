@@ -10,6 +10,9 @@ public class DialogueTrigger : MonoBehaviour
     public GameObject nextButton;
     private EventSystem eventSystem;
 
+    [SerializeField]
+    private bool isDialogueWithVideo;
+
 
     void Start()
     {
@@ -34,7 +37,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         dialogueBoxObject.SetActive(true);
         eventSystem.SetSelectedGameObject(nextButton, null);
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue, gameObject);
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue, gameObject, isDialogueWithVideo);
     }
 
     // private void OnTriggerExit2D()

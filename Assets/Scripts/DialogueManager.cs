@@ -9,13 +9,30 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
-    public TextMeshProUGUI nameTxt;
-    public TextMeshProUGUI dialogueTxt;
-    public Dialogue dialogue;
-    public GameObject TextBox;
+    [SerializeField]
+    private TextMeshProUGUI nameTxt;
+
+    [SerializeField]
+    private TextMeshProUGUI dialogueTxt;
+
+    [SerializeField]
+    private GameObject DialogueBox;
+
+    [SerializeField]
+    private GameObject VideoDialogueBox;
+
+    [SerializeField]
+    private TextMeshProUGUI videoNameTxt;
+
+    [SerializeField]
+    private TextMeshProUGUI videoDialogueTxt;
+    private Dialogue dialogue;
+    private bool isDialogueWith3DVideo;
+
+
     public AudioSource audioSource;
     private GameObject disableThisDialogue;
-    private GameObject dialogueBox;
+    // private GameObject dialogueBox;
 
 
     private Queue<LocalizedString> sentences;
@@ -25,11 +42,21 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<LocalizedString>();
     }
 
-    public void StartDialogue(Dialogue dialogue, GameObject dialogueToDisable)
+    public void StartDialogue(Dialogue dialogue, GameObject dialogueToDisable, bool isDialWithVideo)
     {
+        isDialogueWith3DVideo = isDialWithVideo;
+
         StartCoroutine(FadeVolume(0.2f, 1.5f));
 
-        TextBox.SetActive(true);
+        if (isDialWithVideo)
+        {
+            VideoDialogueBox.SetActive(true);
+        }
+        else
+        {
+            DialogueBox.SetActive(true);
+        }
+
         MainManager.Instance.IsDialogueOpened = true;
 
         disableThisDialogue = dialogueToDisable;
@@ -56,17 +83,36 @@ public class DialogueManager : MonoBehaviour
         var tableEntry = LocalizationSettings.StringDatabase.GetTableEntry(sentence.TableReference, sentence.TableEntryReference);
         var key = tableEntry.Entry.SharedEntry.Key;
 
-        if (key.Contains("Chien"))
+        if (nameTxt && !isDialogueWith3DVideo)
         {
-            nameTxt.text = "Chien";
+
+            if (key.Contains("Chien"))
+            {
+                nameTxt.text = "Chien";
+            }
+            else if (key.Contains("Brume"))
+            {
+                nameTxt.text = "Brume";
+            }
+            else
+            {
+                nameTxt.text = key;
+            }
         }
-        else if (key.Contains("Brume"))
+        else if (videoNameTxt && isDialogueWith3DVideo)
         {
-            nameTxt.text = "Brume";
-        }
-        else
-        {
-            nameTxt.text = key;
+            if (key.Contains("Chien"))
+            {
+                videoNameTxt.text = "Chien";
+            }
+            else if (key.Contains("Brume"))
+            {
+                videoNameTxt.text = "Brume";
+            }
+            else
+            {
+                videoNameTxt.text = key;
+            }
         }
 
         StartCoroutine(DisplayTextSlowly(sentence.GetLocalizedString()));
@@ -74,15 +120,29 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        dialogueBox = GameObject.FindWithTag("dialogBox");
+        // dialogueBox = GameObject.FindWithTag("dialogBox");
 
         StartCoroutine(FadeVolume(1, 1.5f));
 
-        TextBox.SetActive(false);
-        disableThisDialogue.SetActive(false);
-        if (dialogueBox)
+        if (isDialogueWith3DVideo)
         {
-            dialogueBox.SetActive(false);
+            VideoDialogueBox.SetActive(false);
+        }
+        else
+        {
+            DialogueBox.SetActive(false);
+        }
+
+        disableThisDialogue.SetActive(false);
+
+        if (DialogueBox)
+        {
+            DialogueBox.SetActive(false);
+        }
+
+        if (VideoDialogueBox)
+        {
+            VideoDialogueBox.SetActive(false);
         }
 
         MainManager.Instance.IsDialogueOpened = false;
@@ -106,37 +166,33 @@ public class DialogueManager : MonoBehaviour
 
     private IEnumerator DisplayTextSlowly(string sentence)
     {
-        dialogueTxt.text = "";
+        if (dialogueTxt && !isDialogueWith3DVideo)
+        {
+            dialogueTxt.text = "";
+        }
+        else if (videoDialogueTxt && isDialogueWith3DVideo)
+        {
+            videoDialogueTxt.text = "";
+        }
 
         StringBuilder displayedText = new StringBuilder();
 
         for (int i = 0; i < sentence.Length; i++)
         {
-            // Append the current character to the displayed text
             displayedText.Append(sentence[i]);
 
-            // Check if the length of the displayed text is greater than 75
-            if (displayedText.Length > 55)
+            if (dialogueTxt && !isDialogueWith3DVideo)
             {
-                // Remove the first character with a delay
-                StartCoroutine(RemoveCharacterWithDelay(displayedText));
+                dialogueTxt.text = displayedText.ToString();
+
+            }
+            else if (videoDialogueTxt && isDialogueWith3DVideo)
+            {
+                videoDialogueTxt.text = displayedText.ToString();
+
             }
 
-            dialogueTxt.text = displayedText.ToString();
-
-            yield return new WaitForSecondsRealtime(0.07f);
+            yield return new WaitForSecondsRealtime(0.03f);
         }
-    }
-
-    private IEnumerator RemoveCharacterWithDelay(StringBuilder text)
-    {
-        // Delay before removing the first character
-        yield return new WaitForSecondsRealtime(0.5f);
-
-        // Remove the first character
-        text.Remove(0, 1);
-
-        // Update the UI text
-        dialogueTxt.text = text.ToString();
     }
 }
