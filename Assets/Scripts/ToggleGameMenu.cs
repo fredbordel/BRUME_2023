@@ -6,7 +6,7 @@ using UnityEngine;
 public class ToggleGameMenu : MonoBehaviour
 {
 
-    public static ToggleGameMenu Instance;
+    // public static ToggleGameMenu Instance;
     public GameObject gameMenu;
 
     void Start()
@@ -30,17 +30,17 @@ public class ToggleGameMenu : MonoBehaviour
         }
     }
 
-    private void Awake()
-    {
-        if (Instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
+    // private void Awake()
+    // {
+    //     if (Instance != null)
+    //     {
+    //         Destroy(gameObject);
+    //         return;
+    //     }
 
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
+    //     Instance = this;
+    //     DontDestroyOnLoad(gameObject);
+    // }
 
     public void ContinueGame()
     {
