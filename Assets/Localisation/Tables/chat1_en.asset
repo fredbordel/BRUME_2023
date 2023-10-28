@@ -19,27 +19,27 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 15954075648
-    m_Localized: anglais - Miaou
+    m_Localized: Meow.
     m_Metadata:
       m_Items: []
   - m_Id: 71641849856
-    m_Localized: "anglais - All\xF4!"
+    m_Localized: Hi!
     m_Metadata:
       m_Items: []
   - m_Id: 119473692672
-    m_Localized: "anglais - Belle journ\xE9e."
+    m_Localized: Beautiful day.
     m_Metadata:
       m_Items: []
   - m_Id: 286100807680
-    m_Localized: anglais - Ah oui?
+    m_Localized: Really?
     m_Metadata:
       m_Items: []
   - m_Id: 337875296256
-    m_Localized: 'anglais - La plus belle du reste de nos vies! '
+    m_Localized: The most beautiful day of the rest of our lives.
     m_Metadata:
       m_Items: []
   - m_Id: 428623257600
-    m_Localized: anglais - :S
+    m_Localized: :S
     m_Metadata:
       m_Items: []
   references:

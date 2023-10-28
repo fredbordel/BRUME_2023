@@ -19,40 +19,44 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7062151168
-    m_Localized: "en Ma lecture pr\xE9f\xE9r\xE9e de l\u2019ann\xE9e!"
+    m_Localized: My favourite book of the year.
     m_Metadata:
       m_Items: []
   - m_Id: 68739391488
-    m_Localized: "en Pompi\xE8res et pyromanes de Martine Delvaux"
+    m_Localized: " \u201CPompi\xE8res et pyromanes\u201D by Martine Delvaux"
     m_Metadata:
       m_Items: []
   - m_Id: 122342596608
-    m_Localized: en Regarde un signet!
+    m_Localized: Look at the bookmark!
     m_Metadata:
       m_Items: []
   - m_Id: 210418786304
-    m_Localized: "en \xAB On vous d\xE9crit comme des enfants-rois, des enfants-reines.
+    m_Localized: "\xAB On vous d\xE9crit comme des enfants-rois, des enfants-reines.
       Vous pour qui l\u2019avenir est bouch\xE9. Vous dont la souffrance psychique
       est palpable. Vous dont la g\xE9n\xE9ration est afflig\xE9e par la d\xE9pression,
       l\u2019anxi\xE9t\xE9, selon les sp\xE9cialistes. On pr\xE9f\xE8re vous penser
       capricieux\xB7ses plut\xF4t que d\u2019admettre qu\u2019on ne veut rien entendre
-      de vos cris. \xBB\n(p.79)"
+      de vos cris. \xBB (p.79)"
     m_Metadata:
       m_Items: []
   - m_Id: 290077007872
-    m_Localized: 'en Oh, un autre signet:'
+    m_Localized: "Oh, here\u2019s another one:"
     m_Metadata:
       m_Items: []
   - m_Id: 340614176768
-    m_Localized: "en \xAB Si les communaut\xE9s les plus touch\xE9es par la crise
-      climatique sont racis\xE9es, mais que l\u2019\xE9coanxi\xE9t\xE9 est sentie
-      majoritairement par des blancs, est-ce \xE0 dire que l\u2019\xE9coanxi\xE9t\xE9
-      est l\u2019aveu d\u2019une peur blanche de perdre un certain mode de vie, c'est-\xE0-dire
-      certains privil\xE8ges? \xBB\_ (p.167)\n"
+    m_Localized: "\xAB Si les communaut\xE9s les plus touch\xE9es par la crise climatique
+      sont racis\xE9es, mais que l\u2019\xE9coanxi\xE9t\xE9 est sentie majoritairement
+      par des blancs, est-ce \xE0 dire que l\u2019\xE9coanxi\xE9t\xE9 est l\u2019aveu
+      d\u2019une peur blanche de perdre un certain mode de vie, c'est-\xE0-dire certains
+      privil\xE8ges? \xBB\_(p.167)"
     m_Metadata:
       m_Items: []
   - m_Id: 434277179392
-    m_Localized: en Prends le avec toi, je te conseille de le lire tout entier!
+    m_Localized: Take it with you. I recommend reading the whole thing!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6907042986975232
+    m_Localized: There really are some objects here that seem important.
     m_Metadata:
       m_Items: []
   references:

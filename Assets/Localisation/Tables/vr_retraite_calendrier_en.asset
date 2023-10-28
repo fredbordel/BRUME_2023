@@ -19,33 +19,33 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 8106532864
-    m_Localized: "en 1er d\xE9cembre, d\xE9part pour la Floride"
+    m_Localized: 'December 1: Departure to Florida.'
     m_Metadata:
       m_Items: []
   - m_Id: 81087422464
-    m_Localized: en Leur projet de retraite.
+    m_Localized: Their retirement project.
     m_Metadata:
       m_Items: []
   - m_Id: 120560017408
-    m_Localized: "en C\u2019est quoi la retraite?"
+    m_Localized: "What do you mean by \u201Cretirement\u201D?"
     m_Metadata:
       m_Items: []
   - m_Id: 168526077952
-    m_Localized: en La motivation pour endurer une vie de travail.
+    m_Localized: "It\u2019s the reward you get for working your whole life."
     m_Metadata:
       m_Items: []
   - m_Id: 209198243840
-    m_Localized: "en D\xE9primant comment tu le racontes."
+    m_Localized: "Oh, I wasn\u2019t aware of this concept of work."
     m_Metadata:
       m_Items: []
   - m_Id: 261929033728
-    m_Localized: "en C\u2019est ici que j\u2019ai grandi. Des calendriers remplis
-      d\u2019obligations, j\u2019en ai vu passer avant d\u2019arriver \xE0 cette
-      date. Iels sont partis avant finalement."
+    m_Localized: "This is where I grew up. There were calendars filled with to-dos
+      before retirement. In the end, they had to abandon the plan and leave\u2026
+      without me."
     m_Metadata:
       m_Items: []
   - m_Id: 290290917376
-    m_Localized: "en Je ne savais pas, je suis d\xE9sol\xE9e."
+    m_Localized: "I didn\u2019t know. I\u2019m sorry."
     m_Metadata:
       m_Items: []
   references:

@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 9113165824
-    m_Localized: en Continuons?
+    m_Localized: Continuons?
     m_Metadata:
       m_Items: []
   - m_Id: 91501879296
-    m_Localized: "en Ouais\u2026 On a continu\xE9."
+    m_Localized: "Yup\u2026 and so we continued."
     m_Metadata:
       m_Items: []
   references:

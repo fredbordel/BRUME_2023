@@ -19,24 +19,24 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 8093949952
-    m_Localized: "en Du linge \xE0 vendre?"
+    m_Localized: A clothing sale?
     m_Metadata:
       m_Items: []
   - m_Id: 86590349312
-    m_Localized: "en Non, c\u2019est du linge que les gens ne mettent pas."
+    m_Localized: "Nope, they\u2019re just clothes that people don\u2019t wear."
     m_Metadata:
       m_Items: []
   - m_Id: 134086647808
-    m_Localized: "en Pourquoi il y a encore l\u2019\xE9tiquette alors?\L"
+    m_Localized: Why are the tags still on?
     m_Metadata:
       m_Items: []
   - m_Id: 220350898176
-    m_Localized: "en Le fast fashion, c\u2019est tellement rapide que tu rentres
-      chez toi et c\u2019est d\xE9j\xE0 d\xE9mod\xE9."
+    m_Localized: "It\u2019s fast fasion. It\u2019s so fast that by the time you get
+      home, it\u2019s already out of style."
     m_Metadata:
       m_Items: []
   - m_Id: 265091538944
-    m_Localized: en Wow.
+    m_Localized: Wow.
     m_Metadata:
       m_Items: []
   references:

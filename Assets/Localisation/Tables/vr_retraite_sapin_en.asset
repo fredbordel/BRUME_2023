@@ -19,24 +19,24 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 39958077440
-    m_Localized: "en C\u2019est le party ici!"
+    m_Localized: "It\u2019s party time!"
     m_Metadata:
       m_Items: []
   - m_Id: 91120197632
-    m_Localized: "en Un No\xEBl l\u2019hiver, c\u2019est pas assez pour les campeurs.
-      Il y en aussi un au mois d\u2019ao\xFBt."
+    m_Localized: "For RV goers, one Christmas in winter isn\u2019t enough so they
+      have another one in August."
     m_Metadata:
       m_Items: []
   - m_Id: 130152390656
-    m_Localized: "en C\u2019est quoi No\xEBl?"
+    m_Localized: "What\u2019s Christmas?"
     m_Metadata:
       m_Items: []
   - m_Id: 181301927936
-    m_Localized: "en La famille et les cadeaux.\_"
+    m_Localized: Family and presents.
     m_Metadata:
       m_Items: []
   - m_Id: 209777057792
-    m_Localized: "en Je commence \xE0 pu avoir le sens de la f\xEAte trop trop :("
+    m_Localized: The notion of what a party is must be lost on me :( .
     m_Metadata:
       m_Items: []
   references:

@@ -19,16 +19,16 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 176071630848
-    m_Localized: en Oh, un accident.
+    m_Localized: Looks like there was an accident.
     m_Metadata:
       m_Items: []
   - m_Id: 246397526016
-    m_Localized: "en Oui, \xE7a arrive\u2026\nMais en g\xE9n\xE9ral, iels foncent
-      tout droit et volontairement dans un mur."
+    m_Localized: "Yeah, it happens\u2026 \nBut in general, they tend to crash headfirst
+      into a wall on their own accord."
     m_Metadata:
       m_Items: []
   - m_Id: 329025314816
-    m_Localized: "en Iels font vraiment expr\xE8s tu crois?"
+    m_Localized: Do you think they really do it on purpose?
     m_Metadata:
       m_Items: []
   references:

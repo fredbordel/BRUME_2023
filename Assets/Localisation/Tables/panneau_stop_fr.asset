@@ -26,6 +26,10 @@ MonoBehaviour:
     m_Localized: Oui! Enfin!
     m_Metadata:
       m_Items: []
+  - m_Id: 6907317210570752
+    m_Localized: "On n\u2019a pas le temps, viens!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -19,19 +19,19 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 10031718400
-    m_Localized: "en \xC7a d\xE9borde de partout ici."
+    m_Localized: "There\u2019s trash everywhere."
     m_Metadata:
       m_Items: []
   - m_Id: 67715981312
-    m_Localized: "en C\u2019est \xE7a, la culture du jetable."
+    m_Localized: "That\u2019s throwaway culture for you."
     m_Metadata:
       m_Items: []
   - m_Id: 103287873536
-    m_Localized: "en \xC7a va o\xF9 apr\xE8s \xEAtre jet\xE9? "
+    m_Localized: Where does it go after being thrown away?
     m_Metadata:
       m_Items: []
   - m_Id: 154462576640
-    m_Localized: "en Pas tr\xE8s loin."
+    m_Localized: "Not too far\u2026"
     m_Metadata:
       m_Items: []
   references:

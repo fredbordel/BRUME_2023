@@ -19,23 +19,23 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 12938371072
-    m_Localized: anglais - C'est un jouet?
+    m_Localized: Is that a toy?
     m_Metadata:
       m_Items: []
   - m_Id: 89199206400
-    m_Localized: anglais - Oui, un fusil en plastique.
+    m_Localized: Yeah, a plastic gun.
     m_Metadata:
       m_Items: []
   - m_Id: 176558170112
-    m_Localized: anglais - Fusil? Plastique?
+    m_Localized: Plastic? Gun?
     m_Metadata:
       m_Items: []
   - m_Id: 286801256448
-    m_Localized: anglais - Deux armes fatales pour nous tous.tes.
+    m_Localized: Both equally dangerous for us all.
     m_Metadata:
       m_Items: []
   - m_Id: 458172129280
-    m_Localized: anglais - :O
+    m_Localized: :O
     m_Metadata:
       m_Items: []
   references:

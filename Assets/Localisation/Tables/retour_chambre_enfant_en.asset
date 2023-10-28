@@ -19,16 +19,17 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 6168764416
-    m_Localized: "en Pendant ce temps ici, \xE7a ne s\u2019est pas trop am\xE9lior\xE9\u2026"
+    m_Localized: During this time, nothing seems to have improved.
     m_Metadata:
       m_Items: []
   - m_Id: 356711915520
-    m_Localized: "en Si j\u2019\xE9tais toi, je ne me mettrais pas trop de pression,
-      8 milliards de cerveaux ne sont pas venus \xE0 bout de trouver une solution."
+    m_Localized: "If I were you, I wouldn\u2019t be so hard on myself. Even with
+      the power of eight billion brains, humans weren\u2019t even close to figuring
+      it out."
     m_Metadata:
       m_Items: []
   - m_Id: 405223235584
-    m_Localized: "en J\u2019ai encore de l\u2019\xE9nergie, c\u2019est possible!"
+    m_Localized: "I\u2019ve still got some energy. I can do it!"
     m_Metadata:
       m_Items: []
   references:

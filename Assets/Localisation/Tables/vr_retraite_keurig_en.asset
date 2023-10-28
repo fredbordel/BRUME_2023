@@ -19,19 +19,19 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 5346680832
-    m_Localized: "en Veux-tu un p\u2019tit caf\xE9?"
+    m_Localized: Can I interest you in some coffee?
     m_Metadata:
       m_Items: []
   - m_Id: 76356247552
-    m_Localized: "en C\u2019est quoi?"
+    m_Localized: "What\u2019s that?"
     m_Metadata:
       m_Items: []
   - m_Id: 129997201408
-    m_Localized: "en \xC7a rend m\xE9ga productif."
+    m_Localized: It helps boost productivity.
     m_Metadata:
       m_Items: []
   - m_Id: 165598453760
-    m_Localized: "en Ok oui j\u2019en ai besoin!"
+    m_Localized: Sure, I could use some of that!
     m_Metadata:
       m_Items: []
   references:

@@ -19,17 +19,17 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 54264848384
-    m_Localized: "en Ah, il y a beaucoup de plantes sur les maisons, c\u2019est toujours
-      comme \xE7a?"
+    m_Localized: "There\u2019s so much greenery on the rooftops. Is it always like
+      that?"
     m_Metadata:
       m_Items: []
   - m_Id: 102650339328
-    m_Localized: "en C\u2019est ce qui se passe quand les humains arr\xEAtent d\u2019intervenir.
-      La nature reprend le dessus."
+    m_Localized: "That\u2019s what happens when humans stop interfering. Nature takes
+      over."
     m_Metadata:
       m_Items: []
   - m_Id: 157809631232
-    m_Localized: "en \xC7a donne espoir non?"
+    m_Localized: "That\u2019s hopeful, isn\u2019t it?"
     m_Metadata:
       m_Items: []
   references:

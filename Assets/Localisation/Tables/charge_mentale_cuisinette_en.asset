@@ -19,20 +19,20 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 23709343744
-    m_Localized: "en C\u2019est quoi cette version miniature de la pi\xE8ce?"
+    m_Localized: "What\u2019s with this miniature kitchen?"
     m_Metadata:
       m_Items: []
   - m_Id: 79741050880
-    m_Localized: "en C\u2019est pour que les enfants jouent aux adultes. Des poup\xE9es
-      \xE7a s\u2019appelle."
+    m_Localized: "It\u2019s so kids can pretend to be adults \u2013 playing with
+      dolls."
     m_Metadata:
       m_Items: []
   - m_Id: 114461499392
-    m_Localized: "en Les humains ressemblent \xE0 \xE7a?"
+    m_Localized: Is that what humans look like?
     m_Metadata:
       m_Items: []
   - m_Id: 166256959488
-    m_Localized: "en Pas tout-\xE0-fait, il y a beaucoup plus de diversit\xE9."
+    m_Localized: Not exactly. Humans are much more diverse.
     m_Metadata:
       m_Items: []
   references:

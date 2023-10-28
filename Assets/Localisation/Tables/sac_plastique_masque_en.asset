@@ -19,17 +19,17 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 6193930240
-    m_Localized: "en \xC7a pousse au sol \xE7a?"
+    m_Localized: Does that grow underground?
     m_Metadata:
       m_Items: []
   - m_Id: 64767385600
-    m_Localized: "en Non\u2026 des d\xE9chets."
+    m_Localized: "No, it\u2019s garbage."
     m_Metadata:
       m_Items: []
   - m_Id: 128122347520
-    m_Localized: "en Les gens prennent soin de l\u2019espace qui s\u2019arr\xEAte
-      aux limites de leur gazon.\nIels ne voient pas la nature comme leur maison,
-      mais comme ext\xE9rieur \xE0 leur maison."
+    m_Localized: "Beyond their front lawn, people\u2019s ability to take care of
+      their environment is limited. Nature is seen as completely separate, when it
+      should really be considered part of their home."
     m_Metadata:
       m_Items: []
   references:

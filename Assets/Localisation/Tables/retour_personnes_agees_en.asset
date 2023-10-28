@@ -19,17 +19,17 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 21171789824
-    m_Localized: "anglais - Wow, j\u2019arrive bien \xE0 me faire un portrait des
-      gens qui vivaient ici et iels ne sont m\xEAme pas l\xE0!"
+    m_Localized: "Wow, even if they\u2019re no longer here, I\u2019m starting to
+      understand these people."
     m_Metadata:
       m_Items: []
   - m_Id: 88431648768
-    m_Localized: "anglais - Les humains \xAB\_ont\_\xBB plus qu\u2019iels ne \xAB\_sont\_\xBB
-      ;). C\u2019est mon observation."
+    m_Localized: The human ability to have is greater than their ability to be. Just
+      an observation.
     m_Metadata:
       m_Items: []
   - m_Id: 190407761920
-    m_Localized: anglais - Pas fou. On continue?
+    m_Localized: 'That makes sense. Shall we keep moving? '
     m_Metadata:
       m_Items: []
   references:

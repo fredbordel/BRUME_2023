@@ -19,19 +19,19 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 12539912192
-    m_Localized: "en C\u2019est quoi \xE7a?"
+    m_Localized: What is that?
     m_Metadata:
       m_Items: []
   - m_Id: 74884046848
-    m_Localized: en Un meme!
+    m_Localized: A meme!
     m_Metadata:
       m_Items: []
   - m_Id: 127241543680
-    m_Localized: en Qui?
+    m_Localized: Of?
     m_Metadata:
       m_Items: []
   - m_Id: 155863474176
-    m_Localized: en Elon Musk
+    m_Localized: Elon Musk
     m_Metadata:
       m_Items: []
   references:

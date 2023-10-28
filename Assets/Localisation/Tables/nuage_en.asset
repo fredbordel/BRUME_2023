@@ -19,20 +19,21 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 12279865344
-    m_Localized: "en Dr\xF4le de nuage."
+    m_Localized: Strange-looking cloud.
     m_Metadata:
       m_Items: []
   - m_Id: 83050356736
-    m_Localized: "en \xC7a c\u2019est le cloud, les gens stockent leurs donn\xE9es
-      l\xE0-dedans."
+    m_Localized: "That is \u201CThe Cloud\u201D \u2013 people store all of their
+      information in there."
     m_Metadata:
       m_Items: []
   - m_Id: 133633662976
-    m_Localized: en Il est tout mignon.
+    m_Localized: "It\u2019s so cute!"
     m_Metadata:
       m_Items: []
   - m_Id: 177329922048
-    m_Localized: "en M\xE9fie-toi, il a l\u2019air de rien mais il est hyper polluant."
+    m_Localized: "Beware \u2013 it may not look like much, but it\u2019s extremely
+      polluting."
     m_Metadata:
       m_Items: []
   references:

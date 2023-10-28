@@ -19,51 +19,55 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 10514063360
-    m_Localized: 'EN Salut
+    m_Localized: 'Boy is it hot! Seems like I got here at the right time.
 
 '
     m_Metadata:
       m_Items: []
   - m_Id: 2685167198208
-    m_Localized: "EN All\xF4\nTu ne t'es pas sauv\xE9.e toi?"
+    m_Localized: Hi.
     m_Metadata:
       m_Items: []
   - m_Id: 2689759961088
-    m_Localized: "EN Non, c\u2019est pareil partout."
+    m_Localized: "Hello.\nYou didn\u2019t leave like everyone else?"
     m_Metadata:
       m_Items: []
   - m_Id: 45206379315585024
-    m_Localized: "EN \xC7a s\u2019appelle \xAB\_Terre\_\xBB, mais il y a plus de
-      feu qu\u2019autre chose ici."
+    m_Localized: "No, it\u2019s the same no matter where you go."
     m_Metadata:
       m_Items: []
   - m_Id: 56232616070733824
-    m_Localized: "EN Oui mais \xE7a n\u2019a pas toujours \xE9t\xE9 comme \xE7a.
-      Qu\u2019est-ce que tu fais ici en passant?"
+    m_Localized: "It\u2019s called \u201CEarth\u201D, but it seems like there\u2019s
+      more fire now than anything else."
     m_Metadata:
       m_Items: []
   - m_Id: 56232696655896576
-    m_Localized: "EN Je suis venue pour tout \xE9teindre, une flamme \xE0 la fois."
+    m_Localized: "Yeah, but it wasn\u2019t always like this. What are you doing here
+      anyway ?\n"
     m_Metadata:
       m_Items: []
   - m_Id: 56232757745934336
-    m_Localized: "EN Comme c\u2019est mignon."
+    m_Localized: 'I came to put it all out, one blaze at a time. '
     m_Metadata:
       m_Items: []
   - m_Id: 56232837077000192
-    m_Localized: EN Pourquoi, tu veux pas sauver ta maison?
+    m_Localized: Oh, how sweet *eye roll*.
     m_Metadata:
       m_Items: []
   - m_Id: 56232889426108416
-    m_Localized: "EN C\u2019est pas celle de mes ma\xEEtres, mais on peut essayer."
+    m_Localized: "What \u2013 don\u2019t you want to save your home?"
     m_Metadata:
       m_Items: []
   - m_Id: 56232953317941248
-    m_Localized: "EN Tu as des ma\xEEtres?"
+    m_Localized: "It doesn\u2019t belong to my owners, but we can try."
     m_Metadata:
       m_Items: []
   - m_Id: 56233033244598272
-    m_Localized: "EN Oui avant. Assez parl\xE9 de moi, on rentre?"
+    m_Localized: "You\u2019ve got owners?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76066468632977408
+    m_Localized: I did. But enough about me... Shall we?
     m_Metadata:
       m_Items: []
   references:

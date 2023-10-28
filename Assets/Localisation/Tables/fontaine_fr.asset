@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 105062064128
-    m_Localized: "\xC7a, ce sont des pi\xE8ces de monnaie qui se baignent.\_"
+    m_Localized: "\xC7a, ce sont des pi\xE8ces de monnaie qui se baignent. \n"
     m_Metadata:
       m_Items: []
   - m_Id: 145994276864
@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 185215213568
-    m_Localized: "Cet argent-l\xE0 a une valeur diff\xE9rente.\_"
+    m_Localized: "Cet argent-l\xE0 a une valeur diff\xE9rente."
     m_Metadata:
       m_Items: []
   - m_Id: 223085584384

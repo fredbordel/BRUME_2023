@@ -104,6 +104,16 @@ public class FeuManager : MonoBehaviour
                     gameObject.SetActive(false);
                 }
                 break;
+            case 9:
+                if (gameObject.name == "feu_group_8")
+                {
+                    gameObject.SetActive(true);
+                }
+                else
+                {
+                    gameObject.SetActive(false);
+                }
+                break;
         }
     }
 }

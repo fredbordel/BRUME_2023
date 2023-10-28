@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 17044594688
-    m_Localized: "anglais - Il te ressemble celui-l\xE0"
+    m_Localized: This one looks like you.
     m_Metadata:
       m_Items: []
   - m_Id: 88473591808
-    m_Localized: "Oui, les deux on r\xE9conforte nos humains, cette dr\xF4le d\u2019esp\xE8ce."
+    m_Localized: "Yeah, somehow we\u2019re both comforting to our humans, the weirdos\u2026"
     m_Metadata:
       m_Items: []
   references:

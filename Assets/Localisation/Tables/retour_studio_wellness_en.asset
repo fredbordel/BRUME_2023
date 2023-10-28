@@ -19,16 +19,16 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 5774499840
-    m_Localized: "en Ouf, \xE7a sent moins bon ici!  En passant c\u2019est laquelle
-      ta maison toi?"
+    m_Localized: "Oh, it smells less nice over here. By the way, which one\u2019s
+      your house?"
     m_Metadata:
       m_Items: []
   - m_Id: 72329715712
-    m_Localized: en On y arrive.
+    m_Localized: "We\u2019re getting there."
     m_Metadata:
       m_Items: []
   - m_Id: 129200283648
-    m_Localized: en Ok, go!
+    m_Localized: "Let\u2019s do it!"
     m_Metadata:
       m_Items: []
   references:

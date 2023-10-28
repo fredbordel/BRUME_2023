@@ -19,13 +19,13 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 21171789824
-    m_Localized: "Wow, j\u2019arrive bien \xE0 me faire un portrait des gens qui
-      vivaient ici et iels ne sont m\xEAme pas l\xE0!"
+    m_Localized: "Wow, je commence \xE0 bien me faire un portrait des gens qui vivaient
+      ici et iels ne sont m\xEAme pas l\xE0!"
     m_Metadata:
       m_Items: []
   - m_Id: 88431648768
-    m_Localized: "Les humains \xAB\_ont\_\xBB plus qu\u2019iels ne \xAB\_sont\_\xBB
-      ;). C\u2019est mon observation."
+    m_Localized: "Les humains \xAB ont \xBB plus qu\u2019iels ne \xAB sont \xBB ;).
+      C\u2019est mon observation."
     m_Metadata:
       m_Items: []
   - m_Id: 190407761920

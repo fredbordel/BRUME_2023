@@ -25,11 +25,11 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 111978471424
     m_Localized: "Si les humains \xE9taient ici, iels auraient un conseil pour toi:
-      \xAB\_l\xE2che pas, \xE7a va bien aller.\_\xBB"
+      \xAB l\xE2che pas, \xE7a va bien aller.\xBB"
     m_Metadata:
       m_Items: []
   - m_Id: 158283587584
-    m_Localized: "Ok\u2026 Iels ont raison, il y a encore beaucoup de feux viens!"
+    m_Localized: "Ok\u2026 Iels ont raison, il y a encore beaucoup de feux, viens!"
     m_Metadata:
       m_Items: []
   references:

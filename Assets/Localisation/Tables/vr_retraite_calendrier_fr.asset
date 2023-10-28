@@ -35,13 +35,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 209198243840
-    m_Localized: "D\xE9primant comment tu le racontes."
+    m_Localized: Ah, je ne connaissais pas cette conception du travail.
     m_Metadata:
       m_Items: []
   - m_Id: 261929033728
     m_Localized: "C\u2019est ici que j\u2019ai grandi. Des calendriers remplis d\u2019obligations,
       j\u2019en ai vu passer avant d\u2019arriver \xE0 cette date. Iels sont partis
-      avant finalement."
+      avant finalement\u2026 sans moi."
     m_Metadata:
       m_Items: []
   - m_Id: 290290917376

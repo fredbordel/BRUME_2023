@@ -19,21 +19,21 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 7510941696
-    m_Localized: "en M\xE9chante montagne."
+    m_Localized: "That\u2019s a mean pile."
     m_Metadata:
       m_Items: []
   - m_Id: 55460225024
-    m_Localized: "en Un tas de v\xEAtements pas cher et pas faits ici, tout \xE7a
-      pour avoir un beau look."
+    m_Localized: A mountain of cheap clothing made somewhere far far away. All for
+      the sake of fashion.
     m_Metadata:
       m_Items: []
   - m_Id: 100997783552
-    m_Localized: "en Pourquoi \xE7a fonctionne comme \xE7a?\_"
+    m_Localized: Why is it like that?
     m_Metadata:
       m_Items: []
   - m_Id: 141024026624
-    m_Localized: "en \u266A\u266A \u201CMoney money money\_\nAlways sunny\nIn the
-      rich man's world\u201D \u266A\u266A"
+    m_Localized: "\u266A\u266A \u201CMoney money money\_\nAlways sunny\nIn the rich
+      man's world\u201D \u266A\u266A"
     m_Metadata:
       m_Items: []
   references:

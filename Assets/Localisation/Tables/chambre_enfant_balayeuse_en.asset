@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 225446977536
-    m_Localized: "anglais - C\u2019est \xE7a l\u2019intelligence artificielle?"
+    m_Localized: Is that what AI is all about?
     m_Metadata:
       m_Items: []
   - m_Id: 299132510208
-    m_Localized: anglais - Haha!
+    m_Localized: Haha!
     m_Metadata:
       m_Items: []
   references:

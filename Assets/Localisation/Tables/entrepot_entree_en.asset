@@ -19,16 +19,16 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 17287864320
-    m_Localized: "en Ya tu stock ici\u2026 Les gens vivent o\xF9 dans cette pi\xE8ce?"
+    m_Localized: "There\u2019s a lot of stuff in here. Where do people actually live?"
     m_Metadata:
       m_Items: []
   - m_Id: 89501196288
-    m_Localized: "en Les gens ne vivent pas dans cette pi\xE8ce. C\u2019est la maison
-      de leurs objets."
+    m_Localized: "People don\u2019t live here. It\u2019s a place where they house
+      all of their things."
     m_Metadata:
       m_Items: []
   - m_Id: 139111424000
-    m_Localized: 'en Ah je vois. '
+    m_Localized: Oh, I see.
     m_Metadata:
       m_Items: []
   references:

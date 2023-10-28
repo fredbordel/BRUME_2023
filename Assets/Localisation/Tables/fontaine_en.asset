@@ -19,27 +19,27 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 6869213184
-    m_Localized: "en Ouuh, \xE7a brille. On dirait des \xE9toiles."
+    m_Localized: Oooo.. shiny! They look like stars.
     m_Metadata:
       m_Items: []
   - m_Id: 105062064128
-    m_Localized: "en \xC7a, ce sont des pi\xE8ces de monnaie qui se baignent.\_"
+    m_Localized: Those are some coins that have gone for a swim.
     m_Metadata:
       m_Items: []
   - m_Id: 145994276864
-    m_Localized: en La ville est riche. Pourquoi les gens sont partis sans leur argent?
+    m_Localized: The town is rich. Why have people left without their riches?
     m_Metadata:
       m_Items: []
   - m_Id: 185215213568
-    m_Localized: "en Cet argent-l\xE0 a une valeur diff\xE9rente.\_"
+    m_Localized: This type of currency has a different value.
     m_Metadata:
       m_Items: []
   - m_Id: 223085584384
-    m_Localized: en ?
+    m_Localized: ??
     m_Metadata:
       m_Items: []
   - m_Id: 260104511488
-    m_Localized: en Fais un voeux!
+    m_Localized: Make a wish!
     m_Metadata:
       m_Items: []
   references:

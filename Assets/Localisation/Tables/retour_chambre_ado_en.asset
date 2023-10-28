@@ -19,17 +19,18 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 37416329216
-    m_Localized: "en Un noeud plus dur \xE0 d\xE9m\xEAler que je croyais\u2026 On
-      dirait que chaque personne vit sur sa plan\xE8te."
+    m_Localized: "This is more complicated than I thought. It\u2019s like everyone
+      lives on their own planet."
     m_Metadata:
       m_Items: []
   - m_Id: 111978471424
-    m_Localized: "en Si les humains \xE9taient ici, iels auraient un conseil pour
-      toi: \xAB\_l\xE2che pas, \xE7a va bien aller.\_\xBB"
+    m_Localized: "If humans were still around, they\u2019d probably say, \u201CDon\u2019t
+      give up, \xE7a va bien aller (everything\u2019s gonna be alright).\u201D"
     m_Metadata:
       m_Items: []
   - m_Id: 158283587584
-    m_Localized: "en Ok\u2026 Iels ont raison, il y a encore beaucoup de feux viens!"
+    m_Localized: "Ok, well they have a point. There are still so many fires to put
+      out. Let\u2019s go!"
     m_Metadata:
       m_Items: []
   references:

@@ -18,6 +18,9 @@ public class triggerEndingAnimation : MonoBehaviour
     [SerializeField]
     private GameObject rawImageObject;
 
+    [SerializeField]
+    private AudioSource audioSource;
+
     void Start()
     {
         if (videoClipEN && videoClipFR && rawImageObject && videoPlayer)
@@ -28,6 +31,7 @@ public class triggerEndingAnimation : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
+        audioSource.Stop();
         if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0])
         {
             videoPlayer.clip = videoClipEN;

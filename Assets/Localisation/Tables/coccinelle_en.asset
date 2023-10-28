@@ -19,24 +19,22 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 11231289344
-    m_Localized: "anglais - Trop belles, il y en a des milliers! Elles ont un ma\xEEtre
-      comme toi?"
+    m_Localized: "They\u2019re lovely. There are thousands! Do they have owners like
+      you do?"
     m_Metadata:
       m_Items: []
   - m_Id: 103845715968
-    m_Localized: "anglais - Non, les humains pr\xE9f\xE8rent les exterminer celles-l\xE0.
-      Il faut dire qu\u2019elles nous envahissent \xE0 chaque ann\xE9e de plus en
-      plus.\_"
+    m_Localized: "No, humans want to get rid of them! They\u2019ve become more invasive
+      with every passing year."
     m_Metadata:
       m_Items: []
   - m_Id: 230555639808
-    m_Localized: "anglais - On m\u2019a dit que tout le monde \xE9tait parti. Finalement,
-      il reste du monde ici!"
+    m_Localized: I was told that everyone was gone, but there are still living beings
+      around!
     m_Metadata:
       m_Items: []
   - m_Id: 284930596864
-    m_Localized: "anglais - Je vais \xE9teindre les feux pour elles. Et puis pour
-      toi!"
+    m_Localized: "I\u2019m going to put out these fires for them. And for you too!"
     m_Metadata:
       m_Items: []
   references:

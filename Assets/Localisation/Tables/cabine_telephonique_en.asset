@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 8811175936
-    m_Localized: "en Dr\xF4le de cabane"
+    m_Localized: "That\u2019s a strange-looking booth."
     m_Metadata:
       m_Items: []
   - m_Id: 182056902656
-    m_Localized: en Un vieux bidule.
+    m_Localized: An old artifact.
     m_Metadata:
       m_Items: []
   references:

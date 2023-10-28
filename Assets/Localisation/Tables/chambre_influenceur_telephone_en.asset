@@ -19,23 +19,37 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 18663596032
-    m_Localized: "en *Centre de notifications*\n\nE-courrier\_\nAirTransit: Vol A32423
-      annul\xE9\n\nTemps d\u2019\xE9cran\nVotre temps d\u2019\xE9cran a diminu\xE9
-      de 100% depuis la semaine derni\xE8re.\n\nMessager\nAllo?? T\u2019as vu, on
-      pourra pas partir sur la beach."
+    m_Localized: 'Notifications
+
+
+      E-Mail
+
+      AirTransit: Flight A32423 cancelled
+
+
+      Screen
+      Time
+
+      Your screen time has decreased 100% from the previous week.
+
+
+      Messages
+
+      Hello??
+      Did u hear that we can no longer head to the beach?'
     m_Metadata:
       m_Items: []
   - m_Id: 183629766656
-    m_Localized: en First world problem.
+    m_Localized: First world problem.
     m_Metadata:
       m_Items: []
   - m_Id: 263103438848
-    m_Localized: "en Qu\u2019est-ce que tu veux dire?"
+    m_Localized: What exactly do you mean?
     m_Metadata:
       m_Items: []
   - m_Id: 937530744832
-    m_Localized: "en Les privil\xE8ges de certains sont responsables du malheur des
-      autres."
+    m_Localized: "It\u2019s when he privilege of a select few becomes other people\u2019s
+      tragedy."
     m_Metadata:
       m_Items: []
   references:

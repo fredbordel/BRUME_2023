@@ -19,18 +19,18 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 24497872896
-    m_Localized: "anglais - Oh, il y a un message sur le r\xE9pondeur."
+    m_Localized: "Oh, there\u2019s a message on the answering machine:"
     m_Metadata:
       m_Items: []
   - m_Id: 117431066624
-    m_Localized: "anglais - \xAB\_ Allo\u2026 Si tu m\u2019entends, d\xE9croche.
-      T\u2019as vu aux nouvelles ce qu\u2019ils annoncent? Ceux qui ont de l\u2019argent
-      y vont se sauver dans les paradis.\_ Mais moi j\u2019veux rien savoir de partir.\_
-      Tant qu\u2019on va pouvoir rester icitte, on va rester icitte.\_\xBB"
+    m_Localized: "\u201CHello?  If you\u2019re there, please answer. Did you hear
+      what they\u2019re saying on the news? Those who have the means are going to
+      escape to some paradise, but just the thought of leaving makes me sick. As
+      long as we can stay put, we\u2019re staying put.\u201D\n"
     m_Metadata:
       m_Items: []
   - m_Id: 267356463104
-    m_Localized: "anglais - Je les comprends, c\u2019est tellement douillet ici."
+    m_Localized: "I understand where they\u2019re coming from. It\u2019s cozy here. "
     m_Metadata:
       m_Items: []
   references:

@@ -19,19 +19,20 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 16155402240
-    m_Localized: en mindfulgirl.blog.com
+    m_Localized: mindfulgirl.blog.com
     m_Metadata:
       m_Items: []
   - m_Id: 97751392256
-    m_Localized: "en Bonjour mes abonn\xE9.es,\nCette semaine je vis beaucoup d\u2019anxi\xE9t\xE9.
-      J\u2019ai commenc\xE9\_\n\xE0 faire un tri dans mes objets. L\u2019accumulation
-      me distrait de ce que je veux vraiment et ce qui me fait me sentir bien. C\u2019est
-      comme un cercle o\xF9 des objets absurdes me m\xE8nent au malheur et je finis
-      par en acheter plus, ce qui m\u2019apporte plus de stress et de frustration.
-      Je voulais tout jeter.\nSauf que je suis tomb\xE9e sur mon porte bonheur,\nJe
-      n\u2019ai pas pu. C\u2019est tout ce qui me reste de chez moi. C\u2019est un
-      morceau de moi. Qui me ram\xE8ne \xE0 moi. Une boussole. Je suis contradiction.\nUne
-      petite m\xE9ditation s\u2019impose.\nStay present, stay focus,\nxox mindfulgirl"
+    m_Localized: "Dear Community,\nI\u2019m dealing with a lot of anxiety this week.
+      I started to sort through all of my belongings. The accumulation is distracting
+      me from what I really want and what feels good. It\u2019s a vicious cycle where
+      these ridiculous objects make me feel awful and I end up buying more, which
+      brings on even more stress and frustration. I wanted to throw everything out!
+      But then I came across my good luck charm. I couldn\u2019t go through with
+      it. It\u2019s all that\u2019s left of my stuff. It\u2019s a part of me. It
+      brings me back to myself \u2013 a compass of sorts. I\u2019m such a contradiction!
+      A meditation session is in order.\nStay present and stay focused,\nmindfulgirl
+      xox\n"
     m_Metadata:
       m_Items: []
   references:

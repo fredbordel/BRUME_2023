@@ -5,11 +5,16 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
-
+    [SerializeField]
     private AudioSource audioSource;
-    public AudioClip source1;
-    public AudioClip source2;
-    public AudioClip source3;
+    [SerializeField]
+    private AudioClip source1;
+    [SerializeField]
+    private AudioClip source2;
+    [SerializeField]
+    private AudioClip source3;
+
+    public AudioClip source4;
 
     void Start()
     {
@@ -31,20 +36,41 @@ public class MusicManager : MonoBehaviour
 
     private void ToggleMusic(int number)
     {
-        switch (number)
+
+        if (number >= 1 && number < 4)
         {
-            case 4:
-                audioSource.clip = source1;
-                audioSource.Play();
-                break;
-            case 6:
-                audioSource.clip = source2;
-                audioSource.Play();
-                break;
-            case 8:
-                audioSource.Play();
-                audioSource.clip = source3;
-                break;
+            audioSource.clip = source1;
+            audioSource.Play();
         }
+        else if (number >= 4 && number < 6)
+        {
+            audioSource.clip = source2;
+            audioSource.Play();
+        }
+        else if (number >= 6 && number < 8)
+        {
+            audioSource.clip = source3;
+            audioSource.Play();
+        }
+        else if (number >= 8 && number < 10)
+        {
+            audioSource.clip = source4;
+            audioSource.Play();
+        }
+        // switch (number)
+        // {
+        //     case 4:
+        //         audioSource.clip = source1;
+        //         audioSource.Play();
+        //         break;
+        //     case 6:
+        //         audioSource.clip = source2;
+        //         audioSource.Play();
+        //         break;
+        //     case 8:
+        //         audioSource.Play();
+        //         audioSource.clip = source3;
+        //         break;
+        // }
     }
 }

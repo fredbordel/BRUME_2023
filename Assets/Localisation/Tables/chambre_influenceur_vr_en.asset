@@ -19,27 +19,27 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 5434761216
-    m_Localized: "en \xC7a sent mauvais.."
+    m_Localized: It smells bad.
     m_Metadata:
       m_Items: []
   - m_Id: 63160967168
-    m_Localized: "en C\u2019est le plastique br\xFBl\xE9.\_"
+    m_Localized: "It\u2019s burnt plastic."
     m_Metadata:
       m_Items: []
   - m_Id: 125429604352
-    m_Localized: en Encore du plastique!!
+    m_Localized: Plastic! Again??
     m_Metadata:
       m_Items: []
   - m_Id: 155058167808
-    m_Localized: "en C\u2019est \xE0 la base de presque tous nos objets."
+    m_Localized: "It\u2019s what makes up most of our things."
     m_Metadata:
       m_Items: []
   - m_Id: 203741454336
-    m_Localized: "en Qu\u2019est-ce qu\u2019on voit l\xE0 dedans?"
+    m_Localized: What do people see in it??
     m_Metadata:
       m_Items: []
   - m_Id: 252915474432
-    m_Localized: "M\xE9tavers."
+    m_Localized: The metaverse.
     m_Metadata:
       m_Items: []
   references:

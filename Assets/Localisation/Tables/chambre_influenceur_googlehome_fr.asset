@@ -27,11 +27,18 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 170992328704
-    m_Localized: "\xAB\_42 degr\xE9s celsius, n\u2019oubliez pas de mettre de la
-      cr\xE8me solaire. Smog dangereux attention.\_\xBB"
+    m_Localized: 'Oui et elle sait beaucoup de choses, regarde:
+
+      Dina, il fait
+      combien dehors?'
     m_Metadata:
       m_Items: []
   - m_Id: 382251032576
+    m_Localized: "\xAB 42 degr\xE9s celsius, n\u2019oubliez pas de mettre de la cr\xE8me
+      solaire. Smog dangereux attention. \xBB"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6906377556451328
     m_Localized: Wow.
     m_Metadata:
       m_Items: []

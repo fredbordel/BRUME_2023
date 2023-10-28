@@ -19,16 +19,15 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 8647598080
-    m_Localized: "[EN] - Sur une plan\xE8te particuli\xE8re, dans une ville bien
-      ordinaire, des feux ravageurs menacent d\u2019effacer toutes traces de vie.\nSes
-      occupant.es se sont sauv\xE9.es, laissant derri\xE8re eux et elles, tous leurs
-      biens. Le dernier espoir pour sauver leurs histoires, Brume, un petit nuage
-      compos\xE9 d\u2019eau. Iel est abondant.e et a re\xE7u pour mission de ma\xEEtriser
-      les flammes. Ne connaissant rien des occupant.es, chaque objet crois\xE9 sur
-      son passage peut \xEAtre un indice r\xE9v\xE9lateur des causes de cette catastrophe.\nJuste
-      avant de se d\xE9poser sur terre, iel se demande: \n\xAB\_Si l\u2019eau peut
-      aussi \xEAtre \xE9l\xE9ment de d\xE9sastre naturel, le feu est-il r\xE9ellement
-      au coeur du probl\xE8me ici?\_\xBB"
+    m_Localized: "On a certain planet somewhere, in a plain and ordinary town, ravaging
+      fires threaten to wipe out all forms of life.\nHaving evacuated, the town\u2019s
+      inhabitants have left behind all of their belongings.\nThe only hope in preserving
+      their stories: Brume, a small cloud made of water.\nA kind and generous soul,
+      Brume was sent on a mission to tame the fires.\nKnowing nothing about the former
+      inhabitants, every object they come across is a clue pointing to the cause
+      of this human catastrophe.\nJust before touching down, Brume asks themself:
+      \u201CIf water can be just as much an element of a natural disaster, is fire
+      really at the heart of the problem?\u201D"
     m_Metadata:
       m_Items: []
   references:

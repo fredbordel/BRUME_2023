@@ -9,12 +9,12 @@ public class ChooseLang : MonoBehaviour
     public void SelectFr()
     {
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[1];
-        SceneManager.LoadScene("nouvelle_map");
+        SceneManager.LoadScene("fausse_intro");
     }
 
     public void SelectEn()
     {
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[0];
-        SceneManager.LoadScene("nouvelle_map");
+        SceneManager.LoadScene("fausse_intro");
     }
 }

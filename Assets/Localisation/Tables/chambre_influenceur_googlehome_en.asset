@@ -19,20 +19,27 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 5749334016
-    m_Localized: "en Dina, mets nous de l\u2019ambiance."
+    m_Localized: Dina, play something.
     m_Metadata:
       m_Items: []
   - m_Id: 74674331648
-    m_Localized: en La maison te comprend ?:O
+    m_Localized: The house can understand you?? :O
     m_Metadata:
       m_Items: []
   - m_Id: 170992328704
-    m_Localized: "en \xAB\_42 degr\xE9s celsius, n\u2019oubliez pas de mettre de
-      la cr\xE8me solaire. Smog dangereux attention.\_\xBB"
+    m_Localized: 'Yeah, it knows a lot of stuff. Watch:
+
+      Dina, how hot is it
+      outside?'
     m_Metadata:
       m_Items: []
   - m_Id: 382251032576
-    m_Localized: en Wow.
+    m_Localized: "\u201C42 degrees Celsius. Don\u2019t forget to put on sunscreen.
+      \nWarning: smog alert.\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6906377556451328
+    m_Localized: Wow.
     m_Metadata:
       m_Items: []
   references:

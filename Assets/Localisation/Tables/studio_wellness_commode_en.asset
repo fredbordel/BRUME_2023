@@ -19,12 +19,12 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 5736751104
-    m_Localized: "en \xC7a sent bon!"
+    m_Localized: It smells nice!
     m_Metadata:
       m_Items: []
   - m_Id: 45813325824
-    m_Localized: "en Oui, \xE7a c\u2019est un purificateur d\u2019air. Les gens prennent
-      soin de leur bulle, comme s\u2019iels vivaient dans des petits terrariums."
+    m_Localized: "Yeah, that\u2019s an air purifier. People take care of their personal
+      bubbles like they were small terrariums."
     m_Metadata:
       m_Items: []
   references:

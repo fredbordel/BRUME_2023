@@ -19,11 +19,16 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 9037668352
-    m_Localized: "en Arr\xEAt? Un rappel pour les gens de prendre une pause?"
+    m_Localized: "\u201CSTOP\u201D \u2013 is that a reminder for people to take a
+      break?"
     m_Metadata:
       m_Items: []
   - m_Id: 65165844480
-    m_Localized: en Oui! Enfin!
+    m_Localized: Yes, finally!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6907317210570752
+    m_Localized: "There\u2019s no time. Let\u2019s go!"
     m_Metadata:
       m_Items: []
   references:

@@ -19,18 +19,26 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 39274405888
-    m_Localized: "en To do:\nM\xE9nage: plier linge, sortir poubelles, laver salle
-      de bain\nFaire penser \xE0 Mr d\u2019aller chercher b\xE9b\xE9\nAnnuler psy
-      semaine pro, m\xE9diter 10 minutes"
+    m_Localized: 'To do:
+
+      Housework: fold laundry, take out garbage, clean
+      bathroom
+
+      Get hubby to consider picking baby up
+
+      Next week: cancel
+      therapy, meditate 10 mins
+
+'
     m_Metadata:
       m_Items: []
   - m_Id: 119511441408
-    m_Localized: "en To do or not to do\u2026"
+    m_Localized: "To do or not to do\u2026"
     m_Metadata:
       m_Items: []
   - m_Id: 179787784192
-    m_Localized: "en Ahh non \xE7a me rappelle tout ce que j\u2019ai \xE0 \xE9teindre
-      encore :("
+    m_Localized: Oh no, that reminds me of everything that still needs to be put
+      out :( .
     m_Metadata:
       m_Items: []
   references:

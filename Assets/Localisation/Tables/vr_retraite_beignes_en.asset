@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 5787082752
-    m_Localized: en Ah les bons beignes aux patates de matante!
+    m_Localized: "There\u2019s nothing like some old-fashioned potato donuts!"
     m_Metadata:
       m_Items: []
   references:

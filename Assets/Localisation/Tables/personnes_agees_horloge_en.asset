@@ -19,17 +19,16 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 79682330624
-    m_Localized: "anglais - Le temps est arr\xEAt\xE9?"
+    m_Localized: Has time stopped?
     m_Metadata:
       m_Items: []
   - m_Id: 203875672064
-    m_Localized: "anglais - L\u2019horloge est arr\xEAt\xE9e. C\u2019est pas parce
-      qu\u2019iels ne sont plus l\xE0 que la terre arr\xEAte de tourner."
+    m_Localized: "It\u2019s just the clock. Just because everyone\u2019s gone doesn\u2019t
+      mean that the world stops turning. "
     m_Metadata:
       m_Items: []
   - m_Id: 265712295936
-    m_Localized: "anglais - Je me demande s\u2019iels ont eu le temps de faire ce
-      qu'iels voulaient."
+    m_Localized: "I wonder if they had the time to accomplish everything they wanted\u2026"
     m_Metadata:
       m_Items: []
   references:

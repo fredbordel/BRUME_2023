@@ -19,22 +19,20 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 13097754624
-    m_Localized: "anglais - \xAB\_ Apocalypse!!! Cette \xE9dition sera-t-elle la
-      derni\xE8re?\_\xBB "
+    m_Localized: "\u201CAPOCALYPSE!\nWill this edition be our last??\u201D"
     m_Metadata:
       m_Items: []
   - m_Id: 284985122816
-    m_Localized: anglais - Apocalypse :O
+    m_Localized: Apocalypse :O
     m_Metadata:
       m_Items: []
   - m_Id: 305998585856
-    m_Localized: "anglais - Oui, ce n\u2019est pas la premi\xE8re fin du monde annonc\xE9e
-      dans les nouvelles. J\u2019ai arr\xEAt\xE9 de lire \xE7a moi, je fais juste
-      les mots crois\xE9s."
+    m_Localized: "Yeah, it\u2019s not the first time the headlines announce the end
+      of the world. I stopped reading the news. I just do the crossword puzzles. "
     m_Metadata:
       m_Items: []
   - m_Id: 325925724160
-    m_Localized: anglais - Savant!
+    m_Localized: Clever!
     m_Metadata:
       m_Items: []
   references:

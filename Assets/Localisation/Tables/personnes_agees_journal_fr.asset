@@ -19,7 +19,8 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 13097754624
-    m_Localized: "\xAB\_ Apocalypse!!! Cette \xE9dition sera-t-elle la derni\xE8re?\_\xBB "
+    m_Localized: "\xAB  Apocalypse!!!\nCette \xE9dition sera-t-elle la derni\xE8re?
+      \xBB "
     m_Metadata:
       m_Items: []
   - m_Id: 284985122816

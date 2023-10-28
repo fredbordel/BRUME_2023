@@ -19,21 +19,19 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 18906865664
-    m_Localized: "en \xAB Terres vol\xE9es \xBB"
+    m_Localized: "\u201CStolen land\u201D"
     m_Metadata:
       m_Items: []
   - m_Id: 73961299968
-    m_Localized: "en On d\xE9truit c\u2019qu\u2019y est m\xEAme pas \xE0 nous."
+    m_Localized: "We destroy what\u2019s not even ours."
     m_Metadata:
       m_Items: []
   - m_Id: 136192188416
-    m_Localized: "en La crise environnementale a d\xE9but\xE9 il y a tr\xE8s longtemps
-      pour certains."
+    m_Localized: The climate crisis started way back for some people.
     m_Metadata:
       m_Items: []
   - m_Id: 196984430592
-    m_Localized: "en J\u2019aurais peut-\xEAtre d\xFB intervenir avant qu\u2019il
-      ne soit trop tard..."
+    m_Localized: "Maybe I should\u2019ve stepped in before it was too late\u2026"
     m_Metadata:
       m_Items: []
   references:

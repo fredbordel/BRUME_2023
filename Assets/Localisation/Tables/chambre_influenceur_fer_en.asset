@@ -19,21 +19,21 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 24728559616
-    m_Localized: "en J\u2019ai sauv\xE9 quoi l\xE0?"
+    m_Localized: What did I just salvage?
     m_Metadata:
       m_Items: []
   - m_Id: 55720271872
-    m_Localized: "en C\u2019est un fer \xE0 repasser. C\u2019est pour que les humains
-      soient lisses, sans le moindre faux pli."
+    m_Localized: "It\u2019s an iron. It\u2019s for humans to be able to smooth out
+      any and all wrinkles."
     m_Metadata:
       m_Items: []
   - m_Id: 116646731776
-    m_Localized: "en J\u2019esp\xE8re qu\u2019ils arrivent \xE0 se repasser l\xE0
-      o\xF9 ils sont, \xE7a semble important."
+    m_Localized: "I hope they\u2019re still able to iron where they are now. It seems
+      important."
     m_Metadata:
       m_Items: []
   - m_Id: 168043732992
-    m_Localized: en Hahaha woof
+    m_Localized: Hahaha. Woof!
     m_Metadata:
       m_Items: []
   references:

@@ -36,7 +36,7 @@ MonoBehaviour:
       est palpable. Vous dont la g\xE9n\xE9ration est afflig\xE9e par la d\xE9pression,
       l\u2019anxi\xE9t\xE9, selon les sp\xE9cialistes. On pr\xE9f\xE8re vous penser
       capricieux\xB7ses plut\xF4t que d\u2019admettre qu\u2019on ne veut rien entendre
-      de vos cris. \xBB\n(p.79)\_"
+      de vos cris. \xBB (p.79)"
     m_Metadata:
       m_Items: []
   - m_Id: 290077007872
@@ -52,6 +52,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 434277179392
+    m_Localized: Prends le avec toi, je te conseille de le lire tout entier!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6907042986975232
     m_Localized: Il y a vraiment des objets qui semblent importants.
     m_Metadata:
       m_Items: []

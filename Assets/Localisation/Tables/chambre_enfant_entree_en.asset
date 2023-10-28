@@ -19,21 +19,20 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 27899453440
-    m_Localized: "anglais - Qu\u2019est-ce qui se passe ici? Iels sont en chicane?"
+    m_Localized: "What\u2019s going on here? Why the division? "
     m_Metadata:
       m_Items: []
   - m_Id: 254727413760
-    m_Localized: anglais - Non, ce sont juste des codes de couleur pour encourager
-      la consommation.
+    m_Localized: "Oh, they\u2019re just colour codes used to drive consumerism."
     m_Metadata:
       m_Items: []
   - m_Id: 382909538304
-    m_Localized: "anglais - Moi j\u2019aime toutes les couleurs, je consommerais
-      beaucoup?"
+    m_Localized: "I like all sorts of colours. Does that mean that I\u2019d get sucked
+      into consumerism?"
     m_Metadata:
       m_Items: []
   - m_Id: 445069123584
-    m_Localized: "anglais - Haha surement, c\u2019est dur d\u2019y \xE9chapper ici!"
+    m_Localized: "Haha. Surely. It\u2019s hard to get away from it here!"
     m_Metadata:
       m_Items: []
   references:

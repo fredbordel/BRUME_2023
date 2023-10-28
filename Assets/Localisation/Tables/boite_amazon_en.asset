@@ -19,24 +19,25 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 18047033344
-    m_Localized: "en Le fl\xE9au du 21e si\xE8cle\u2026"
+    m_Localized: The plague of the 21st century.
     m_Metadata:
       m_Items: []
   - m_Id: 72833032192
-    m_Localized: "en C\u2019est quoi?"
+    m_Localized: What is it?
     m_Metadata:
       m_Items: []
   - m_Id: 117305237504
-    m_Localized: "en La commande en ligne. En un click, ton objet du bout du monde
-      sonne \xE0 ta porte."
+    m_Localized: Online shopping. In one click, something ordered from the other
+      side of the world finds its way to your doorstep.
     m_Metadata:
       m_Items: []
   - m_Id: 181226430464
-    m_Localized: "en C\u2019est simple."
+    m_Localized: "That\u2019s simple."
     m_Metadata:
       m_Items: []
   - m_Id: 243864166400
-    m_Localized: "en Et rapide, pas cher et \xE7a brise \xE0 rien. Et on recommence."
+    m_Localized: "It\u2019s also quick, cheap, and disposable. And then it starts
+      all over again."
     m_Metadata:
       m_Items: []
   references:

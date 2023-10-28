@@ -43,6 +43,10 @@ MonoBehaviour:
     m_Key: Chien4
     m_Metadata:
       m_Items: []
+  - m_Id: 6907042986975232
+    m_Key: Brume4
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

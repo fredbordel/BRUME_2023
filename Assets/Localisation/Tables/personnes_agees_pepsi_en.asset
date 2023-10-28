@@ -19,15 +19,15 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 15383650304
-    m_Localized: "anglais - Wow \xE7a fait beaucoup!"
+    m_Localized: "Woah, that\u2019s a lot!"
     m_Metadata:
       m_Items: []
   - m_Id: 104734908416
-    m_Localized: "anglais - Oui, au cas o\xF9 il y aurait une catastrophe. Haha ;)"
+    m_Localized: Yeah. In case of a world catastrophe. Haha ;)
     m_Metadata:
       m_Items: []
   - m_Id: 186054074368
-    m_Localized: anglais - Comique!
+    m_Localized: Hilarious!
     m_Metadata:
       m_Items: []
   references:
