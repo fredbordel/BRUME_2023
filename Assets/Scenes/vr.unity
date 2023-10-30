@@ -2475,6 +2475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   rbody: {fileID: 886710383}
+  brumeAnimator: {fileID: 0}
 --- !u!50 &886710383
 Rigidbody2D:
   serializedVersion: 4
@@ -2557,7 +2558,7 @@ Transform:
   m_GameObject: {fileID: 886710379}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.97, y: -12.57, z: 0}
-  m_LocalScale: {x: 17.041283, y: 26.574734, z: 9.86054}
+  m_LocalScale: {x: 23, y: 25, z: 9.86054}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

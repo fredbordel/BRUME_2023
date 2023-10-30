@@ -10,8 +10,13 @@ public class BrumeMovements : MonoBehaviour
     private float speed;
     [SerializeField]
     private Rigidbody2D rbody;
+    [SerializeField]
+    private Animator brumeAnimator;
+    private Animator chienAnimator;
+
     private PlayerInputActions playerActions;
     private Vector2 moveInput;
+
 
     void Awake()
     {
@@ -25,6 +30,9 @@ public class BrumeMovements : MonoBehaviour
 
     void Start()
     {
+        brumeAnimator = GetComponent<Animator>();
+        chienAnimator = GameObject.FindGameObjectsWithTag("chien")[0].GetComponent<Animator>();
+
         var MainManagerInstance = MainManager.Instance;
         if (MainManagerInstance && MainManagerInstance.BrumePosition != null && MainManagerInstance.CurrentScene == "nouvelle_map")
         {
@@ -37,27 +45,37 @@ public class BrumeMovements : MonoBehaviour
         playerActions.Brume.Disable();
     }
 
-    void FixedUpdate()
+    void Update()
     {
 
         if (!MainManager.Instance || (MainManager.Instance && !MainManager.Instance.IsDialogueOpened))
         {
 
             moveInput = playerActions.Brume.Movement.ReadValue<Vector2>();
-            playerActions.Brume.Movement.performed += Try;
+
+            if (moveInput.y < 0)
+            {
+                brumeAnimator.SetInteger("direction", 1);
+                chienAnimator.SetInteger("direction", 0);
+            }
+
+            else if (moveInput.x > 0 || moveInput.x < 0)
+            {
+                brumeAnimator.SetInteger("direction", 2);
+                chienAnimator.SetInteger("direction", 1);
+            }
+
+            else if (moveInput.y > 0)
+            {
+                brumeAnimator.SetInteger("direction", 3);
+                chienAnimator.SetInteger("direction", 2);
+            }
+
             rbody.velocity = moveInput * speed;
         }
-
         else
         {
             rbody.velocity = Vector2.zero;
         }
-
-
-    }
-
-    private void Try(InputAction.CallbackContext context)
-    {
-        // Debug.Log("SUBSCRIBE " + context.ReadValue<Vector2>());
     }
 }
