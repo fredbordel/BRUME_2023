@@ -5,9 +5,16 @@ using UnityEngine;
 
 public class PlayQuitGame : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject FR;
+
+    [SerializeField]
+    private GameObject EN;
+
     public void StartGame()
     {
-        SceneManager.LoadScene("Menu_EN_FR");
+        FR.SetActive(true);
+        EN.SetActive(true);
     }
 
     public void QuitGame()

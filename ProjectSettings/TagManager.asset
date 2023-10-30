@@ -10,6 +10,7 @@ TagManager:
   - feu
   - dialogBox
   - objectDialogBox
+  - langbtn
   layers:
   - Default
   - TransparentFX
