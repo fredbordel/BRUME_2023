@@ -23,11 +23,6 @@ public class ChangeScene : MonoBehaviour
     }
   }
 
-  public void Test()
-  {
-    SceneManager.LoadScene("nouvelle_map");
-  }
-
   public IEnumerator _ChangeScene()
   {
     fade.FadeIn();

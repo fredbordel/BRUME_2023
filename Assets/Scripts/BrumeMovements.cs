@@ -50,7 +50,6 @@ public class BrumeMovements : MonoBehaviour
 
         if (!MainManager.Instance || (MainManager.Instance && !MainManager.Instance.IsDialogueOpened))
         {
-
             moveInput = playerActions.Brume.Movement.ReadValue<Vector2>();
 
             if (moveInput.y < 0)

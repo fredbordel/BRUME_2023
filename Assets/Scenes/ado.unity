@@ -945,7 +945,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 827226846}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToggleGameMenu, Assembly-CSharp
         m_MethodName: SelectEn
         m_Mode: 1
@@ -1781,7 +1781,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 827226846}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToggleGameMenu, Assembly-CSharp
         m_MethodName: ContinueGame
         m_Mode: 1
@@ -2108,7 +2108,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3b38000a3f1674455985a50251980c51, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2182,7 +2182,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.5
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -2371,7 +2371,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656759484}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.2043, y: -14.046, z: 0}
+  m_LocalPosition: {x: 18.5, y: -13.4, z: 0}
   m_LocalScale: {x: 20, y: 20, z: 19.564165}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3025,7 +3025,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784953218}
   m_CullTransparentMesh: 1
---- !u!1 &827226845
+--- !u!1 &848222214
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3033,8 +3033,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 827226847}
-  - component: {fileID: 827226846}
+  - component: {fileID: 848222217}
+  - component: {fileID: 848222216}
+  - component: {fileID: 848222215}
   m_Layer: 0
   m_Name: ToggleGameMenu
   m_TagString: Untagged
@@ -3042,13 +3043,43 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &827226846
+--- !u!114 &848222215
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827226845}
+  m_GameObject: {fileID: 848222214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: c2b98a85605cb4906b03c30635427b28, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Brume
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &848222216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848222214}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff9d3fcd5adf7475a9982e318bc388d4, type: 3}
@@ -3056,13 +3087,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameMenu: {fileID: 317995329}
   menuFirstButton: {fileID: 524710222}
---- !u!4 &827226847
+--- !u!4 &848222217
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827226845}
+  m_GameObject: {fileID: 848222214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3654,7 +3685,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 827226846}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToggleGameMenu, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -5540,7 +5571,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3b38000a3f1674455985a50251980c51, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -5614,7 +5645,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5858,7 +5889,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 827226846}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ToggleGameMenu, Assembly-CSharp
         m_MethodName: SelectFr
         m_Mode: 1
