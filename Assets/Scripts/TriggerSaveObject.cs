@@ -11,6 +11,8 @@ public class TriggerSaveObject : MonoBehaviour
     private GameObject rawImageObject;
     [SerializeField]
     private VideoClip videoClip;
+    [SerializeField]
+    private AudioSource saveObjectSound;
     private bool IsObjectSaved = false;
     private bool IsObjectWithVideo = false;
 
@@ -31,6 +33,7 @@ public class TriggerSaveObject : MonoBehaviour
     {
         if (IsObjectWithVideo)
         {
+            saveObjectSound.Play();
             PlayVideo();
         }
         else
