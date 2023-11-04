@@ -39,9 +39,4 @@ public class DialogueTrigger : MonoBehaviour
         eventSystem.SetSelectedGameObject(nextButton, null);
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue, gameObject, isDialogueWithVideo);
     }
-
-    // private void OnTriggerExit2D()
-    // {
-    //     dialogueBoxObject.SetActive(false);
-    // }
 }

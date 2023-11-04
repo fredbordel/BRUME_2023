@@ -7,7 +7,9 @@ public class ChangeScene : MonoBehaviour
 
   public string sceneToGoTo;
   private bool colliding;
-  FadeInOut fade;
+  private FadeInOut fade;
+  [SerializeField]
+  private AudioSource audioSource;
 
 
   void Start()
@@ -25,6 +27,13 @@ public class ChangeScene : MonoBehaviour
 
   public IEnumerator _ChangeScene()
   {
+    float startVolume = audioSource.volume;
+    while (audioSource.volume > 0)
+    {
+      audioSource.volume -= startVolume * Time.deltaTime / 1.5f;
+      yield return null;
+    }
+
     fade.FadeIn();
     yield return new WaitForSeconds(1);
     SceneManager.LoadScene(sceneToGoTo);
@@ -36,7 +45,6 @@ public class ChangeScene : MonoBehaviour
     MainManager.Instance.ChienPosition = GameObject.FindWithTag("chien").transform.position;
     MainManager.Instance.CurrentScene = sceneToGoTo;
     MainManager.Instance.DisabledEnterSceneList.Add(gameObject.name);
-    MainManager.Instance.PathNumber += 1;
 
     StartCoroutine(_ChangeScene());
 

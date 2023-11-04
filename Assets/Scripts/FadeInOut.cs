@@ -13,7 +13,7 @@ public class FadeInOut : MonoBehaviour
     {
         if (fadein)
         {
-            if (canvasgroup.alpha < 1)
+            if (canvasgroup.alpha <= 1)
             {
                 canvasgroup.alpha += 1 * Time.deltaTime;
                 if (canvasgroup.alpha >= 1)

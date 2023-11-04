@@ -2099,7 +2099,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 121878211}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.69, y: -1.28, z: 0}
+  m_LocalPosition: {x: 3.82, y: -10.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2675,6 +2675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToGoTo: enfant
+  audioSource: {fileID: 1471733236}
 --- !u!61 &138081194
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2868,6 +2869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToGoTo: mom
+  audioSource: {fileID: 1471733236}
 --- !u!61 &166638253
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5931,6 +5933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToGoTo: influenceur
+  audioSource: {fileID: 1471733236}
 --- !u!61 &378261347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6183,6 +6186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToGoTo: personnes_agees
+  audioSource: {fileID: 1471733236}
 --- !u!61 &393559464
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16114,6 +16118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToGoTo: vr
+  audioSource: {fileID: 1471733236}
 --- !u!61 &1309942246
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16370,6 +16375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToGoTo: wellness
+  audioSource: {fileID: 1471733236}
 --- !u!61 &1327454917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16941,6 +16947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToGoTo: entrepot
+  audioSource: {fileID: 1471733236}
 --- !u!61 &1423557839
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17363,7 +17370,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456124844}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.146701, y: 0.33063507, z: -10}
+  m_LocalPosition: {x: 13.146543, y: 0.33063507, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17661,6 +17668,7 @@ GameObject:
   - component: {fileID: 1471733237}
   - component: {fileID: 1471733236}
   - component: {fileID: 1471733238}
+  - component: {fileID: 1471733239}
   m_Layer: 0
   m_Name: GameMusic
   m_TagString: music
@@ -17680,7 +17688,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 489ec3579fca545759dede773e22f7a3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -17796,6 +17804,18 @@ MonoBehaviour:
   source2: {fileID: 8300000, guid: 32bcaff03982840b88064504b6c8d22a, type: 3}
   source3: {fileID: 8300000, guid: 6dabfa19f406e43eca65383e11d01c49, type: 3}
   source4: {fileID: 8300000, guid: 34013e094ce974222918f937e9071d8a, type: 3}
+--- !u!114 &1471733239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471733235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db7ba2ca19e641629c0a2740eff1ede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1509563428
 GameObject:
   m_ObjectHideFlags: 0
@@ -22806,6 +22826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToGoTo: ado
+  audioSource: {fileID: 1471733236}
 --- !u!61 &2029400186
 BoxCollider2D:
   m_ObjectHideFlags: 0

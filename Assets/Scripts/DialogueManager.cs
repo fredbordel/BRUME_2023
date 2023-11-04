@@ -46,7 +46,7 @@ public class DialogueManager : MonoBehaviour
     {
         isDialogueWith3DVideo = isDialWithVideo;
 
-        StartCoroutine(FadeVolume(0.2f, 1.5f));
+        StartCoroutine(FadeVolume(0.1f, 1.5f));
 
         if (isDialWithVideo)
         {
@@ -120,9 +120,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        // dialogueBox = GameObject.FindWithTag("dialogBox");
-
-        StartCoroutine(FadeVolume(1, 1.5f));
+        StartCoroutine(FadeVolume(0.5f, 1.5f));
 
         if (isDialogueWith3DVideo)
         {

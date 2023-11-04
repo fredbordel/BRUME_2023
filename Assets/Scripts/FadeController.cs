@@ -5,7 +5,7 @@ using UnityEngine;
 public class FadeController : MonoBehaviour
 {
 
-    FadeInOut fade;
+    private FadeInOut fade;
     // Start is called before the first frame update
     void Start()
     {

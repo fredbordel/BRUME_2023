@@ -57,20 +57,5 @@ public class MusicManager : MonoBehaviour
             audioSource.clip = source4;
             audioSource.Play();
         }
-        // switch (number)
-        // {
-        //     case 4:
-        //         audioSource.clip = source1;
-        //         audioSource.Play();
-        //         break;
-        //     case 6:
-        //         audioSource.clip = source2;
-        //         audioSource.Play();
-        //         break;
-        //     case 8:
-        //         audioSource.Play();
-        //         audioSource.clip = source3;
-        //         break;
-        // }
     }
 }
