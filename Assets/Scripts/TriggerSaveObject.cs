@@ -11,6 +11,10 @@ public class TriggerSaveObject : MonoBehaviour
     private GameObject rawImageObject;
     [SerializeField]
     private VideoClip videoClip;
+    [SerializeField]
+    private AudioSource saveObjectSound;
+    [SerializeField]
+    private Animator videoDialogueAnimator;
     private bool IsObjectSaved = false;
     private bool IsObjectWithVideo = false;
 
@@ -31,6 +35,8 @@ public class TriggerSaveObject : MonoBehaviour
     {
         if (IsObjectWithVideo)
         {
+            videoDialogueAnimator.SetTrigger("isOpen");
+            saveObjectSound.Play();
             PlayVideo();
         }
         else
@@ -42,15 +48,22 @@ public class TriggerSaveObject : MonoBehaviour
 
     void PlayVideo()
     {
+        MainManager.Instance.is3DVideoFinished = false;
         IsObjectSaved = true;
-        rawImageObject.SetActive(true);
         videoPlayer.clip = videoClip;
         videoPlayer.Play();
     }
 
     void HideFireWhenVideoEnds(VideoPlayer vp)
     {
-        rawImageObject.SetActive(false);
+        MainManager.Instance.is3DVideoFinished = true;
+
+        if (MainManager.Instance.is3DVideoDialogueFinished)
+        {
+            videoPlayer.clip = null;
+            videoDialogueAnimator.SetTrigger("isClose");
+            MainManager.Instance.IsDialogueOpened = false;
+        }
 
         if (IsObjectSaved)
         {

@@ -13,6 +13,7 @@ public class ChienMovements : MonoBehaviour
     private Rigidbody2D rb;
 
     private float distance;
+    private bool canChienMove;
 
 
     private void Start()
@@ -31,7 +32,6 @@ public class ChienMovements : MonoBehaviour
     private void Update()
     {
         // Physics2D.IgnoreCollision(brumeCollider, chienCollider, true);
-
         if (Vector2.Distance(transform.position, brume.position) > chienDistanceFromBrume)
         {
             transform.position = Vector2.MoveTowards(transform.position, brume.position, speed * Time.deltaTime);

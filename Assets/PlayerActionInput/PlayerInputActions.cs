@@ -35,6 +35,15 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""MenuOpenClose"",
+                    ""type"": ""Button"",
+                    ""id"": ""70276504-b28c-4293-98c2-6cbe55c651f1"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -103,15 +112,61 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                     ""action"": ""Movement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f8061a7b-7fd0-4886-94c3-5393c1dc23a8"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""MenuOpenClose"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""11d7a739-99d4-4c18-9bf5-03ef560a1efb"",
+                    ""path"": ""<HID:: Trooper V2     Trooper V2   >/button2"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Joystick"",
+                    ""action"": ""MenuOpenClose"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
     ],
-    ""controlSchemes"": []
+    ""controlSchemes"": [
+        {
+            ""name"": ""Keyboard"",
+            ""bindingGroup"": ""Keyboard"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<Keyboard>"",
+                    ""isOptional"": true,
+                    ""isOR"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Joystick"",
+            ""bindingGroup"": ""Joystick"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<HID:: Trooper V2     Trooper V2   >"",
+                    ""isOptional"": true,
+                    ""isOR"": false
+                }
+            ]
+        }
+    ]
 }");
         // Brume
         m_Brume = asset.FindActionMap("Brume", throwIfNotFound: true);
         m_Brume_Movement = m_Brume.FindAction("Movement", throwIfNotFound: true);
+        m_Brume_MenuOpenClose = m_Brume.FindAction("MenuOpenClose", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -172,11 +227,13 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Brume;
     private IBrumeActions m_BrumeActionsCallbackInterface;
     private readonly InputAction m_Brume_Movement;
+    private readonly InputAction m_Brume_MenuOpenClose;
     public struct BrumeActions
     {
         private @PlayerInputActions m_Wrapper;
         public BrumeActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movement => m_Wrapper.m_Brume_Movement;
+        public InputAction @MenuOpenClose => m_Wrapper.m_Brume_MenuOpenClose;
         public InputActionMap Get() { return m_Wrapper.m_Brume; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -189,6 +246,9 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @Movement.started -= m_Wrapper.m_BrumeActionsCallbackInterface.OnMovement;
                 @Movement.performed -= m_Wrapper.m_BrumeActionsCallbackInterface.OnMovement;
                 @Movement.canceled -= m_Wrapper.m_BrumeActionsCallbackInterface.OnMovement;
+                @MenuOpenClose.started -= m_Wrapper.m_BrumeActionsCallbackInterface.OnMenuOpenClose;
+                @MenuOpenClose.performed -= m_Wrapper.m_BrumeActionsCallbackInterface.OnMenuOpenClose;
+                @MenuOpenClose.canceled -= m_Wrapper.m_BrumeActionsCallbackInterface.OnMenuOpenClose;
             }
             m_Wrapper.m_BrumeActionsCallbackInterface = instance;
             if (instance != null)
@@ -196,12 +256,34 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
                 @Movement.started += instance.OnMovement;
                 @Movement.performed += instance.OnMovement;
                 @Movement.canceled += instance.OnMovement;
+                @MenuOpenClose.started += instance.OnMenuOpenClose;
+                @MenuOpenClose.performed += instance.OnMenuOpenClose;
+                @MenuOpenClose.canceled += instance.OnMenuOpenClose;
             }
         }
     }
     public BrumeActions @Brume => new BrumeActions(this);
+    private int m_KeyboardSchemeIndex = -1;
+    public InputControlScheme KeyboardScheme
+    {
+        get
+        {
+            if (m_KeyboardSchemeIndex == -1) m_KeyboardSchemeIndex = asset.FindControlSchemeIndex("Keyboard");
+            return asset.controlSchemes[m_KeyboardSchemeIndex];
+        }
+    }
+    private int m_JoystickSchemeIndex = -1;
+    public InputControlScheme JoystickScheme
+    {
+        get
+        {
+            if (m_JoystickSchemeIndex == -1) m_JoystickSchemeIndex = asset.FindControlSchemeIndex("Joystick");
+            return asset.controlSchemes[m_JoystickSchemeIndex];
+        }
+    }
     public interface IBrumeActions
     {
         void OnMovement(InputAction.CallbackContext context);
+        void OnMenuOpenClose(InputAction.CallbackContext context);
     }
 }

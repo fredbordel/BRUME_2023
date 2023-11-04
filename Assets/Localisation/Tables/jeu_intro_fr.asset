@@ -20,15 +20,29 @@ MonoBehaviour:
   m_TableData:
   - m_Id: 8647598080
     m_Localized: "Sur une plan\xE8te particuli\xE8re, dans une ville bien ordinaire,
-      des feux ravageurs menacent d\u2019effacer toutes traces de vie.\nSes occupant.es
-      se sont sauv\xE9.es, laissant derri\xE8re eux et elles, tous leurs biens.\nLe
-      dernier espoir pour sauver leurs histoires, Brume, un petit nuage compos\xE9
-      d\u2019eau.\nIel est abondant.e et a re\xE7u pour mission de ma\xEEtriser les
+      des feux ravageurs menacent d\u2019effacer toutes traces de vie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8077020721307648
+    m_Localized: "Ses occupant.es se sont sauv\xE9.es, laissant derri\xE8re eux et
+      elles, tous leurs biens."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8077124102512640
+    m_Localized: "Le dernier espoir pour sauver leurs histoires, Brume, un petit
+      nuage compos\xE9 d\u2019eau."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8077140544184320
+    m_Localized: "Iel est abondant.e et a re\xE7u pour mission de ma\xEEtriser les
       flammes.\nNe connaissant rien des occupant.es, chaque objet crois\xE9 sur son
-      passage peut \xEAtre un indice r\xE9v\xE9lateur des causes de cette catastrophe.\nJuste
-      avant de se d\xE9poser sur terre, iel se demande: \n\xAB Si l\u2019eau peut
-      aussi \xEAtre \xE9l\xE9ment de d\xE9sastre naturel, le feu est-il r\xE9ellement
-      au coeur du probl\xE8me ici? \xBB\n"
+      passage peut \xEAtre un indice r\xE9v\xE9lateur des causes de cette catastrophe."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8077154083397632
+    m_Localized: "Juste avant de se d\xE9poser sur terre, iel se demande: \n\xAB
+      Si l\u2019eau peut aussi \xEAtre \xE9l\xE9ment de d\xE9sastre naturel, le feu
+      est-il r\xE9ellement au coeur du probl\xE8me ici? \xBB"
     m_Metadata:
       m_Items: []
   references:

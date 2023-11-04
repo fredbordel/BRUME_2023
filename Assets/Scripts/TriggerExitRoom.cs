@@ -5,16 +5,12 @@ using UnityEngine;
 
 public class TriggerExitRoom : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private FadeInOut fade;
+    [SerializeField]
+    private AudioSource audioSource;
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        fade = FindObjectOfType<FadeInOut>();
     }
 
     void OnTriggerEnter2D()
@@ -26,8 +22,23 @@ public class TriggerExitRoom : MonoBehaviour
             {
                 MainManager.Instance.CurrentScene = "nouvelle_map";
             }
-
-            SceneManager.LoadScene("nouvelle_map");
+            MainManager.Instance.PathNumber += 1;
+            StartCoroutine(_ChangeScene());
         }
     }
+
+    public IEnumerator _ChangeScene()
+    {
+        float startVolume = audioSource.volume;
+        while (audioSource.volume > 0)
+        {
+            audioSource.volume -= startVolume * Time.deltaTime / 1.5f;
+            yield return null;
+        }
+
+        fade.FadeIn();
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("nouvelle_map");
+    }
+
 }

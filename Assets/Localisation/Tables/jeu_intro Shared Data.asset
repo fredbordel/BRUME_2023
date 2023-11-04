@@ -16,7 +16,23 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: c0c5c96c2b4704852851f532d7bdc79f
   m_Entries:
   - m_Id: 8647598080
-    m_Key: text
+    m_Key: phrase1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8077020721307648
+    m_Key: phrase2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8077124102512640
+    m_Key: phrase3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8077140544184320
+    m_Key: phrase4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8077154083397632
+    m_Key: phrase5
     m_Metadata:
       m_Items: []
   m_Metadata:
