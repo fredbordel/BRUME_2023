@@ -13,6 +13,8 @@ public class MainManager : MonoBehaviour
     public List<string> DisabledEnterSceneList = new List<string>();
     public bool IsDialogueOpened;
     public string CurrentScene = "nouvelle_map";
+    public bool is3DVideoFinished;
+    public bool is3DVideoDialogueFinished;
 
     // Characters
     public Vector2 BrumePosition;

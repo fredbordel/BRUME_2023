@@ -28,6 +28,8 @@ public class DialogueManager : MonoBehaviour
     private TextMeshProUGUI videoDialogueTxt;
     private Dialogue dialogue;
     private bool isDialogueWith3DVideo;
+    [SerializeField]
+    private Animator videoDialogueAnimator;
 
 
     public AudioSource audioSource;
@@ -44,6 +46,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue, GameObject dialogueToDisable, bool isDialWithVideo)
     {
+        MainManager.Instance.is3DVideoDialogueFinished = false;
+
         isDialogueWith3DVideo = isDialWithVideo;
 
         StartCoroutine(FadeVolume(0.1f, 1.5f));
@@ -121,9 +125,11 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         StartCoroutine(FadeVolume(0.5f, 1.5f));
+        MainManager.Instance.is3DVideoDialogueFinished = true;
 
-        if (isDialogueWith3DVideo)
+        if (isDialogueWith3DVideo && MainManager.Instance.is3DVideoFinished)
         {
+            videoDialogueAnimator.SetTrigger("isClose");
             VideoDialogueBox.SetActive(false);
         }
         else
@@ -138,8 +144,9 @@ public class DialogueManager : MonoBehaviour
             DialogueBox.SetActive(false);
         }
 
-        if (VideoDialogueBox)
+        if (VideoDialogueBox && MainManager.Instance.is3DVideoFinished)
         {
+            videoDialogueAnimator.SetTrigger("isClose");
             VideoDialogueBox.SetActive(false);
         }
 
