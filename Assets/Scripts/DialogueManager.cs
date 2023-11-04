@@ -30,6 +30,7 @@ public class DialogueManager : MonoBehaviour
     private bool isDialogueWith3DVideo;
     [SerializeField]
     private Animator videoDialogueAnimator;
+    private GameObject nextButton;
 
 
     public AudioSource audioSource;
@@ -44,9 +45,12 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<LocalizedString>();
     }
 
-    public void StartDialogue(Dialogue dialogue, GameObject dialogueToDisable, bool isDialWithVideo)
+    public void StartDialogue(Dialogue dialogue, GameObject dialogueToDisable, bool isDialWithVideo, GameObject _nextButton)
     {
         MainManager.Instance.is3DVideoDialogueFinished = false;
+
+        nextButton = _nextButton;
+        nextButton.SetActive(false);
 
         isDialogueWith3DVideo = isDialWithVideo;
 
@@ -113,6 +117,10 @@ public class DialogueManager : MonoBehaviour
             {
                 videoNameTxt.text = "Brume";
             }
+            else if (key.Contains("Chat"))
+            {
+                videoNameTxt.text = "Chat";
+            }
             else
             {
                 videoNameTxt.text = key;
@@ -124,33 +132,23 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        StartCoroutine(FadeVolume(0.5f, 1.5f));
         MainManager.Instance.is3DVideoDialogueFinished = true;
+        StartCoroutine(FadeVolume(0.5f, 1.5f));
 
         if (isDialogueWith3DVideo && MainManager.Instance.is3DVideoFinished)
         {
             videoDialogueAnimator.SetTrigger("isClose");
-            VideoDialogueBox.SetActive(false);
+            // VideoDialogueBox.SetActive(false);
+            MainManager.Instance.IsDialogueOpened = false;
         }
-        else
+        else if (DialogueBox && !isDialogueWith3DVideo)
         {
             DialogueBox.SetActive(false);
+            MainManager.Instance.IsDialogueOpened = false;
         }
 
         disableThisDialogue.SetActive(false);
 
-        if (DialogueBox)
-        {
-            DialogueBox.SetActive(false);
-        }
-
-        if (VideoDialogueBox && MainManager.Instance.is3DVideoFinished)
-        {
-            videoDialogueAnimator.SetTrigger("isClose");
-            VideoDialogueBox.SetActive(false);
-        }
-
-        MainManager.Instance.IsDialogueOpened = false;
         MainManager.Instance.DisabledDialogueList.Add(disableThisDialogue.name);
     }
 
@@ -171,6 +169,8 @@ public class DialogueManager : MonoBehaviour
 
     private IEnumerator DisplayTextSlowly(string sentence)
     {
+        nextButton.SetActive(false);
+
         if (dialogueTxt && !isDialogueWith3DVideo)
         {
             dialogueTxt.text = "";
@@ -199,5 +199,6 @@ public class DialogueManager : MonoBehaviour
 
             yield return new WaitForSecondsRealtime(0.03f);
         }
+        nextButton.SetActive(true);
     }
 }

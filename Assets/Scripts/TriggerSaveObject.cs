@@ -62,6 +62,7 @@ public class TriggerSaveObject : MonoBehaviour
         {
             videoPlayer.clip = null;
             videoDialogueAnimator.SetTrigger("isClose");
+            MainManager.Instance.IsDialogueOpened = false;
         }
 
         if (IsObjectSaved)

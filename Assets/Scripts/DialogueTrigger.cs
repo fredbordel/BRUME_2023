@@ -37,6 +37,6 @@ public class DialogueTrigger : MonoBehaviour
     {
         dialogueBoxObject.SetActive(true);
         eventSystem.SetSelectedGameObject(nextButton, null);
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue, gameObject, isDialogueWithVideo);
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue, gameObject, isDialogueWithVideo, nextButton);
     }
 }

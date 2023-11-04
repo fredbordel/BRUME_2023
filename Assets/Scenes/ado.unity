@@ -824,7 +824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8989ff1648e846e7907d6c9e44bac00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 581049950}
+  audioSource: {fileID: 1743446602}
 --- !u!1 &79841678
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,7 +948,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 848222216}
         m_TargetAssemblyTypeName: ToggleGameMenu, Assembly-CSharp
         m_MethodName: SelectEn
         m_Mode: 1
@@ -1609,10 +1609,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1042920091}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: DisplayNextSentence
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 508350220}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1782,7 +1782,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 848222216}
         m_TargetAssemblyTypeName: ToggleGameMenu, Assembly-CSharp
         m_MethodName: ContinueGame
         m_Mode: 1
@@ -1995,147 +1995,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574927332}
   m_CullTransparentMesh: 1
---- !u!1 &581049949
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 581049951}
-  - component: {fileID: 581049950}
-  - component: {fileID: 581049952}
-  m_Layer: 0
-  m_Name: Musique
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &581049950
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 581049949}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3b38000a3f1674455985a50251980c51, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.5
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!4 &581049951
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 581049949}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.150515, y: 6.583558, z: -0.9211992}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &581049952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 581049949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8db7ba2ca19e641629c0a2740eff1ede, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &656759484
 GameObject:
   m_ObjectHideFlags: 0
@@ -2461,10 +2320,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1042920091}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: DisplayNextSentence
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 696887921}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3163,7 +3022,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &880308426
 GameObject:
@@ -3916,7 +3775,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 848222216}
         m_TargetAssemblyTypeName: ToggleGameMenu, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -4002,7 +3861,7 @@ MonoBehaviour:
   videoNameTxt: {fileID: 101170016}
   videoDialogueTxt: {fileID: 901747017}
   videoDialogueAnimator: {fileID: 1849680332}
-  audioSource: {fileID: 581049950}
+  audioSource: {fileID: 1743446602}
 --- !u!4 &1042920092
 Transform:
   m_ObjectHideFlags: 0
@@ -4245,8 +4104,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1663173565}
   - {fileID: 1849680331}
+  - {fileID: 1663173565}
   - {fileID: 317995330}
   - {fileID: 1088750808}
   m_Father: {fileID: 0}
@@ -4275,7 +4134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!225 &1088750805
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4843,7 +4702,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1306989047
 GameObject:
@@ -4861,7 +4720,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1306989048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5896,7 +5755,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1663173564
 GameObject:
@@ -5932,7 +5791,7 @@ RectTransform:
   - {fileID: 784953219}
   - {fileID: 508350221}
   m_Father: {fileID: 1067091590}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5987,6 +5846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1743446603}
   - component: {fileID: 1743446602}
+  - component: {fileID: 1743446604}
   m_Layer: 0
   m_Name: Musique
   m_TagString: Untagged
@@ -6105,6 +5965,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1743446604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743446601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db7ba2ca19e641629c0a2740eff1ede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1813147229
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,7 +6061,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 848222216}
         m_TargetAssemblyTypeName: ToggleGameMenu, Assembly-CSharp
         m_MethodName: SelectFr
         m_Mode: 1
@@ -6271,7 +6143,7 @@ RectTransform:
   - {fileID: 1190809088}
   - {fileID: 574927333}
   m_Father: {fileID: 1067091590}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
