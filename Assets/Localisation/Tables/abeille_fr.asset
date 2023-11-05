@@ -19,12 +19,12 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 26913792000
-    m_Localized: "T\u2019es chanceux.se, tu as vu une abeille, c\u2019est rendu tr\xE8s
-      rare"
+    m_Localized: "T\u2019es chanceux\xB7se, tu as vu une abeille, c\u2019est rendu
+      tr\xE8s rare."
     m_Metadata:
       m_Items: []
   - m_Id: 91220860928
-    m_Localized: Waw!
+    m_Localized: Ouah!
     m_Metadata:
       m_Items: []
   references:

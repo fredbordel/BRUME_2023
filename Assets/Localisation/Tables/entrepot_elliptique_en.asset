@@ -24,10 +24,18 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 143020515328
     m_Localized: "Some kind of exercise machine. \nHumans have a weird tendency to
-      exercise on the spot.\nAnd then they go everywhere burning fuel."
+      exercise on the spot without going anywhere.\nAnd then they go everywhere burning
+      gas."
     m_Metadata:
       m_Items: []
   - m_Id: 240835878912
+    m_Localized: 'Humans have a weird tendency to exercise on the spot without going
+      anywhere.
+
+      And then they go everywhere burning gas.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9777024859103232
     m_Localized: "Hmm. I\u2019m taking note of this."
     m_Metadata:
       m_Items: []

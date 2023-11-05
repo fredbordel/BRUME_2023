@@ -31,12 +31,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 210418786304
-    m_Localized: "\xAB On vous d\xE9crit comme des enfants-rois, des enfants-reines.
+    m_Localized: "\u201COn vous d\xE9crit comme des enfants-rois, des enfants-reines.
       Vous pour qui l\u2019avenir est bouch\xE9. Vous dont la souffrance psychique
       est palpable. Vous dont la g\xE9n\xE9ration est afflig\xE9e par la d\xE9pression,
       l\u2019anxi\xE9t\xE9, selon les sp\xE9cialistes. On pr\xE9f\xE8re vous penser
       capricieux\xB7ses plut\xF4t que d\u2019admettre qu\u2019on ne veut rien entendre
-      de vos cris. \xBB (p.79)"
+      de vos cris.\u201D* "
     m_Metadata:
       m_Items: []
   - m_Id: 290077007872
@@ -44,11 +44,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 340614176768
-    m_Localized: "\xAB Si les communaut\xE9s les plus touch\xE9es par la crise climatique
+    m_Localized: "\u201CSi les communaut\xE9s les plus touch\xE9es par la crise climatique
       sont racis\xE9es, mais que l\u2019\xE9coanxi\xE9t\xE9 est sentie majoritairement
       par des blancs, est-ce \xE0 dire que l\u2019\xE9coanxi\xE9t\xE9 est l\u2019aveu
       d\u2019une peur blanche de perdre un certain mode de vie, c'est-\xE0-dire certains
-      privil\xE8ges? \xBB\_(p.167)"
+      privil\xE8ges?\u201D**"
     m_Metadata:
       m_Items: []
   - m_Id: 434277179392

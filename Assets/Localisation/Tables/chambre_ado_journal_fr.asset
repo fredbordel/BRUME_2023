@@ -23,15 +23,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 121877028864
-    m_Localized: "Cher journal,\nOn nous dit de continuer et d\u2019avoir espoir,
+    m_Localized: "\xAB Cher journal,\nOn nous dit de continuer et d\u2019avoir espoir,
       mais je vois difficilement comment \xE7a s'enligne l\u2019avenir. Pauvre plan\xE8te,
-      on est les pires invit\xE9.es.\nPis en plus, jme suis fait encore \xAB ghost\xE9e
-      \xBB aujourd'hui. Je suis triste et d\xE9courag\xE9e. On se d\xE9barrasse des
-      objets comme on se d\xE9barrasse des gens. C\u2019est plus facile de dispara\xEEtre
-      que de prendre soin de ce qui nous entoure.\n"
+      on est les pires invit\xE9\xB7e\xB7s. \xBB\n"
     m_Metadata:
       m_Items: []
   - m_Id: 176704970752
+    m_Localized: "\xAB Pis en plus, jme suis fait encore \u201Cghost\xE9e\u201D aujourd'hui.
+      Je suis triste et d\xE9courag\xE9e.\nOn se d\xE9barrasse des gens comme on
+      se d\xE9barrasse des objets. \xBB\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9747316155080704
+    m_Localized: "\xAB C\u2019est plus facile de dispara\xEEtre que de prendre soin
+      de ce qui nous entoure. \xBB"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9747408287162368
     m_Localized: "Mais pourquoi garder tout cela barr\xE9 \xE0 cl\xE9?"
     m_Metadata:
       m_Items: []

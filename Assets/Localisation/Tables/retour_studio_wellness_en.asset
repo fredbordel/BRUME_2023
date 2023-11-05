@@ -19,8 +19,8 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 5774499840
-    m_Localized: "Oh, it smells less nice over here. By the way, which one\u2019s
-      your house?"
+    m_Localized: "Oh, it doesn\u2019t smell as good over here! By the way, which
+      one\u2019s your house?"
     m_Metadata:
       m_Items: []
   - m_Id: 72329715712
