@@ -134,21 +134,21 @@ public class DialogueManager : MonoBehaviour
     {
         MainManager.Instance.is3DVideoDialogueFinished = true;
         StartCoroutine(FadeVolume(0.5f, 1.5f));
+        nextButton.SetActive(false);
 
         if (isDialogueWith3DVideo && MainManager.Instance.is3DVideoFinished)
         {
             videoDialogueAnimator.SetTrigger("isClose");
-            // VideoDialogueBox.SetActive(false);
             MainManager.Instance.IsDialogueOpened = false;
         }
         else if (DialogueBox && !isDialogueWith3DVideo)
         {
-            DialogueBox.SetActive(false);
+            var dialogueAnimator = DialogueBox.GetComponent<Animator>();
+            dialogueAnimator.SetTrigger("isDialogBoxClose");
             MainManager.Instance.IsDialogueOpened = false;
         }
 
         disableThisDialogue.SetActive(false);
-
         MainManager.Instance.DisabledDialogueList.Add(disableThisDialogue.name);
     }
 
