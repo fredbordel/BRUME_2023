@@ -19,17 +19,9 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 39274405888
-    m_Localized: 'To do:
-
-      Housework: fold laundry, take out garbage, clean
-      bathroom
-
-      Get hubby to consider picking baby up
-
-      Next week: cancel
-      therapy, meditate 10 mins
-
-'
+    m_Localized: "\u201C To do:\n\n-Housework: fold laundry, take out garbage, clean
+      bathroom\n\n-Get hubby to consider picking baby up\n\n-Next week: cancel therapy,
+      meditate 10 mins \u201D "
     m_Metadata:
       m_Items: []
   - m_Id: 119511441408
@@ -37,8 +29,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 179787784192
-    m_Localized: Oh no, that reminds me of everything that still needs to be put
-      out :( .
+    m_Localized: 'Oh no, that reminds me of all the fires that still need to be put
+      out. '
     m_Metadata:
       m_Items: []
   references:

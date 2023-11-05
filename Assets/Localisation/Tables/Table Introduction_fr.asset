@@ -19,20 +19,20 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 10514063360
-    m_Localized: "Oh, il fait chaud ici! On dirait que j\u2019suis arriv\xE9e au
-      bon moment."
+    m_Localized: "Oh, il fait chaud ici! On dirait que j\u2019suis arriv\xE9\xB7e
+      au bon moment."
     m_Metadata:
       m_Items: []
   - m_Id: 2685167198208
-    m_Localized: Salut
+    m_Localized: Salut.
     m_Metadata:
       m_Items: []
   - m_Id: 2689759961088
-    m_Localized: "All\xF4.\nTu ne t\u2019es pas sauv\xE9.e toi?"
+    m_Localized: "All\xF4.\nTu ne t\u2019es pas sauv\xE9 toi?"
     m_Metadata:
       m_Items: []
   - m_Id: 45206379315585024
-    m_Localized: "Non, c\u2019est pareil partout."
+    m_Localized: "Non, c\u2019est pareil partout sur Terre."
     m_Metadata:
       m_Items: []
   - m_Id: 56232616070733824
@@ -41,12 +41,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56232696655896576
-    m_Localized: "Oui mais \xE7a n\u2019a pas toujours \xE9t\xE9 comme \xE7a. Qu\u2019est-ce
+    m_Localized: "Oui, mais \xE7a n\u2019a pas toujours \xE9t\xE9 comme \xE7a. Qu\u2019est-ce
       que tu fais ici en passant?"
     m_Metadata:
       m_Items: []
   - m_Id: 56232757745934336
-    m_Localized: "Je suis venue pour tout \xE9teindre, une flamme \xE0 la fois."
+    m_Localized: "Je suis venu\xB7e pour tout \xE9teindre, une flamme \xE0 la fois."
     m_Metadata:
       m_Items: []
   - m_Id: 56232837077000192

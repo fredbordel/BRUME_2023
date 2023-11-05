@@ -27,10 +27,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 170992328704
-    m_Localized: 'Oui et elle sait beaucoup de choses, regarde:
-
-      Dina, il fait
-      combien dehors?'
+    m_Localized: "Oui et elle conna\xEEt beaucoup de choses, regarde:\nDina, il fait
+      combien dehors?"
     m_Metadata:
       m_Items: []
   - m_Id: 382251032576

@@ -36,7 +36,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 209777057792
-    m_Localized: The notion of what a party is must be lost on me :( .
+    m_Localized: 'The notion of what a party is must be lost on me. :( '
     m_Metadata:
       m_Items: []
   references:

@@ -32,8 +32,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 141024026624
-    m_Localized: "\u266A\u266A \u201CMoney money money\_\nAlways sunny\nIn the rich
-      man's world\u201D \u266A\u266A"
+    m_Localized: "\u266A\u266A \xAB Money money money\_\nAlways sunny\nIn the rich
+      man's world \xBB \u266A\u266A"
     m_Metadata:
       m_Items: []
   references:

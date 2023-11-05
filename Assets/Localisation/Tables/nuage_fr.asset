@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 83050356736
-    m_Localized: "\xC7a c\u2019est le cloud, les gens stockent leurs donn\xE9es l\xE0-dedans."
+    m_Localized: "\xC7a c\u2019est le Cloud, les gens stockent leurs donn\xE9es l\xE0-dedans."
     m_Metadata:
       m_Items: []
   - m_Id: 133633662976
@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 177329922048
-    m_Localized: "M\xE9fie-toi, il a l\u2019air de rien mais il est hyper polluant."
+    m_Localized: "M\xE9fie-toi, il a l\u2019air de rien, mais il est hyper polluant."
     m_Metadata:
       m_Items: []
   references:

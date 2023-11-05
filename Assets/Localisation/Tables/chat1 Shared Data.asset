@@ -35,10 +35,6 @@ MonoBehaviour:
     m_Key: Chat3
     m_Metadata:
       m_Items: []
-  - m_Id: 428623257600
-    m_Key: Brume3
-    m_Metadata:
-      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
