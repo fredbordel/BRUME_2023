@@ -19,23 +19,32 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 16155402240
-    m_Localized: mindfulgirl.blog.com
+    m_Localized: "\u201CDear Community\""
     m_Metadata:
       m_Items: []
   - m_Id: 97751392256
-    m_Localized: "Dear Community,\nI\u2019m dealing with a lot of anxiety this week.
-      I started to sort through all of my belongings. The accumulation is distracting
-      me from what I really want and what feels good. It\u2019s a vicious cycle where
-      these ridiculous objects make me feel awful and I end up buying more, which
-      brings on even more stress and frustration. I wanted to throw everything out!\n"
+    m_Localized: "\"I\u2019m dealing with a lot of anxiety this week. The accumulation
+      of objects is distracting me from what I really want and what feels good.\""
     m_Metadata:
       m_Items: []
   - m_Id: 6914895084773376
-    m_Localized: "But then I came across my good luck charm. I couldn\u2019t go through
-      with it. It\u2019s all that\u2019s left of my stuff. It\u2019s a part of me.
-      It brings me back to myself \u2013 a compass of sorts. I\u2019m such a contradiction!
-      A meditation session is in order.\nStay present and stay focused,\nmindfulgirl
-      xox"
+    m_Localized: "\"It\u2019s a vicious cycle where these ridiculous objects make
+      me feel awful and I end up buying more, which brings on even more stress and
+      frustration.\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9768019906519040
+    m_Localized: '"I wanted to throw everything out!"'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9768143583961088
+    m_Localized: "\"But then I came across my good luck charm. I couldn\u2019t go
+      through with it. It\u2019s all that\u2019s left of my country, my home.\""
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9768211800121344
+    m_Localized: "\"A meditation session is in order. Stay present and stay focused,
+      xox mindfulgirl.\u201D"
     m_Metadata:
       m_Items: []
   references:

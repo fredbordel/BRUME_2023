@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 8106532864
-    m_Localized: "1er d\xE9cembre, d\xE9part pour la Floride"
+    m_Localized: "1er d\xE9cembre, d\xE9part pour la Floride."
     m_Metadata:
       m_Items: []
   - m_Id: 81087422464
@@ -40,12 +40,15 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 261929033728
     m_Localized: "C\u2019est ici que j\u2019ai grandi. Des calendriers remplis d\u2019obligations,
-      j\u2019en ai vu passer avant d\u2019arriver \xE0 cette date. Iels sont partis
-      avant finalement\u2026 sans moi."
+      j\u2019en ai vu passer avant d\u2019arriver \xE0 la retraite. "
     m_Metadata:
       m_Items: []
   - m_Id: 290290917376
-    m_Localized: "Je ne savais pas, je suis d\xE9sol\xE9e."
+    m_Localized: "Iels sont parti\xB7e\xB7s avant finalement\u2026 "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9748977040744448
+    m_Localized: sans moi.
     m_Metadata:
       m_Items: []
   references:

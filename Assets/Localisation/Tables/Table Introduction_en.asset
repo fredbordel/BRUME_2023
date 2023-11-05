@@ -33,7 +33,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 45206379315585024
-    m_Localized: "No, it\u2019s the same no matter where you go."
+    m_Localized: "No, it\u2019s the same no matter where you go on Earth."
     m_Metadata:
       m_Items: []
   - m_Id: 56232616070733824
@@ -43,7 +43,7 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 56232696655896576
     m_Localized: "Yeah, but it wasn\u2019t always like this. What are you doing here
-      anyway ?\n"
+      anyway?\n"
     m_Metadata:
       m_Items: []
   - m_Id: 56232757745934336

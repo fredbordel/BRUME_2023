@@ -19,23 +19,33 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 16155402240
-    m_Localized: mindfulgirl.blog.com
+    m_Localized: "\xAB Bonjour mes abonn\xE9\xB7e\xB7s \xBB"
     m_Metadata:
       m_Items: []
   - m_Id: 97751392256
-    m_Localized: "Bonjour mes abonn\xE9.es,\nCette semaine je vis beaucoup d\u2019anxi\xE9t\xE9.
-      J\u2019ai commenc\xE9\_\n\xE0 faire un tri dans mes objets. L\u2019accumulation
-      me distrait de ce que je veux vraiment et ce qui me fait me sentir bien. C\u2019est
-      comme un cercle o\xF9 des objets absurdes me m\xE8nent au malheur et je finis
-      par en acheter plus, ce qui m\u2019apporte plus de stress et de frustration.
-      Je voulais tout jeter.\n"
+    m_Localized: "\xAB Cette semaine je vis beaucoup d\u2019anxi\xE9t\xE9. L\u2019accumulation
+      d\u2019objets me distrait de ce que je veux vraiment et de ce qui me fait me
+      sentir bien. \xBB\n"
     m_Metadata:
       m_Items: []
   - m_Id: 6914895084773376
-    m_Localized: "Sauf que je suis tomb\xE9e sur mon porte bonheur,\nJe n\u2019ai
-      pas pu. C\u2019est tout ce qui me reste de chez moi. C\u2019est un morceau
-      de moi. Qui me ram\xE8ne \xE0 moi. Une boussole. Je suis contradiction.\nUne
-      petite m\xE9ditation s\u2019impose.\nStay present, stay focus,\nxox mindfulgirl"
+    m_Localized: "\xAB C\u2019est comme un cercle o\xF9 des objets absurdes me m\xE8nent
+      au malheur et je finis par en acheter plus, ce qui m\u2019apporte plus de stress
+      et de frustration. \xBB\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9768019906519040
+    m_Localized: "\xAB Je voulais tout jeter. \xBB"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9768143583961088
+    m_Localized: "\xAB Sauf que je suis tomb\xE9e sur mon porte-bonheur,\nje n\u2019ai
+      pas pu. C\u2019est tout ce qu\u2019il me reste de mon pays, de chez moi. \xBB"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9768211800121344
+    m_Localized: "\xAB Une petite m\xE9ditation s\u2019impose. Stay present, stay
+      focus, xox mindfulgirl. \xBB"
     m_Metadata:
       m_Items: []
   references:
