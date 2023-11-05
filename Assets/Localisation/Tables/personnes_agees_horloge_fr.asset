@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 79682330624
-    m_Localized: "Le temps est arr\xEAt\xE9?"
+    m_Localized: "Le temps s\u2019est arr\xEAt\xE9?"
     m_Metadata:
       m_Items: []
   - m_Id: 203875672064
-    m_Localized: "L\u2019horloge est arr\xEAt\xE9e. C\u2019est pas parce qu\u2019iels
+    m_Localized: "L\u2019horloge s\u2019est arr\xEAt\xE9e. C\u2019est pas parce qu\u2019iels
       ne sont plus l\xE0 que la terre arr\xEAte de tourner."
     m_Metadata:
       m_Items: []

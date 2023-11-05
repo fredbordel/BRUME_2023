@@ -17,15 +17,7 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: eaaf916263e6d4755a9e9a8f9cbfd1e5, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData:
-  - m_Id: 9113165824
-    m_Localized: Continuons?
-    m_Metadata:
-      m_Items: []
-  - m_Id: 91501879296
-    m_Localized: "Ouais\u2026 On a continu\xE9."
-    m_Metadata:
-      m_Items: []
+  m_TableData: []
   references:
     version: 2
     RefIds: []

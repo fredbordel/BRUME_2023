@@ -28,7 +28,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 129200283648
-    m_Localized: Ok, go!
+    m_Localized: 'Ok, on y va! '
     m_Metadata:
       m_Items: []
   references:

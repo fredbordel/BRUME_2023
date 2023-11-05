@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 5434761216
-    m_Localized: "\xC7a sent mauvais.."
+    m_Localized: "\xC7a sent mauvais."
     m_Metadata:
       m_Items: []
   - m_Id: 63160967168
@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 155058167808
-    m_Localized: "C\u2019est \xE0 la base de presque tous nos objets."
+    m_Localized: "C\u2019est \xE0 la base de presque tous leurs objets."
     m_Metadata:
       m_Items: []
   - m_Id: 203741454336

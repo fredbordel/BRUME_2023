@@ -38,10 +38,6 @@ MonoBehaviour:
     m_Localized: The most beautiful day of the rest of our lives.
     m_Metadata:
       m_Items: []
-  - m_Id: 428623257600
-    m_Localized: :S
-    m_Metadata:
-      m_Items: []
   references:
     version: 2
     RefIds: []

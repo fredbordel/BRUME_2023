@@ -19,24 +19,25 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 18663596032
-    m_Localized: 'Notifications
+    m_Localized: '*Notifications*
 
 
       E-Mail
 
-      AirTransit: Flight A32423 cancelled
+      AirTransit: Flight A32423
+      cancelled
 
 
-      Screen
-      Time
+      Screen Time
 
-      Your screen time has decreased 100% from the previous week.
+      Your screen time has decreased 100% from
+      the previous week.
 
 
       Messages
 
-      Hello??
-      Did u hear that we can no longer head to the beach?'
+      Hello?? Did u hear that we can no
+      longer head to the beach?'
     m_Metadata:
       m_Items: []
   - m_Id: 183629766656
@@ -44,11 +45,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 263103438848
-    m_Localized: What exactly do you mean?
+    m_Localized: What do you mean?
     m_Metadata:
       m_Items: []
   - m_Id: 937530744832
-    m_Localized: "It\u2019s when he privilege of a select few becomes other people\u2019s
+    m_Localized: "It\u2019s when the privilege of a select few becomes other people\u2019s
       tragedy."
     m_Metadata:
       m_Items: []

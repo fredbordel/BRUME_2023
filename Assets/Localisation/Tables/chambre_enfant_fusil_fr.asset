@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 12938371072
-    m_Localized: C'est un jouet?
+    m_Localized: "C\u2019est un jouet?"
     m_Metadata:
       m_Items: []
   - m_Id: 89199206400
@@ -32,10 +32,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 286801256448
     m_Localized: Deux armes fatales pour nous tous.tes.
-    m_Metadata:
-      m_Items: []
-  - m_Id: 458172129280
-    m_Localized: :O
     m_Metadata:
       m_Items: []
   references:

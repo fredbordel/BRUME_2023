@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 15954075648
-    m_Localized: Miaou
+    m_Localized: Miaou.
     m_Metadata:
       m_Items: []
   - m_Id: 71641849856
@@ -36,10 +36,6 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 337875296256
     m_Localized: La plus belle du reste de nos vies!
-    m_Metadata:
-      m_Items: []
-  - m_Id: 428623257600
-    m_Localized: :S
     m_Metadata:
       m_Items: []
   references:

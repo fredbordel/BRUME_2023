@@ -19,10 +19,10 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 18663596032
-    m_Localized: "*Centre de notifications*\n\nE-courrier\_\nAirTransit: Vol A32423
-      annul\xE9\n\nTemps d\u2019\xE9cran\nVotre temps d\u2019\xE9cran a diminu\xE9
-      de 100% depuis la semaine derni\xE8re.\n\nMessager\nAllo?? T\u2019as vu, on
-      pourra pas partir sur la beach."
+    m_Localized: "*Centre de notifications*\n\nCourrier \xE9lectronique\nAirTransit:
+      Vol A32423 annul\xE9\n\nTemps d\u2019\xE9cran\nVotre temps d\u2019\xE9cran
+      a diminu\xE9 de 100% depuis la semaine derni\xE8re.\n\nMessager\nAllo?? T\u2019as
+      vu, on pourra pas partir sur la beach."
     m_Metadata:
       m_Items: []
   - m_Id: 183629766656
