@@ -93,38 +93,11 @@ public class DialogueManager : MonoBehaviour
 
         if (nameTxt && !isDialogueWith3DVideo)
         {
-
-            if (key.Contains("Chien"))
-            {
-                nameTxt.text = "Chien";
-            }
-            else if (key.Contains("Brume"))
-            {
-                nameTxt.text = "Brume";
-            }
-            else
-            {
-                nameTxt.text = key;
-            }
+            TranslateDialogueName(nameTxt, key);
         }
         else if (videoNameTxt && isDialogueWith3DVideo)
         {
-            if (key.Contains("Chien"))
-            {
-                videoNameTxt.text = "Chien";
-            }
-            else if (key.Contains("Brume"))
-            {
-                videoNameTxt.text = "Brume";
-            }
-            else if (key.Contains("Chat"))
-            {
-                videoNameTxt.text = "Chat";
-            }
-            else
-            {
-                videoNameTxt.text = key;
-            }
+            TranslateDialogueName(videoNameTxt, key);
         }
 
         StartCoroutine(DisplayTextSlowly(sentence.GetLocalizedString()));
@@ -200,5 +173,64 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSecondsRealtime(0.03f);
         }
         nextButton.SetActive(true);
+    }
+
+    private void TranslateDialogueName(TextMeshProUGUI name, string key)
+    {
+        var en = LocalizationSettings.AvailableLocales.Locales[0];
+        var fr = LocalizationSettings.AvailableLocales.Locales[1];
+
+        if (key.Contains("Chien"))
+        {
+            name.text = LocalizationSettings.SelectedLocale == en ? "Dog" : "Chien";
+        }
+        else if (key.Contains("Brume"))
+        {
+            name.text = "Brume";
+        }
+        else if (key.Contains("Chat"))
+        {
+            name.text = LocalizationSettings.SelectedLocale == en ? "Cat" : "Chat";
+        }
+        else if (key.Contains("Journal"))
+        {
+            name.text = LocalizationSettings.SelectedLocale == en ? "Newspaper" : "Journal";
+        }
+        else if (key.Contains("Repondeur"))
+        {
+            name.text = LocalizationSettings.SelectedLocale == en ? "Answering machine" : "Répondeur";
+        }
+        else if (key.Contains("Livre"))
+        {
+            name.text = LocalizationSettings.SelectedLocale == en ? "Book" : "Livre";
+        }
+        else if (key.Contains("Intime"))
+        {
+            name.text = LocalizationSettings.SelectedLocale == en ? "Personal diary" : "Journal intime";
+        }
+        else if (key.Contains("Cell"))
+        {
+            name.text = LocalizationSettings.SelectedLocale == en ? "Cell phone" : "Téléphone";
+        }
+        else if (key.Contains("Google"))
+        {
+            name.text = "Google Home";
+        }
+        else if (key.Contains("Blog"))
+        {
+            name.text = "mindfulgirl.blog.com";
+        }
+        else if (key.Contains("Pancarte"))
+        {
+            name.text = LocalizationSettings.SelectedLocale == en ? "Sign" : "Pancarte";
+        }
+        else if (key.Contains("Liste"))
+        {
+            name.text = LocalizationSettings.SelectedLocale == en ? "“" + "To -do list" + "“" : "“" + "Choses à faire" + "”";
+        }
+        else
+        {
+            name.text = key;
+        }
     }
 }

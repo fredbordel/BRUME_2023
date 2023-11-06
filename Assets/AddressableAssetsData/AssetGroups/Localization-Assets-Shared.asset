@@ -225,6 +225,10 @@ MonoBehaviour:
     m_Address: Assets/Localisation/Tables/generique_fin Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: caa2edc44a66f43fb890df582640a0dd
+    m_Address: Assets/Localisation/Tables/personnes_agees_entree Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 85ef88e8fa0ac4aa390c817d0f10cb28, type: 2}
   m_SchemaSet:

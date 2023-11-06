@@ -16,7 +16,7 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: ca592b19794054b7db48db8a179d358a
   m_Entries:
   - m_Id: 13097754624
-    m_Key: journal
+    m_Key: Journal
     m_Metadata:
       m_Items: []
   - m_Id: 284985122816

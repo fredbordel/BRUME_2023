@@ -60,4 +60,13 @@ public class MainManager : MonoBehaviour
         BrumePosition = new Vector2(13, 0);
         ChienPosition = new Vector2(10, -1);
     }
+
+    public static void DestroyInstance()
+    {
+        if (Instance != null)
+        {
+            Destroy(Instance.gameObject);
+            Instance = null;
+        }
+    }
 }

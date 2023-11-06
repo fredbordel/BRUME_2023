@@ -13,6 +13,7 @@ public class BrumeMovements : MonoBehaviour
     [SerializeField]
     private Animator brumeAnimator;
     private Animator chienAnimator;
+    private SpriteRenderer chienRenderer;
 
     private PlayerInputActions playerActions;
     private Vector2 moveInput;
@@ -32,6 +33,7 @@ public class BrumeMovements : MonoBehaviour
     {
         brumeAnimator = GetComponent<Animator>();
         chienAnimator = GameObject.FindGameObjectsWithTag("chien")[0].GetComponent<Animator>();
+        chienRenderer = GameObject.FindGameObjectsWithTag("chien")[0].GetComponent<SpriteRenderer>();
 
         var MainManagerInstance = MainManager.Instance;
         if (MainManagerInstance && MainManagerInstance.BrumePosition != null && MainManagerInstance.CurrentScene == "nouvelle_map")
@@ -55,19 +57,21 @@ public class BrumeMovements : MonoBehaviour
             if (moveInput.y < 0)
             {
                 brumeAnimator.SetInteger("direction", 1);
-                chienAnimator.SetInteger("direction", 0);
+                chienAnimator.SetInteger("dogDirection", 2);
             }
 
             else if (moveInput.x > 0 || moveInput.x < 0)
             {
+                gameObject.GetComponent<SpriteRenderer>().flipX = moveInput.x > 0 ? true : false;
+                chienRenderer.flipX = moveInput.x > 0 ? true : false;
                 brumeAnimator.SetInteger("direction", 2);
-                chienAnimator.SetInteger("direction", 1);
+                chienAnimator.SetInteger("dogDirection", 1);
             }
 
             else if (moveInput.y > 0)
             {
                 brumeAnimator.SetInteger("direction", 3);
-                chienAnimator.SetInteger("direction", 2);
+                chienAnimator.SetInteger("dogDirection", 3);
             }
 
             rbody.velocity = moveInput * speed;
@@ -75,6 +79,8 @@ public class BrumeMovements : MonoBehaviour
         else
         {
             rbody.velocity = Vector2.zero;
+            brumeAnimator.SetInteger("direction", 1);
+            chienAnimator.SetInteger("dogDirection", 0);
         }
     }
 }

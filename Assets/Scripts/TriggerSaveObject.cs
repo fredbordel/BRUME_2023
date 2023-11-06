@@ -57,6 +57,8 @@ public class TriggerSaveObject : MonoBehaviour
 
     void HideFireWhenVideoEnds(VideoPlayer vp)
     {
+        if (!MainManager.Instance) return;
+
         videoPlayer.targetTexture.Release();
         MainManager.Instance.is3DVideoFinished = true;
 
