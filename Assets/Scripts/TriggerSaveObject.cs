@@ -48,6 +48,7 @@ public class TriggerSaveObject : MonoBehaviour
 
     void PlayVideo()
     {
+        videoPlayer.targetTexture.Release();
         MainManager.Instance.is3DVideoFinished = false;
         IsObjectSaved = true;
         videoPlayer.clip = videoClip;
@@ -56,6 +57,9 @@ public class TriggerSaveObject : MonoBehaviour
 
     void HideFireWhenVideoEnds(VideoPlayer vp)
     {
+        if (!MainManager.Instance) return;
+
+        videoPlayer.targetTexture.Release();
         MainManager.Instance.is3DVideoFinished = true;
 
         if (MainManager.Instance.is3DVideoDialogueFinished)

@@ -12,11 +12,13 @@ public class FeuManager : MonoBehaviour
     }
     private void OnDestroy()
     {
+        if (!MainManager.Instance) return;
         MainManager.Instance.PathNumberChanged -= HandlePathNumberChanged;
     }
 
     private void HandlePathNumberChanged(int newPathNumber)
     {
+        if (!MainManager.Instance) return;
         ToggleObjects(newPathNumber);
     }
 

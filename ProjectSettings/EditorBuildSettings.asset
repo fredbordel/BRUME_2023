@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/wellness.unity
     guid: d77c6b5910c6b4ba5a6fa15ef17c518a
   - enabled: 1
+    path: Assets/Scenes/MENU.unity
+    guid: eb1bbaa8bf9fc4162b67d6e87924f066
+  - enabled: 1
     path: Assets/Scenes/vr.unity
     guid: 01d07ff9d170e4e93839e88d0cbe13ea
   - enabled: 1

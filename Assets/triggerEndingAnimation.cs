@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Localization.Settings;
 using UnityEngine.Video;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class triggerEndingAnimation : MonoBehaviour
@@ -47,7 +48,9 @@ public class triggerEndingAnimation : MonoBehaviour
 
     private void QuitGame(VideoPlayer vp)
     {
-        UnityEditor.EditorApplication.isPlaying = false;
+        MainManager.DestroyInstance();
+        SceneManager.LoadScene("MENU");
+        // UnityEditor.EditorApplication.isPlaying = false;
         // Application.Quit();
     }
 }

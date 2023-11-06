@@ -35,6 +35,12 @@ public class DialogueTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D()
     {
+        if (!isDialogueWithVideo)
+        {
+            var dialogueAnimator = dialogueBoxObject.GetComponent<Animator>();
+            dialogueAnimator.SetTrigger("isDialogBoxOpen");
+        }
+
         dialogueBoxObject.SetActive(true);
         eventSystem.SetSelectedGameObject(nextButton, null);
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue, gameObject, isDialogueWithVideo, nextButton);
