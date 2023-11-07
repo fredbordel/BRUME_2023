@@ -5187,6 +5187,14 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:15094e8a16f8a4bf38e53ac261910308
+      m_TableEntryReference:
+        m_KeyId: 9748977040744448
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
   dialogueBoxObject: {fileID: 840800273}
   nextButton: {fileID: 964634901}
   isDialogueWithVideo: 0

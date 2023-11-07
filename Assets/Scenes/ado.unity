@@ -747,6 +747,22 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:70f55e96a18f44e6fbf3a5f5a7702c8a
+      m_TableEntryReference:
+        m_KeyId: 9747316155080704
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:70f55e96a18f44e6fbf3a5f5a7702c8a
+      m_TableEntryReference:
+        m_KeyId: 9747408287162368
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
   dialogueBoxObject: {fileID: 574927332}
   nextButton: {fileID: 696887921}
   isDialogueWithVideo: 1
@@ -1559,7 +1575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.93687034, y: 0}
   m_AnchorMax: {x: 1, y: 0.10549221}
-  m_AnchoredPosition: {x: -5, y: -5.000122}
+  m_AnchoredPosition: {x: -5, y: -5.000061}
   m_SizeDelta: {x: 1796, y: 964}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508350222
@@ -1954,8 +1970,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 404.03522, y: 0.026184082}
-  m_SizeDelta: {x: 2388.8472, y: 1038.3998}
+  m_AnchoredPosition: {x: 473.03522, y: -0.214}
+  m_SizeDelta: {x: 2388.847, y: 1025.945}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &574927334
 MonoBehaviour:
@@ -2270,7 +2286,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.77820885, y: 0.004521421}
   m_AnchorMax: {x: 1, y: 0.12723702}
-  m_AnchoredPosition: {x: -56.5, y: -1.499939}
+  m_AnchoredPosition: {x: -56.5, y: -1.5}
   m_SizeDelta: {x: 1495.3318, y: 945.8203}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &696887923
@@ -3591,11 +3607,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da31dc466677f4bfb99704474e1f8c82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  videoPlayer: {fileID: 667878092}
-  rawImageObject: {fileID: 1190809087}
-  videoClip: {fileID: 32900000, guid: a24fd9244ef264327a0033a468935a63, type: 3}
-  saveObjectSound: {fileID: 1630850187}
-  videoDialogueAnimator: {fileID: 1849680332}
+  videoPlayer: {fileID: 0}
+  rawImageObject: {fileID: 0}
+  videoClip: {fileID: 0}
+  saveObjectSound: {fileID: 0}
+  videoDialogueAnimator: {fileID: 0}
 --- !u!114 &919780614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3643,9 +3659,9 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
-  dialogueBoxObject: {fileID: 574927332}
+  dialogueBoxObject: {fileID: 1663173564}
   nextButton: {fileID: 696887921}
-  isDialogueWithVideo: 1
+  isDialogueWithVideo: 0
   references:
     version: 2
     RefIds: []
@@ -4606,8 +4622,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -383.50015, y: -0.11526489}
-  m_SizeDelta: {x: 167.49762, y: 202.2854}
+  m_AnchoredPosition: {x: -360, y: -0.11526489}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1190809089
 MonoBehaviour:
@@ -6526,8 +6542,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -383.50015, y: -0.11526489}
-  m_SizeDelta: {x: 167.49762, y: 202.2854}
+  m_AnchoredPosition: {x: -360, y: -0.11526489}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2119406662
 MonoBehaviour:

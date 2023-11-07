@@ -3668,6 +3668,30 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c014bfc56df614eeda55b7bb9323470e
+      m_TableEntryReference:
+        m_KeyId: 9768019906519040
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c014bfc56df614eeda55b7bb9323470e
+      m_TableEntryReference:
+        m_KeyId: 9768143583961088
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c014bfc56df614eeda55b7bb9323470e
+      m_TableEntryReference:
+        m_KeyId: 9768211800121344
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
   dialogueBoxObject: {fileID: 928860714}
   nextButton: {fileID: 914676559}
   isDialogueWithVideo: 1
