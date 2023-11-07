@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.Localization.Settings;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class ToggleGameMenu : MonoBehaviour
@@ -56,8 +57,8 @@ public class ToggleGameMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
-        // Application.Quit();
+        MainManager.DestroyInstance();
+        SceneManager.LoadScene("MENU");
     }
 
     public void SelectFr()

@@ -11989,6 +11989,7 @@ GameObject:
   - component: {fileID: 818758130}
   - component: {fileID: 818758132}
   - component: {fileID: 818758131}
+  - component: {fileID: 818758133}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -12047,11 +12048,11 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 1907509916}
   m_Follow: {fileID: 1907509916}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 6.05
+    OrthographicSize: 5.18
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -12067,6 +12068,18 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 738178837}
+--- !u!114 &818758133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818758129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2255cd80a70214d7cb786d392d6595af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &821009930
 GameObject:
   m_ObjectHideFlags: 0
@@ -13840,7 +13853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &981899126
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15385,7 +15398,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1128372734
 Transform:
   m_ObjectHideFlags: 0
@@ -19282,7 +19295,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456124844}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.148147, y: 0.33063078, z: -10}
+  m_LocalPosition: {x: 14.53, y: 0.3300004, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19309,7 +19322,7 @@ MonoBehaviour:
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
-    m_Time: 2
+    m_Time: 1
     m_CustomCurve:
       serializedVersion: 2
       m_Curve: []
@@ -19350,7 +19363,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.05
+  orthographic size: 5.18
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -20989,7 +21002,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1642854525
 Transform:
   m_ObjectHideFlags: 0
@@ -21873,6 +21886,7 @@ GameObject:
   - component: {fileID: 1724028915}
   - component: {fileID: 1724028914}
   - component: {fileID: 1724028913}
+  - component: {fileID: 1724028916}
   m_Layer: 0
   m_Name: DialogueCoccinelleCollider
   m_TagString: Untagged
@@ -21974,6 +21988,19 @@ Transform:
   m_Father: {fileID: 1805998694}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1724028916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724028912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f76c95b3b07447ba0e494d62954fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vmCam: {fileID: 818758132}
 --- !u!1 &1733548256
 GameObject:
   m_ObjectHideFlags: 0
@@ -22725,7 +22752,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1832825676
 MonoBehaviour:
   m_ObjectHideFlags: 0
