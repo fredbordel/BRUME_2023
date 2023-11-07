@@ -36,9 +36,10 @@ public class DialogueManager : MonoBehaviour
     public AudioSource audioSource;
     private GameObject disableThisDialogue;
     // private GameObject dialogueBox;
-
-
     private Queue<LocalizedString> sentences;
+    [SerializeField]
+    private CameraManager camManagerScript;
+
 
     void Start()
     {
@@ -105,6 +106,11 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        if (camManagerScript)
+        {
+            camManagerScript.OrthoZoomOut();
+        }
+
         MainManager.Instance.is3DVideoDialogueFinished = true;
         StartCoroutine(FadeVolume(0.5f, 1.5f));
         nextButton.SetActive(false);

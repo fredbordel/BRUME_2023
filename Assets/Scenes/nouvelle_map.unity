@@ -1703,6 +1703,7 @@ GameObject:
   - component: {fileID: 102449205}
   - component: {fileID: 102449207}
   - component: {fileID: 102449206}
+  - component: {fileID: 102449208}
   m_Layer: 0
   m_Name: DialogueBoiteAmazon
   m_TagString: Untagged
@@ -1799,7 +1800,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.29765272}
+  m_Offset: {x: -0.64, y: -0.39}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1810,8 +1811,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5817518, y: 0.538497}
+  m_Size: {x: 1.52, y: 0.538497}
   m_EdgeRadius: 0
+--- !u!114 &102449208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102449204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f76c95b3b07447ba0e494d62954fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vmCam: {fileID: 818758132}
+  camManagerScript: {fileID: 818758133}
 --- !u!1 &107754022
 GameObject:
   m_ObjectHideFlags: 0
@@ -3582,6 +3597,7 @@ GameObject:
   - component: {fileID: 204193759}
   - component: {fileID: 204193761}
   - component: {fileID: 204193760}
+  - component: {fileID: 204193762}
   m_Layer: 0
   m_Name: DialogueAbeille
   m_TagString: Untagged
@@ -3667,6 +3683,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6392989, y: 2.5229678}
   m_EdgeRadius: 0
+--- !u!114 &204193762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204193758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f76c95b3b07447ba0e494d62954fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vmCam: {fileID: 818758132}
+  camManagerScript: {fileID: 818758133}
 --- !u!1 &209135630
 GameObject:
   m_ObjectHideFlags: 0
@@ -12080,6 +12110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2255cd80a70214d7cb786d392d6595af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  virtualCam: {fileID: 818758132}
 --- !u!1 &821009930
 GameObject:
   m_ObjectHideFlags: 0
@@ -14941,7 +14972,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.20352113}
   m_AnchorMax: {x: 0.1968628, y: 0.27100003}
-  m_AnchoredPosition: {x: 30.998047, y: -28}
+  m_AnchoredPosition: {x: 30.998291, y: -28}
   m_SizeDelta: {x: -197.7666, y: -54.48535}
   m_Pivot: {x: 0.5, y: 0.68747747}
 --- !u!114 &1115873136
@@ -15281,6 +15312,7 @@ GameObject:
   - component: {fileID: 1118702085}
   - component: {fileID: 1118702087}
   - component: {fileID: 1118702086}
+  - component: {fileID: 1118702088}
   m_Layer: 0
   m_Name: DialoguePancarteActi
   m_TagString: Untagged
@@ -15382,6 +15414,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1581717, y: 0.8023529}
   m_EdgeRadius: 0
+--- !u!114 &1118702088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118702084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f76c95b3b07447ba0e494d62954fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vmCam: {fileID: 818758132}
+  camManagerScript: {fileID: 818758133}
 --- !u!1 &1128372733
 GameObject:
   m_ObjectHideFlags: 0
@@ -16971,6 +17017,7 @@ GameObject:
   - component: {fileID: 1227846399}
   - component: {fileID: 1227846401}
   - component: {fileID: 1227846400}
+  - component: {fileID: 1227846402}
   m_Layer: 0
   m_Name: DialoguePanneau
   m_TagString: Untagged
@@ -17064,6 +17111,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.2541866, y: 0.5468826}
   m_EdgeRadius: 0
+--- !u!114 &1227846402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227846398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f76c95b3b07447ba0e494d62954fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vmCam: {fileID: 818758132}
+  camManagerScript: {fileID: 818758133}
 --- !u!1 &1233105093
 GameObject:
   m_ObjectHideFlags: 0
@@ -18282,6 +18343,7 @@ GameObject:
   - component: {fileID: 1367810872}
   - component: {fileID: 1367810874}
   - component: {fileID: 1367810873}
+  - component: {fileID: 1367810875}
   m_Layer: 0
   m_Name: DialogueAutoMur
   m_TagString: Untagged
@@ -18375,6 +18437,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0396433, y: 2.2959805}
   m_EdgeRadius: 0
+--- !u!114 &1367810875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367810871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f76c95b3b07447ba0e494d62954fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vmCam: {fileID: 818758132}
+  camManagerScript: {fileID: 818758133}
 --- !u!1 &1368949624
 GameObject:
   m_ObjectHideFlags: 0
@@ -19974,6 +20050,7 @@ GameObject:
   - component: {fileID: 1512902563}
   - component: {fileID: 1512902565}
   - component: {fileID: 1512902564}
+  - component: {fileID: 1512902566}
   m_Layer: 0
   m_Name: DialogueChat
   m_TagString: Untagged
@@ -20083,6 +20160,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.4326625, y: 3.5751727}
   m_EdgeRadius: 0
+--- !u!114 &1512902566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512902562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f76c95b3b07447ba0e494d62954fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vmCam: {fileID: 818758132}
+  camManagerScript: {fileID: 818758133}
 --- !u!1 &1520588818
 GameObject:
   m_ObjectHideFlags: 0
@@ -21663,6 +21754,7 @@ GameObject:
   - component: {fileID: 1700785803}
   - component: {fileID: 1700785805}
   - component: {fileID: 1700785804}
+  - component: {fileID: 1700785806}
   m_Layer: 0
   m_Name: DialogueCabineTel
   m_TagString: Untagged
@@ -21748,6 +21840,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0396433, y: 2.3}
   m_EdgeRadius: 0
+--- !u!114 &1700785806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700785802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f76c95b3b07447ba0e494d62954fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vmCam: {fileID: 818758132}
+  camManagerScript: {fileID: 818758133}
 --- !u!1 &1709427681
 GameObject:
   m_ObjectHideFlags: 0
@@ -22002,6 +22108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vmCam: {fileID: 818758132}
+  camManagerScript: {fileID: 818758133}
 --- !u!1 &1733548256
 GameObject:
   m_ObjectHideFlags: 0
@@ -24364,6 +24471,7 @@ GameObject:
   - component: {fileID: 1930709922}
   - component: {fileID: 1930709924}
   - component: {fileID: 1930709923}
+  - component: {fileID: 1930709925}
   m_Layer: 0
   m_Name: DialogueNuage
   m_TagString: Untagged
@@ -24465,6 +24573,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8544197, y: 0.5591917}
   m_EdgeRadius: 0
+--- !u!114 &1930709925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930709921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f76c95b3b07447ba0e494d62954fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vmCam: {fileID: 818758132}
+  camManagerScript: {fileID: 818758133}
 --- !u!1 &1948110852
 GameObject:
   m_ObjectHideFlags: 0
@@ -24586,6 +24708,7 @@ MonoBehaviour:
   videoDialogueTxt: {fileID: 1138990630}
   videoDialogueAnimator: {fileID: 1368949626}
   audioSource: {fileID: 1471733236}
+  camManagerScript: {fileID: 818758133}
 --- !u!4 &1949356508
 Transform:
   m_ObjectHideFlags: 0
