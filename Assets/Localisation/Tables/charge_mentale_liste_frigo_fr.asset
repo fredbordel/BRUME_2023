@@ -19,17 +19,23 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 39274405888
-    m_Localized: "\xAB \xC0 faire:\n\n-M\xE9nage : plier linge, sortir poubelles,
-      laver salle de bain\n\n-Faire penser \xE0 Monsieur d\u2019aller chercher b\xE9b\xE9\n\n-Annuler
-      psy semaine pro, m\xE9diter 10 minutes \xBB\n"
+    m_Localized: "-M\xE9nage : plier linge, sortir poubelles, laver salle de bain\n"
     m_Metadata:
       m_Items: []
   - m_Id: 119511441408
-    m_Localized: "To do or not to do\u2026"
+    m_Localized: "-Faire penser \xE0 Monsieur d\u2019aller chercher b\xE9b\xE9"
     m_Metadata:
       m_Items: []
   - m_Id: 179787784192
-    m_Localized: "Ahh non \xE7a me rappelle tout ce qu'il me reste \xE0 \xE9teindre. "
+    m_Localized: "-Annuler psy semaine pro, m\xE9diter 10 minutes \xBB"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10245569770414080
+    m_Localized: "To do or not to do\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10245671574560768
+    m_Localized: "Ah non \xE7a me rappelle tout ce qu'il me reste \xE0 \xE9teindre. "
     m_Metadata:
       m_Items: []
   references:
