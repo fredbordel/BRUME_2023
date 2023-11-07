@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 286801256448
-    m_Localized: Deux armes fatales pour nous tous.tes.
+    m_Localized: "Deux armes fatales pour nous tous\xB7tes."
     m_Metadata:
       m_Items: []
   references:
