@@ -21,9 +21,12 @@ public class triggerEndingAnimation : MonoBehaviour
 
     [SerializeField]
     private AudioSource audioSource;
+    private FadeInOut fade;
 
     void Start()
     {
+        fade = FindObjectOfType<FadeInOut>();
+
         if (videoClipEN && videoClipFR && rawImageObject && videoPlayer)
         {
             videoPlayer.loopPointReached += QuitGame;
@@ -32,16 +35,35 @@ public class triggerEndingAnimation : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
-        audioSource.Stop();
-        if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0])
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("feu");
+        videoPlayer.targetTexture.Release();
+
+        if (objs.Length == 0)
         {
-            videoPlayer.clip = videoClipEN;
+            if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0])
+            {
+                videoPlayer.clip = videoClipEN;
+            }
+            else
+            {
+                videoPlayer.clip = videoClipFR;
+            }
+
+            StartCoroutine(_StartEndingVideo());
         }
-        else
+    }
+
+    public IEnumerator _StartEndingVideo()
+    {
+        float startVolume = audioSource.volume;
+        while (audioSource.volume > 0)
         {
-            videoPlayer.clip = videoClipFR;
+            audioSource.volume -= startVolume * Time.deltaTime / 1.5f;
+            yield return null;
         }
 
+        fade.FadeIn();
+        yield return new WaitForSeconds(1);
         rawImageObject.SetActive(true);
         videoPlayer.Play();
     }
@@ -50,7 +72,5 @@ public class triggerEndingAnimation : MonoBehaviour
     {
         MainManager.DestroyInstance();
         SceneManager.LoadScene("MENU");
-        // UnityEditor.EditorApplication.isPlaying = false;
-        // Application.Quit();
     }
 }

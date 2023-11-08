@@ -59,7 +59,6 @@ public class TriggerSaveObject : MonoBehaviour
     {
         if (!MainManager.Instance) return;
 
-        videoPlayer.targetTexture.Release();
         MainManager.Instance.is3DVideoFinished = true;
 
         if (MainManager.Instance.is3DVideoDialogueFinished)

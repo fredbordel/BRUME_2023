@@ -57,7 +57,7 @@ public class BrumeMovements : MonoBehaviour
             if (moveInput.y < 0)
             {
                 brumeAnimator.SetInteger("direction", 1);
-                chienAnimator.SetInteger("dogDirection", 2);
+                chienAnimator.SetInteger("dogDirection", 3);
             }
 
             else if (moveInput.x > 0 || moveInput.x < 0)
@@ -65,13 +65,13 @@ public class BrumeMovements : MonoBehaviour
                 gameObject.GetComponent<SpriteRenderer>().flipX = moveInput.x > 0 ? true : false;
                 chienRenderer.flipX = moveInput.x > 0 ? true : false;
                 brumeAnimator.SetInteger("direction", 2);
-                chienAnimator.SetInteger("dogDirection", 1);
+                chienAnimator.SetInteger("dogDirection", 2);
             }
 
             else if (moveInput.y > 0)
             {
                 brumeAnimator.SetInteger("direction", 3);
-                chienAnimator.SetInteger("dogDirection", 3);
+                chienAnimator.SetInteger("dogDirection", 1);
             }
 
             rbody.velocity = moveInput * speed;

@@ -627,8 +627,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 404.03522, y: 0.026184082}
-  m_SizeDelta: {x: 2388.8472, y: 1038.3998}
+  m_AnchoredPosition: {x: 485.03522, y: -0.716}
+  m_SizeDelta: {x: 2388.847, y: 1027.406}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &153220136
 MonoBehaviour:
@@ -2691,8 +2691,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -383, y: 0}
-  m_SizeDelta: {x: 167.49762, y: 202.2854}
+  m_AnchoredPosition: {x: -380, y: 0}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &765582540
 MonoBehaviour:
@@ -3579,6 +3579,7 @@ MonoBehaviour:
   videoDialogueTxt: {fileID: 610852360}
   videoDialogueAnimator: {fileID: 2127423639}
   audioSource: {fileID: 280989170}
+  camManagerScript: {fileID: 0}
 --- !u!4 &924629285
 Transform:
   m_ObjectHideFlags: 0
@@ -5551,7 +5552,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.77820885, y: 0.004521421}
   m_AnchorMax: {x: 1, y: 0.12723702}
-  m_AnchoredPosition: {x: -56.5, y: -1.499939}
+  m_AnchoredPosition: {x: -56.5, y: -1.4998779}
   m_SizeDelta: {x: 1495.3318, y: 945.8203}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1641156549
@@ -7496,8 +7497,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -383.50015, y: -0.11526489}
-  m_SizeDelta: {x: 167.49762, y: 202.2854}
+  m_AnchoredPosition: {x: -379.99997, y: 0}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2021416664
 MonoBehaviour:

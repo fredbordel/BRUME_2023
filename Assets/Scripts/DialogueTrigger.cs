@@ -43,6 +43,6 @@ public class DialogueTrigger : MonoBehaviour
 
         dialogueBoxObject.SetActive(true);
         eventSystem.SetSelectedGameObject(nextButton, null);
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue, gameObject, isDialogueWithVideo, nextButton);
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue, gameObject, isDialogueWithVideo, nextButton, gameObject.GetComponent<TriggerCamZoom>());
     }
 }

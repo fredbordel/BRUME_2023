@@ -30,7 +30,7 @@ public class WaterManager : MonoBehaviour
     {
         if (number != 1)
         {
-            image.fillAmount -= 0.0525f;
+            image.fillAmount -= 0.1f;
         }
     }
 }

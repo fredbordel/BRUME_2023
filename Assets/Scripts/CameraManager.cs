@@ -15,11 +15,11 @@ public class CameraManager : MonoBehaviour
   }
   public void OrthoZoomIn()
   {
-    StartCoroutine(SlowlyZoom(defaultOrthoSize, 3.5f, 1));
+    StartCoroutine(SlowlyZoom(defaultOrthoSize, 2.5f, 1));
   }
   public void OrthoZoomOut()
   {
-    StartCoroutine(SlowlyZoom(3.5f, defaultOrthoSize, 1));
+    StartCoroutine(SlowlyZoom(2.5f, defaultOrthoSize, 1));
   }
 
   private IEnumerator SlowlyZoom(float start, float target, float duration)

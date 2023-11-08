@@ -31,23 +31,23 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     private Animator videoDialogueAnimator;
     private GameObject nextButton;
+    private bool isZoomOnObject = false;
 
 
     public AudioSource audioSource;
     private GameObject disableThisDialogue;
-    // private GameObject dialogueBox;
     private Queue<LocalizedString> sentences;
     [SerializeField]
-    private CameraManager camManagerScript;
-
+    private CameraManager camManagerScript = null;
 
     void Start()
     {
         sentences = new Queue<LocalizedString>();
     }
 
-    public void StartDialogue(Dialogue dialogue, GameObject dialogueToDisable, bool isDialWithVideo, GameObject _nextButton)
+    public void StartDialogue(Dialogue dialogue, GameObject dialogueToDisable, bool isDialWithVideo, GameObject _nextButton, TriggerCamZoom zoomOnObject)
     {
+        isZoomOnObject = zoomOnObject ? true : false;
         MainManager.Instance.is3DVideoDialogueFinished = false;
 
         nextButton = _nextButton;
@@ -55,7 +55,7 @@ public class DialogueManager : MonoBehaviour
 
         isDialogueWith3DVideo = isDialWithVideo;
 
-        StartCoroutine(FadeVolume(0.1f, 1.5f));
+        StartCoroutine(FadeVolume(0.25f, 1.5f));
 
         if (isDialWithVideo)
         {
@@ -106,7 +106,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        if (camManagerScript)
+        if (camManagerScript && isZoomOnObject)
         {
             camManagerScript.OrthoZoomOut();
         }
