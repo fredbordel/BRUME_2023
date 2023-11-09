@@ -19,8 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 9037668352
-    m_Localized: "\u201CSTOP\u201D \u2013 is that a reminder for people to take a
-      break?"
+    m_Localized: "\u201CSTOP\u201D, is that a reminder for people to take a break?"
     m_Metadata:
       m_Items: []
   - m_Id: 65165844480

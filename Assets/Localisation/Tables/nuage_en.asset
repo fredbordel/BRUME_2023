@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 83050356736
-    m_Localized: "That's \u201CThe Cloud\u201D \u2013 people store all of their information
+    m_Localized: "That's \u201CThe Cloud\u201D, people store all of their information
       in there."
     m_Metadata:
       m_Items: []
@@ -32,8 +32,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 177329922048
-    m_Localized: "Beware \u2013 it may not look like much, but it\u2019s extremely
-      polluting."
+    m_Localized: "Beware, it may not look like much, but it\u2019s extremely polluting."
     m_Metadata:
       m_Items: []
   references:
