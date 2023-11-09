@@ -41,8 +41,7 @@ public class TriggerSaveObject : MonoBehaviour
         }
         else
         {
-            IsObjectSaved = true;
-            gameObject.SetActive(false);
+            StartCoroutine(SlowlyHideFire());
         }
     }
 
@@ -72,5 +71,37 @@ public class TriggerSaveObject : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+    }
+
+    private IEnumerator SlowlyHideFire()
+    {
+        SpriteRenderer[] spriteRenderers = GetComponentsInChildren<SpriteRenderer>(true);
+        Color startColor = spriteRenderers.Length > 0 ? spriteRenderers[0].color : Color.white;
+
+        float fadeDuration = 3.5f;
+
+        float elapsedTime = 0f;
+
+        while (elapsedTime < fadeDuration)
+        {
+            float t = elapsedTime / fadeDuration;
+
+            foreach (var spriteRenderer in spriteRenderers)
+            {
+                Color newColor = new Color(startColor.r, startColor.g, startColor.b, Mathf.Lerp(startColor.a, 0f, t));
+                spriteRenderer.color = newColor;
+            }
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        foreach (var spriteRenderer in spriteRenderers)
+        {
+            spriteRenderer.color = new Color(startColor.r, startColor.g, startColor.b, 0f);
+        }
+
+        IsObjectSaved = true;
+        gameObject.SetActive(false);
     }
 }

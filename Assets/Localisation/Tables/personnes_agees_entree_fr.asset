@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 30306983936
-    m_Localized: "Trois feux \xE0 \xE9teindre, voyons voir ce qu\u2019ils cachent."
+    m_Localized: "Quatre feux \xE0 \xE9teindre, voyons voir ce qu\u2019ils cachent."
     m_Metadata:
       m_Items: []
   references:
