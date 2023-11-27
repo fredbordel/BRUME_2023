@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 using UnityEngine.InputSystem;
 
 public class BrumeMovements : MonoBehaviour
@@ -14,7 +15,6 @@ public class BrumeMovements : MonoBehaviour
     private Animator brumeAnimator;
     private Animator chienAnimator;
     private SpriteRenderer chienRenderer;
-
     private PlayerInputActions playerActions;
     private Vector2 moveInput;
 
@@ -54,24 +54,35 @@ public class BrumeMovements : MonoBehaviour
         {
             moveInput = playerActions.Brume.Movement.ReadValue<Vector2>();
 
-            if (moveInput.y < 0)
+            var inputY = Math.Round(moveInput.y, MidpointRounding.AwayFromZero);
+            var inputX = Math.Round(moveInput.x, MidpointRounding.AwayFromZero);
+
+            if (inputY < 0)
             {
                 brumeAnimator.SetInteger("direction", 1);
                 chienAnimator.SetInteger("dogDirection", 3);
             }
 
-            else if (moveInput.x > 0 || moveInput.x < 0)
+            else if (inputY > 0)
             {
-                gameObject.GetComponent<SpriteRenderer>().flipX = moveInput.x > 0 ? true : false;
-                chienRenderer.flipX = moveInput.x > 0 ? true : false;
+                brumeAnimator.SetInteger("direction", 3);
+                chienAnimator.SetInteger("dogDirection", 1);
+            }
+
+            else if (inputX > 0)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                chienRenderer.flipX = true;
                 brumeAnimator.SetInteger("direction", 2);
                 chienAnimator.SetInteger("dogDirection", 2);
             }
 
-            else if (moveInput.y > 0)
+            else if (inputX < 0)
             {
-                brumeAnimator.SetInteger("direction", 3);
-                chienAnimator.SetInteger("dogDirection", 1);
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                chienRenderer.flipX = false;
+                brumeAnimator.SetInteger("direction", 2);
+                chienAnimator.SetInteger("dogDirection", 2);
             }
 
             rbody.velocity = moveInput * speed;
