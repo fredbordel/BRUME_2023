@@ -1384,7 +1384,6 @@ MonoBehaviour:
   DisabledEnterSceneList: []
   IsDialogueOpened: 0
   CurrentScene: nouvelle_map
-  is3DVideoFinished: 0
   is3DVideoDialogueFinished: 0
   BrumePosition: {x: 0, y: 0}
   ChienPosition: {x: 0, y: 0}
@@ -4005,6 +4004,14 @@ MonoBehaviour:
         m_TableCollectionName: GUID:8f0e303506323476d86b8986ae274961
       m_TableEntryReference:
         m_KeyId: 267356463104
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:8f0e303506323476d86b8986ae274961
+      m_TableEntryReference:
+        m_KeyId: 27957465214607360
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
@@ -6824,6 +6831,14 @@ MonoBehaviour:
         m_TableCollectionName: GUID:ca592b19794054b7db48db8a179d358a
       m_TableEntryReference:
         m_KeyId: 325925724160
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:ca592b19794054b7db48db8a179d358a
+      m_TableEntryReference:
+        m_KeyId: 27958247951425536
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0

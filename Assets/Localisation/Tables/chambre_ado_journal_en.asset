@@ -42,6 +42,10 @@ MonoBehaviour:
     m_Localized: Why keep all of this locked away?
     m_Metadata:
       m_Items: []
+  - m_Id: 17521135477317632
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

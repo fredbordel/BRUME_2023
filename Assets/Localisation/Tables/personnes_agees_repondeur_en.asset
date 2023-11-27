@@ -33,6 +33,10 @@ MonoBehaviour:
     m_Localized: "I understand where they\u2019re coming from. It\u2019s cozy here. "
     m_Metadata:
       m_Items: []
+  - m_Id: 27957465214607360
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

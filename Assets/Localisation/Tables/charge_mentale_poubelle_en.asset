@@ -34,6 +34,10 @@ MonoBehaviour:
     m_Localized: "Not too far\u2026"
     m_Metadata:
       m_Items: []
+  - m_Id: 17514353375830016
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

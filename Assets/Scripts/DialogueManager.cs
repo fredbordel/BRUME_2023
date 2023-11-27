@@ -115,7 +115,7 @@ public class DialogueManager : MonoBehaviour
         StartCoroutine(FadeVolume(0.5f, 1.5f));
         nextButton.SetActive(false);
 
-        if (isDialogueWith3DVideo && MainManager.Instance.is3DVideoFinished)
+        if (isDialogueWith3DVideo)
         {
             videoDialogueAnimator.SetTrigger("isClose");
             MainManager.Instance.IsDialogueOpened = false;

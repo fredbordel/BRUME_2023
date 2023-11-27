@@ -3692,6 +3692,14 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:c014bfc56df614eeda55b7bb9323470e
+      m_TableEntryReference:
+        m_KeyId: 17518009227665408
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
   dialogueBoxObject: {fileID: 928860714}
   nextButton: {fileID: 914676559}
   isDialogueWithVideo: 1
@@ -4435,6 +4443,14 @@ MonoBehaviour:
         m_TableCollectionName: GUID:ef41f072c0ffb4fbfb48ab723f36ebc1
       m_TableEntryReference:
         m_KeyId: 45813325824
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:ef41f072c0ffb4fbfb48ab723f36ebc1
+      m_TableEntryReference:
+        m_KeyId: 17517595136614400
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 0
@@ -5716,7 +5732,6 @@ MonoBehaviour:
   DisabledEnterSceneList: []
   IsDialogueOpened: 0
   CurrentScene: nouvelle_map
-  is3DVideoFinished: 0
   is3DVideoDialogueFinished: 0
   BrumePosition: {x: 0, y: 0}
   ChienPosition: {x: 0, y: 0}

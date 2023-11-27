@@ -763,6 +763,14 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:70f55e96a18f44e6fbf3a5f5a7702c8a
+      m_TableEntryReference:
+        m_KeyId: 17521135477317632
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
   dialogueBoxObject: {fileID: 574927332}
   nextButton: {fileID: 696887921}
   isDialogueWithVideo: 1
@@ -1575,7 +1583,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.93687034, y: 0}
   m_AnchorMax: {x: 1, y: 0.10549221}
-  m_AnchoredPosition: {x: -5, y: -4.9994507}
+  m_AnchoredPosition: {x: -5, y: -4.9993896}
   m_SizeDelta: {x: 1796, y: 964}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &508350222
@@ -4582,6 +4590,14 @@ MonoBehaviour:
       m_FallbackState: 0
       m_WaitForCompletion: 0
       m_LocalVariables: []
+    - m_TableReference:
+        m_TableCollectionName: GUID:d20ab71c33c6441a59701f94a2510eb2
+      m_TableEntryReference:
+        m_KeyId: 17521948832555008
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
   dialogueBoxObject: {fileID: 574927332}
   nextButton: {fileID: 696887921}
   isDialogueWithVideo: 1
@@ -4754,7 +4770,6 @@ MonoBehaviour:
   DisabledEnterSceneList: []
   IsDialogueOpened: 0
   CurrentScene: nouvelle_map
-  is3DVideoFinished: 0
   is3DVideoDialogueFinished: 0
   BrumePosition: {x: 0, y: 0}
   ChienPosition: {x: 0, y: 0}
