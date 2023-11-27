@@ -234,6 +234,10 @@ public class DialogueManager : MonoBehaviour
         {
             name.text = LocalizationSettings.SelectedLocale == en ? "“" + "To -do list" + "“" : "“" + "Choses à faire" + "”";
         }
+        else if (key.Contains("Fin"))
+        {
+            name.text = LocalizationSettings.SelectedLocale == en ? "Continue" : "Continuer";
+        }
         else
         {
             name.text = key;
