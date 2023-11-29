@@ -24,15 +24,11 @@ public class TriggerSaveObject : MonoBehaviour
         {
             IsObjectWithVideo = true;
         }
-
-        if (IsObjectWithVideo)
-        {
-            videoPlayer.loopPointReached += HideFireWhenVideoEnds;
-        }
     }
 
     void OnTriggerEnter2D()
     {
+        MainManager.Instance.NumOfFireOut += 1;
         if (IsObjectWithVideo)
         {
             videoDialogueAnimator.SetTrigger("isOpen");
@@ -51,23 +47,6 @@ public class TriggerSaveObject : MonoBehaviour
         IsObjectSaved = true;
         videoPlayer.clip = videoClip;
         videoPlayer.Play();
-    }
-
-    void HideFireWhenVideoEnds(VideoPlayer vp)
-    {
-        if (!MainManager.Instance) return;
-
-        if (MainManager.Instance.is3DVideoDialogueFinished)
-        {
-            videoPlayer.clip = null;
-            videoDialogueAnimator.SetTrigger("isClose");
-            MainManager.Instance.IsDialogueOpened = false;
-        }
-
-        if (IsObjectSaved)
-        {
-            gameObject.SetActive(false);
-        }
     }
 
     private IEnumerator SlowlyHideFire()
