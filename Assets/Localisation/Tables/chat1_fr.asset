@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: La plus belle du reste de nos vies!
     m_Metadata:
       m_Items: []
+  - m_Id: 28880591234523136
+    m_Localized: :S
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
