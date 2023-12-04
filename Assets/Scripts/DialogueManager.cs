@@ -236,7 +236,7 @@ public class DialogueManager : MonoBehaviour
         }
         else if (key.Contains("Fin"))
         {
-            name.text = LocalizationSettings.SelectedLocale == en ? "Continue" : "Continuer";
+            name.text = LocalizationSettings.SelectedLocale == en ? "" : "";
         }
         else
         {

@@ -14,7 +14,7 @@ public class FireOutManager : MonoBehaviour
 
     if (MainManager.Instance)
     {
-      textFireOut.text = MainManager.Instance.NumOfFireOut.ToString() + "/17";
+      textFireOut.text = MainManager.Instance.NumOfFireOut.ToString() + "/27";
       MainManager.Instance.NumOfFireOutChanged += HandleFireOut;
     }
   }
