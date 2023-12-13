@@ -23,8 +23,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8077020721307648
-    m_Localized: 'Tame the fires threatening the city of Peakville-on-River, which
-      has been left deserted.
+    m_Localized: 'Tame the fires threatening the city of Peakville-on-the-River,
+      which has now been left deserted.
 
 '
     m_Metadata:
@@ -35,13 +35,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8077140544184320
-    m_Localized: Brume, with their curious soul, not only wishes to extinguish the
+    m_Localized: Brume, with its curious soul, not only wishes to extinguish the
       fires but wants to understand what could have caused all of this.
     m_Metadata:
       m_Items: []
   - m_Id: 8077154083397632
-    m_Localized: "Just before touching down, Brume asks themself: \u201CIs fire really
-      at the heart of the problem here?\u201D."
+    m_Localized: 'Before touching down, Brume asks itself: Is fire really at the
+      heart of the problem here?'
     m_Metadata:
       m_Items: []
   references:

@@ -23,12 +23,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 55720271872
-    m_Localized: "It\u2019s an iron. It\u2019s for humans to be able to smooth out
-      any and all wrinkles."
+    m_Localized: An iron. Humans use it to smooth out any and all wrinkles.
     m_Metadata:
       m_Items: []
   - m_Id: 116646731776
-    m_Localized: "I hope they\u2019re still able to iron where they are now. It seems
+    m_Localized: "I hope they\u2019re able to iron wherever they are now. It seems
       important."
     m_Metadata:
       m_Items: []

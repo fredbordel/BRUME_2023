@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 6776938496
-    m_Localized: What is that thing?
+    m_Localized: What is that?
     m_Metadata:
       m_Items: []
   - m_Id: 143020515328
@@ -27,10 +27,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 240835878912
-    m_Localized: 'Humans have a weird tendency to exercise on the spot without going
-      anywhere.
+    m_Localized: 'Humans have a weird tendency to exercise on the spot.
 
-      And then they go everywhere burning gas.'
+      And
+      then they go everywhere burning gas.'
     m_Metadata:
       m_Items: []
   - m_Id: 9777024859103232

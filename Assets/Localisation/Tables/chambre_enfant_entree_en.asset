@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 27899453440
-    m_Localized: "Pink and blue\u2026 What\u2019s going on here? Why the division?"
+    m_Localized: "Pink and blue\u2026 What\u2019s going on here? "
     m_Metadata:
       m_Items: []
   - m_Id: 254727413760
@@ -27,8 +27,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 382909538304
-    m_Localized: "I like all sorts of colours. Does that mean that I\u2019d get sucked
-      into consumerism?"
+    m_Localized: "I like all sorts of colours. Does that mean that I\u2019d be driven
+      to consume?"
     m_Metadata:
       m_Items: []
   - m_Id: 445069123584

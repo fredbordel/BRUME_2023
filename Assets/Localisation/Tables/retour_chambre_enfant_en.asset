@@ -19,13 +19,12 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 6168764416
-    m_Localized: During this time, nothing seems to have improved.
+    m_Localized: Nothing seems to have improved here...
     m_Metadata:
       m_Items: []
   - m_Id: 356711915520
-    m_Localized: "If I were you, I wouldn\u2019t be so hard on myself. Even with
-      the power of eight billion brains, humans weren\u2019t even close to figuring
-      it out."
+    m_Localized: "Don't be so hard on yourself. Even with the power of eight billion
+      brains, humans weren\u2019t even close to figuring it out."
     m_Metadata:
       m_Items: []
   - m_Id: 405223235584

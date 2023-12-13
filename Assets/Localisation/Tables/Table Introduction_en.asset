@@ -42,8 +42,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56232696655896576
-    m_Localized: "Yeah, but it wasn\u2019t always like this. What are you doing here
-      anyway?\n"
+    m_Localized: "It wasn\u2019t always like this. \nWhat are you doing here anyway?\n"
     m_Metadata:
       m_Items: []
   - m_Id: 56232757745934336
@@ -51,15 +50,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 56232837077000192
-    m_Localized: Oh, how sweet *eye roll*.
+    m_Localized: Oh, how sweet. * Eye roll *
     m_Metadata:
       m_Items: []
   - m_Id: 56232889426108416
-    m_Localized: "What, don\u2019t you want to save your home?"
+    m_Localized: "What - don\u2019t you want to save your home?"
     m_Metadata:
       m_Items: []
   - m_Id: 56232953317941248
-    m_Localized: "It doesn\u2019t belong to my owners, but we can try."
+    m_Localized: It's not where my owners live, but we can try.
     m_Metadata:
       m_Items: []
   - m_Id: 56233033244598272
