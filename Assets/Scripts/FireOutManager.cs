@@ -14,14 +14,22 @@ public class FireOutManager : MonoBehaviour
 
     if (MainManager.Instance)
     {
-      textFireOut.text = MainManager.Instance.NumOfFireOut.ToString() + "/27";
+      if (MainManager.Instance.NumOfFireOut == 0)
+      {
+        textFireOut.text = "0/26";
+      }
+      else
+      {
+        textFireOut.text = MainManager.Instance.NumOfFireOut.ToString() + "/26";
+      }
+
       MainManager.Instance.NumOfFireOutChanged += HandleFireOut;
     }
   }
 
   private void HandleFireOut(int newFireOut)
   {
-    textFireOut.text = newFireOut.ToString() + "/17";
+    textFireOut.text = newFireOut.ToString() + "/26";
   }
 
   private void OnDestroy()

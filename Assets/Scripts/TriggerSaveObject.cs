@@ -28,7 +28,11 @@ public class TriggerSaveObject : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
-        MainManager.Instance.NumOfFireOut += 1;
+        if (MainManager.Instance && MainManager.Instance.CurrentScene != "nouvelle_map")
+        {
+            MainManager.Instance.NumOfFireOut += 1;
+        }
+
         if (IsObjectWithVideo)
         {
             videoDialogueAnimator.SetTrigger("isOpen");
