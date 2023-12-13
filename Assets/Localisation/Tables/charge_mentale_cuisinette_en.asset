@@ -19,15 +19,15 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 23709343744
-    m_Localized: "What\u2019s with this miniature kitchen?"
+    m_Localized: "What\u2019s with the miniature kitchen?"
     m_Metadata:
       m_Items: []
   - m_Id: 79741050880
-    m_Localized: "It\u2019s so kids can pretend to be adults, playing with dolls."
+    m_Localized: "It\u2019s so kids can pretend to be adults - playing with dolls."
     m_Metadata:
       m_Items: []
   - m_Id: 114461499392
-    m_Localized: Is that what humans look like?
+    m_Localized: Do humans really look like that?
     m_Metadata:
       m_Items: []
   - m_Id: 166256959488

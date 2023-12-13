@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 15383650304
-    m_Localized: "Woah, that\u2019s a lot!"
+    m_Localized: Woah, that's a whole lot of something!
     m_Metadata:
       m_Items: []
   - m_Id: 104734908416

@@ -23,14 +23,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 97751392256
-    m_Localized: "\"I\u2019m dealing with a lot of anxiety this week. The accumulation
-      of objects is distracting me from what I really want and what feels good.\""
+    m_Localized: '"Dealing with a lot of anxiety this week. The accumulation of objects
+      is distracting me from what I want and what feels good."'
     m_Metadata:
       m_Items: []
   - m_Id: 6914895084773376
-    m_Localized: "\"It\u2019s a vicious cycle where these ridiculous objects make
-      me feel awful and I end up buying more, which brings on even more stress and
-      frustration.\""
+    m_Localized: "\"It\u2019s a vicious cycle. These ridiculous objects make me feel
+      awful and I end up buying more, which brings on even more stress and frustration.\""
     m_Metadata:
       m_Items: []
   - m_Id: 9768019906519040
@@ -43,8 +42,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9768211800121344
-    m_Localized: "\"A meditation session is in order. Stay present and stay focused,
-      xox mindfulgirl.\u201D"
+    m_Localized: "\"A meditation session is in order. \nStay present and stay focused,
+      \nxox mindfulgirl\u201D"
     m_Metadata:
       m_Items: []
   - m_Id: 17518009227665408

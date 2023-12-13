@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 6193930240
-    m_Localized: Does that grow around here?
+    m_Localized: Does this grow around here?
     m_Metadata:
       m_Items: []
   - m_Id: 64767385600
@@ -28,8 +28,8 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 128122347520
     m_Localized: "Beyond their front lawn, people\u2019s ability to take care of
-      their environment is limited. Nature is seen as completely separate, when it
-      should really be considered part of their home."
+      their environment is limited. Nature is seen as separate, when it should be
+      considered part of their home."
     m_Metadata:
       m_Items: []
   - m_Id: 17521032884641792

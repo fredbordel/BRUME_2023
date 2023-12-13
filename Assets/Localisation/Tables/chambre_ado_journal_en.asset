@@ -23,15 +23,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 121877028864
-    m_Localized: " \u201CDear Journal,\nThey\u2019re saying to keep going and to
-      have hope. But I have difficulty seeing how. The poor planet.  We\u2019re the
-      worst guests.\u201D"
+    m_Localized: " \u201CDear Journal,\nThey say to keep going and to have hope,
+      but I have difficulty seeing how. The poor planet.  We\u2019re the worst guests.\u201D"
     m_Metadata:
       m_Items: []
   - m_Id: 176704970752
     m_Localized: " \u201CAnd on top of it, I was \u201Cghosted \u201D again today.
-      I\u2019m sad and discouraged.\nIt seems like getting rid of people is just
-      as easy as getting rid of objects.\u201D\n"
+      I\u2019m sad and discouraged.\nGetting rid of people seems just as easy as
+      getting rid of objects.\u201D\n"
     m_Metadata:
       m_Items: []
   - m_Id: 9747316155080704
@@ -39,7 +38,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 9747408287162368
-    m_Localized: Why keep all of this locked away?
+    m_Localized: Why keep all of that locked away?
     m_Metadata:
       m_Items: []
   - m_Id: 17521135477317632

@@ -19,11 +19,11 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 12279865344
-    m_Localized: Strange-looking cloud.
+    m_Localized: What a strange-looking cloud.
     m_Metadata:
       m_Items: []
   - m_Id: 83050356736
-    m_Localized: "That's \u201CThe Cloud\u201D, people store all of their information
+    m_Localized: "That's \u201CThe Cloud\u201D. People store all of their information
       in there."
     m_Metadata:
       m_Items: []
@@ -32,7 +32,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 177329922048
-    m_Localized: "Beware, it may not look like much, but it\u2019s extremely polluting."
+    m_Localized: "Beware, it doesn't look like much, but it\u2019s extremely polluting."
     m_Metadata:
       m_Items: []
   references:

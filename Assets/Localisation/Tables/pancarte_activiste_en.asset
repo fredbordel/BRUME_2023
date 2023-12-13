@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 18906865664
-    m_Localized: "\u201CStolen land\u201D"
+    m_Localized: "\u201CSTOLEN LAND\u201D"
     m_Metadata:
       m_Items: []
   - m_Id: 73961299968
@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 136192188416
-    m_Localized: The climate crisis started way back for some people.
+    m_Localized: The climate crisis started way back for some humans.
     m_Metadata:
       m_Items: []
   - m_Id: 196984430592
