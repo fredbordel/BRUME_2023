@@ -33,6 +33,6 @@ public class PlayQuitGame : MonoBehaviour
     public void QuitGame()
     {
         // UnityEditor.EditorApplication.isPlaying = false;
-        Application.Quit();
+        // Application.Quit();
     }
 }

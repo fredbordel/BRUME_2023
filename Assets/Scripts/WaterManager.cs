@@ -16,7 +16,8 @@ public class WaterManager : MonoBehaviour
     }
     private void OnDestroy()
     {
-        if (!MainManager.Instance) return;
+        if (!MainManager.Instance | !image) return;
+
         MainManager.Instance.WaterFillAmount = image.fillAmount;
         MainManager.Instance.PathNumberChanged -= HandlePathNumberChanged;
     }

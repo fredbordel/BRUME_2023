@@ -7,11 +7,11 @@ using UnityEngine.Localization;
 public class DialogueTyping : MonoBehaviour
 {
 
-public TextMeshProUGUI textComponent;
-public float textSpeed;
-// public LocalizedString[] LoaclizedSetences;
+    public TextMeshProUGUI textComponent;
+    public float textSpeed;
+    // public LocalizedString[] LoaclizedSetences;
 
-private int index;
+    private int index;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +21,7 @@ private int index;
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void StartDialogue()
@@ -31,7 +31,6 @@ private int index;
 
     IEnumerator TypeLine()
     {
-        // Debug.Log("HELLO " + textComponent.text);
         foreach (char c in textComponent.text.ToCharArray())
         {
             textComponent.text += c;
